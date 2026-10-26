@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=tfm-eval
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --time=00:30:00
+#SBATCH --output=hpc/logs/timesfm_eval_%j.out
+module purge; module load Python/3.14.2-GCCcore-15.2.0
+unset PYTHONPATH   # login profile can leak a system Python-bundle path into the venv
+cd "$SLURM_SUBMIT_DIR"
+.venv/bin/python timesfm_eval.py > logs_timesfm.txt 2>&1

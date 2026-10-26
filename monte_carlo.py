@@ -15,8 +15,17 @@ Each path then goes through the same walk-forward pipeline as panel_backtest.py 
 two-scale + downside trend, with and without IV; QLIKE; Diebold-Mariano with Newey-West lag 21), and part A
 (Clark-West test of the trend signal for next-month returns). Output: rejection rates (power) per β / γ.
 β is also calibrated by matching the simulated regression coefficient on R1neg to the real S&P 500 / VIX one.
+
+Usage:  monte_carlo.py                          all in one process (N_PATHS per point, reproduces the committed run)
+        monte_carlo.py --task K --chunks C --paths N   one HPC array task: point K // C, chunk K % C of N paths
+        monte_carlo.py --aggregate               combine mc_parts/*.csv into results_monte_carlo.json
+Points are the BETAS (vol test) then the GAMMAS (drift test), so an array covers 0..(len(BETAS)+len(GAMMAS))·C-1.
+Chunk c of a point uses seed (base + 10000·c), so chunk 0 is the single-process run.
 """
+import argparse
+import glob
 import json
+import os
 import numpy as np
 import pandas as pd
 
@@ -106,16 +115,45 @@ def drift_test(r):
     return nw_t(((y - b) ** 2 - ((y - m) ** 2 - (b - m) ** 2)).values)[1]
 
 
-rows = []
-for i, beta in enumerate(BETAS):
-    R, V, M = simulate(beta, 0.0, N_PATHS, YEARS, seed=100 + i)
-    rng = np.random.default_rng(7)
-    for j in range(N_PATHS):
+def vol_chunk(i, c, n):
+    beta = BETAS[i]
+    R, V, M = simulate(beta, 0.0, n, YEARS, seed=100 + i + 10000 * c)
+    rng = np.random.default_rng(7 + 10000 * c)
+    rows = []
+    for j in range(n):
         for priced in (True, False):
             iv2 = implied_var(V[:, j], M[:, j], beta, priced, rng)
             rows.append({"beta": beta, "world": "priced" if priced else "unpriced", **vol_tests(R[:, j], iv2)})
-    print("beta", beta, "done")
-vol = pd.DataFrame(rows)
+    return pd.DataFrame(rows)
+
+
+def drift_chunk(k, c, n):
+    R, _, _ = simulate(0.0, GAMMAS[k], n, 30, seed=500 + k + 10000 * c)
+    return pd.DataFrame([{"gamma": GAMMAS[k], "cw_t": drift_test(R[:, j])} for j in range(n)])
+
+
+ap = argparse.ArgumentParser()
+ap.add_argument("--task", type=int)
+ap.add_argument("--chunks", type=int, default=1)
+ap.add_argument("--paths", type=int, default=N_PATHS, help="paths per chunk")
+ap.add_argument("--aggregate", action="store_true")
+args = ap.parse_args()
+
+if args.task is not None:
+    point, c = divmod(args.task, args.chunks)
+    os.makedirs("mc_parts", exist_ok=True)
+    if point < len(BETAS):
+        vol_chunk(point, c, args.paths).to_csv(f"mc_parts/vol_{point}_{c}.csv", index=False)
+    else:
+        drift_chunk(point - len(BETAS), c, args.paths).to_csv(f"mc_parts/drift_{point - len(BETAS)}_{c}.csv", index=False)
+    raise SystemExit
+if args.aggregate:
+    vol = pd.concat(map(pd.read_csv, sorted(glob.glob("mc_parts/vol_*.csv"))), ignore_index=True)
+    drift = pd.concat(map(pd.read_csv, sorted(glob.glob("mc_parts/drift_*.csv"))), ignore_index=True)
+else:
+    vol = pd.concat([vol_chunk(i, 0, N_PATHS) for i in range(len(BETAS))], ignore_index=True)
+    drift = pd.concat([drift_chunk(k, 0, N_PATHS) for k in range(len(GAMMAS))], ignore_index=True)
+n_vol, n_drift = vol.groupby(["beta", "world"]).size().min(), drift.groupby("gamma").size().min()
 power_vol = vol.groupby(["beta", "world"]).agg(
     power_no_iv=("t_no_iv", lambda t: float((t < -1.96).mean())),
     power_with_iv=("t_with_iv", lambda t: float((t < -1.96).mean())),
@@ -124,14 +162,9 @@ power_vol = vol.groupby(["beta", "world"]).agg(
 coef_by_beta = power_vol.xs("priced", level="world").r1neg_coef
 beta_match = float(np.interp(REAL_R1NEG_COEF, coef_by_beta.values, coef_by_beta.index.values))
 
-drows = []
-for k, gamma in enumerate(GAMMAS):
-    R, _, _ = simulate(0.0, gamma, N_PATHS, 30, seed=500 + k)
-    drows += [{"gamma": gamma, "cw_t": drift_test(R[:, j])} for j in range(N_PATHS)]
-drift = pd.DataFrame(drows)
 power_drift = drift.groupby("gamma").cw_t.agg(power=lambda t: float((t > 1.645).mean()), median_t="median")
 
-json.dump({"settings": {"years_vol": YEARS, "years_drift": 30, "n_paths": N_PATHS, "kappa": KAPPA, "theta": THETA,
+json.dump({"settings": {"years_vol": YEARS, "years_drift": 30, "n_paths_vol": int(n_vol), "n_paths_drift": int(n_drift), "kappa": KAPPA, "theta": THETA,
                         "xi": XI, "rho": RHO, "mu": MU},
            "power_vol": power_vol.reset_index().to_dict("records"), "beta_matching_real_coef": beta_match,
            "power_drift": power_drift.reset_index().to_dict("records")},

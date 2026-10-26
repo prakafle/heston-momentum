@@ -1,0 +1,16 @@
+#!/bin/bash
+# Full zero-shot TimesFM run (all 20 RV indices) on one GPU; writes data/timesfm_forecasts.csv.
+# Model weights must already be in the HF cache (pulled once on a dev node), compute nodes run offline.
+#SBATCH --job-name=timesfm
+#SBATCH --gpus=a100:1   # torch cu130 has no kernels for V100 (CC 7.0)
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=02:00:00
+#SBATCH --output=hpc/logs/timesfm_%j.out
+module purge; module load Python/3.11.5-GCCcore-13.2.0
+unset PYTHONPATH   # login profile can leak a system Python-bundle path into the venv
+export HF_HUB_OFFLINE=1
+cd "$SLURM_SUBMIT_DIR"
+nvidia-smi -L
+.venv-tfm/bin/python -c "import torch, sys; print('cuda', torch.cuda.is_available()); sys.exit(not torch.cuda.is_available())" || exit 1
+.venv-tfm/bin/python timesfm_forecast.py "$@"

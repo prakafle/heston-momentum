@@ -2,10 +2,15 @@
 
 Replicates the "pre-trained" (PT) arm of Goel et al. (2025): context lengths 64, 128, 512, horizon 1, on RV and on
 log RV (their superscript "log" variants). We use TimesFM 2.5 (200M), the successor of the 2.0-500M checkpoint the
-paper used; the paper's GPU fine-tuning (40k steps per index per round) is not reproduced here.
+paper used. A simplified, pooled version of the paper's GPU fine-tuning (FT arm) is in timesfm_finetune.py.
 For every index and every day t in the second half of its sample, the model sees RV_{t-L..t-1} and predicts RV_t.
-Writes data/timesfm_forecasts.csv: date, index, variant, forecast (daily variance).
-Usage: .venv-tfm/bin/python timesfm_forecast.py [--quick] [--cpu]   (uses the Apple GPU via MPS when present)
+Writes data/timesfm_forecasts.csv: date, index, variant, forecast (= the model's point output, which is its MEDIAN,
+quantile index 5), mean (its mean head, index 0), q10, q90 (deciles 1 and 9). All in the model's input space mapped
+back: for the log variants every column is exp(·) of the log-space output (so `mean` is NOT the mean of RV there;
+timesfm_eval.py builds the lognormal bias correction from q10/q90).
+--weights PATH loads fine-tuned weights (timesfm_finetune.py) and writes data/timesfm_ft_forecasts.csv, variants FT*.
+Usage: .venv-tfm/bin/python timesfm_forecast.py [--quick] [--cpu] [--weights PATH]
+(CUDA is auto-detected by the library; the Apple GPU via MPS is used when present)
 """
 import sys
 import time
@@ -17,9 +22,13 @@ import torch
 CONTEXTS = [64, 128, 512]
 BATCH = 256
 quick = "--quick" in sys.argv
+weights = sys.argv[sys.argv.index("--weights") + 1] if "--weights" in sys.argv else None
+tag = "FT" if weights else "TFM"
 
 torch.set_float32_matmul_precision("high")
 model = timesfm.TimesFM_2p5_200M_torch.from_pretrained("google/timesfm-2.5-200m-pytorch")
+if weights:
+    model.model.load_checkpoint(weights)
 if torch.backends.mps.is_available() and "--cpu" not in sys.argv:   # library only auto-detects CUDA
     model.model.device = torch.device("mps")
     model.model.to(model.model.device)
@@ -42,12 +51,14 @@ for name in rv.columns[:1] if quick else rv.columns:
             ctx = [x[t - L:t] for t in targets]
             preds = []
             for i in range(0, len(ctx), BATCH):
-                point, _ = model.forecast(horizon=1, inputs=ctx[i:i + BATCH])
-                preds.append(point[:, 0])
+                _, q = model.forecast(horizon=1, inputs=ctx[i:i + BATCH])
+                preds.append(q[:, 0, [5, 0, 1, 9]])            # median (= point output), mean head, q10, q90
             p = np.concatenate(preds)
             p = np.exp(p) if log else np.maximum(p, 1e-10)  # log forecasts mapped back without bias correction,
-            rows += [{"date": s.index[t], "index": name, "variant": f"TFM{L}{'log' if log else ''}", "forecast": v}
-                     for t, v in zip(targets, p)]              # like the paper's (·)^log models
+            rows += [{"date": s.index[t], "index": name, "variant": f"{tag}{L}{'log' if log else ''}", "forecast": v[0],
+                      "mean": v[1], "q10": v[2], "q90": v[3]}  # like the paper's (·)^log models
+                     for t, v in zip(targets, p)]
             print(f"{name} L={L} log={log}: {len(p)} forecasts in {time.time() - t0:.1f}s", flush=True)
 out = pd.DataFrame(rows)
-out.to_csv("data/timesfm_forecasts_quick.csv" if quick else "data/timesfm_forecasts.csv", index=False)
+stem = "data/timesfm_ft_forecasts" if weights else "data/timesfm_forecasts"
+out.to_csv(f"{stem}_quick.csv" if quick else f"{stem}.csv", index=False)

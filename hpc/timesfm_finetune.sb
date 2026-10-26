@@ -1,0 +1,18 @@
+#!/bin/bash
+# Fine-tune TimesFM on pre-2013 RV (timesfm_finetune.py), then forecast the test regions with the tuned weights.
+# Pass extra args to the fine-tune, e.g. `sbatch hpc/timesfm_finetune.sb --steps 20` for a smoke test.
+#SBATCH --job-name=tfm-ft
+#SBATCH --gpus=a100:1   # torch cu130 has no kernels for V100 (CC 7.0)
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=04:00:00
+#SBATCH --output=hpc/logs/timesfm_ft_%j.out
+module purge; module load Python/3.11.5-GCCcore-13.2.0
+unset PYTHONPATH   # login profile can leak a system Python-bundle path into the venv
+export HF_HUB_OFFLINE=1
+cd "$SLURM_SUBMIT_DIR"
+nvidia-smi -L
+.venv-tfm/bin/python -c "import torch, sys; print('cuda', torch.cuda.is_available()); sys.exit(not torch.cuda.is_available())" || exit 1
+set -e
+.venv-tfm/bin/python timesfm_finetune.py "$@"
+.venv-tfm/bin/python timesfm_forecast.py --weights models/timesfm_ft.safetensors $QUICK

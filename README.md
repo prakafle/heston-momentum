@@ -74,6 +74,25 @@ tomorrow's smile from the spot move vs sticky-strike/moneyness) runs automatical
 - **Trading (short 1-month variance at IV²):** always-short has Sharpe 0.59 (portfolio of 18). No forecast-based
   filter is significantly better in any market. The best is GARCH (0.82, not significant).
 
+### 4. Monte Carlo: how much can these tests see? (`monte_carlo.py`, 5000 paths per point, HPC)
+Simulated Heston world (κ = 5, θ = 0.03, ξ = 0.6, ρ = −0.7) with a known downside-trend term β in the variance drift
+(or γ in the return drift), pushed through the exact panel B / panel A pipelines. Rejection rate at 5%:
+
+| β (variance momentum) | trend helps, no IV | trend helps beyond IV, options price β | beyond IV, options miss β |
+|---|---|---|---|
+| 0 | 81% | 1.7% | 1.7% |
+| 0.02 | 88% | 2.0% | 3.2% |
+| 0.08 (matches the real S&P 500 coefficient) | 96% | 2.4% | 9.6% |
+
+- **The no-IV test is not a test of β.** It rejects 81% of the time at β = 0: with ρ = −0.7 (leverage), falling
+  prices raise variance, so a downside-trend term helps forecast realised vol in plain Heston. The real result in
+  section 3 (t = −2.84) is therefore consistent with leverage alone and is not, by itself, evidence of momentum.
+- **The with-IV test is correctly sized** (1.7% at β = 0, below 5%): when options price the trend it finds nothing,
+  as in the data. **But it has little power**: even at the realistic β it detects unpriced momentum only 9.6% of
+  the time. So "already priced by options" is consistent with the data, not proven by it.
+- **Drift momentum is undetectable**: Clark-West rejects 6–7% at every γ up to 0.04 with 30-year paths (≈ size).
+  The "no return predictability" result in section 3 is uninformative rather than evidence of absence.
+
 ### One-paragraph conclusion
 Momentum is real in volatility but not in returns, and the option market already prices it. The parts of the
 "known equation" that add predictive value are its structure: Heston's mean reversion forecasts implied vol (+10.6%
