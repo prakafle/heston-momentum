@@ -1,0 +1,59 @@
+/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  df.drop(
+/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  df.rename(columns={
+snapshots: ['2026-10-23']
+Traceback (most recent call last):
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/smile_models.py", line 147, in <module>
+    p = calibrate(name, latest)
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/smile_models.py", line 113, in calibrate
+    fit = least_squares(resid, start, bounds=(lo, hi), x_scale="jac", max_nfev=400)
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/scipy/_lib/_util.py", line 662, in inner
+    return func(*args, **kwargs)
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/scipy/optimize/_lsq/least_squares.py", line 926, in least_squares
+    vector_fun = VectorFunction(
+        fun_wrapped,
+    ...<6 lines>...
+        workers=workers
+    )
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/scipy/optimize/_differentiable_functions.py", line 614, in __init__
+    self._update_fun()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/scipy/optimize/_differentiable_functions.py", line 707, in _update_fun
+    self.f = self.fun_wrapped(xp_copy(self.x))
+             ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/scipy/optimize/_differentiable_functions.py", line 424, in __call__
+    return np.atleast_1d(self.fun(x))
+                         ~~~~~~~~^^^
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/scipy/optimize/_lsq/least_squares.py", line 263, in __call__
+    return self.f(x, *self.args, **self.kwargs)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/smile_models.py", line 104, in resid
+    for (e, T, df), g in d.groupby(["expiry", "T", "df"]):
+                         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/pandas/util/_decorators.py", line 335, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 13788, in groupby
+    return DataFrameGroupBy(
+        obj=self,
+    ...<6 lines>...
+        dropna=dropna,
+    )
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/pandas/core/groupby/groupby.py", line 849, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ~~~~~~~~~~~^
+        obj,
+        ^^^^
+    ...<4 lines>...
+        dropna=self.dropna,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/pratikafle/Desktop/quant-finance-projects/heston-momentum/.venv/lib/python3.14/site-packages/pandas/core/groupby/grouper.py", line 925, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'expiry'

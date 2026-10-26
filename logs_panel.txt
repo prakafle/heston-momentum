@@ -1,0 +1,176 @@
+== A. drift momentum, per asset ==
+ ticker test_start  test_years  sharpe_long  oos_r2_ewma21  cw_t_ewma21  sharpe_tsmom_ewma21  oos_r2_ewma63  cw_t_ewma63  sharpe_tsmom_ewma63  oos_r2_mom12_1  cw_t_mom12_1  sharpe_tsmom_mom12_1
+  ^GSPC 1991-01-02        35.7         0.60          -0.27         0.00                 0.07          -1.16        -0.93                 0.41           -1.48         -1.07                  0.55
+   ^DJI 1997-01-02        29.7         0.45           0.27         1.30                 0.05          -1.01         0.02                 0.03           -1.49         -0.84                  0.32
+  ^IXIC 1991-01-02        35.7         0.69           0.00         0.61                 0.47          -0.37        -0.53                 0.51           -2.43         -0.93                  0.48
+   ^RUT 1993-01-04        33.7         0.39          -0.54        -0.46                 0.32           0.09         0.73                 0.23            0.00          0.93                  0.08
+  ^N225 1991-01-04        34.8         0.07          -0.35        -0.39                 0.26          -0.21         0.18                 0.30           -0.40          0.23                  0.15
+  ^FTSE 1991-01-02        35.8         0.29           0.73         2.01                -0.13          -0.39         0.69                 0.07           -1.83         -0.68                  0.23
+ ^GDAXI 1994-01-03        32.9         0.40          -0.21        -0.09                 0.16          -0.48        -0.70                 0.40           -1.16         -1.06                  0.39
+   ^HSI 1993-01-04        33.0         0.24          -1.23        -0.95                 0.30          -1.40        -0.28                 0.37           -0.46         -0.00                  0.25
+^GSPTSE 1991-01-02        35.6         0.54          -0.53        -0.60                 0.68          -0.83        -1.08                 0.49           -0.78         -0.01                  0.24
+  ^AXJO 1998-01-02        28.8         0.30          -2.04        -0.59                 0.07          -3.62        -1.16                 0.14           -2.99         -1.56                  0.11
+    XLB 2004-01-02        22.7         0.35          -2.31        -0.56                -0.18          -3.34        -0.59                -0.05           -0.82         -0.58                  0.13
+    XLE 2004-01-02        22.7         0.37          -0.95         0.18                 0.07          -0.55        -0.57                 0.43           -1.01         -0.07                  0.37
+    XLF 2004-01-02        22.7         0.40          -4.47        -1.31                -0.19          -8.69        -1.88                 0.03          -11.84         -1.73                  0.14
+    XLI 2004-01-02        22.7         0.55          -1.71        -0.38                -0.02          -1.57        -0.88                 0.13           -1.53         -1.01                  0.35
+    XLK 2004-01-02        22.7         0.69          -0.27        -0.98                 0.13           0.32         1.08                 0.37            0.98          2.15                  0.44
+    XLP 2004-01-02        22.7         0.66           1.78         2.77                -0.17           1.49         2.36                 0.04           -0.78         -0.34                  0.44
+    XLU 2004-01-02        22.7         0.65           1.37         2.91                 0.01           0.31         1.07                 0.15           -0.23         -0.20                  0.44
+    XLV 2004-01-02        22.7         0.62          -1.14         1.63                 0.06          -4.60         0.99                 0.10           -2.90          0.01                  0.20
+    XLY 2004-01-02        22.7         0.52          -0.14         0.82                 0.08          -2.02         0.24                 0.25           -2.99         -0.91                  0.33
+    EFA 2007-01-03        19.7         0.21          -3.32        -1.43                 0.16          -3.28        -1.38                 0.09           -4.74         -1.77                  0.10
+    EEM 2009-01-02        17.7         0.19          -0.87        -0.33                -0.04          -2.07        -0.92                 0.01           -9.21         -1.62                  0.18
+    EWJ 2002-01-02        24.7         0.30          -0.14        -0.36                -0.18          -0.34        -0.89                -0.10           -0.54         -0.44                  0.34
+    EWG 2002-01-02        24.7         0.27          -0.51        -0.70                 0.04          -0.45        -0.39                 0.38           -0.64         -0.28                  0.17
+    EWU 2002-01-02        24.7         0.32          -2.71        -1.67                -0.22          -1.78        -1.08                 0.19           -3.85         -0.45                  0.38
+    EWC 2002-01-02        24.7         0.45          -1.00        -0.65                 0.21          -1.19        -0.76                 0.27           -1.42         -1.29                  0.32
+    EWA 2002-01-02        24.7         0.35          -4.19        -1.52                -0.08          -5.33        -1.95                 0.10           -3.52         -1.28                  0.08
+    EWZ 2006-01-03        20.7         0.04          -0.53         0.32                 0.04          -0.97        -1.29                 0.02           -0.85         -1.55                 -0.13
+    FXI 2010-01-04        16.7         0.02          -0.28        -0.60                 0.10          -0.15        -0.40                -0.03           -0.13         -0.21                  0.06
+    EWY 2006-01-03        20.7         0.15          -1.11        -1.16                 0.04          -2.62        -1.23                 0.28           -3.16         -1.53                  0.27
+    EWT 2006-01-03        20.7         0.44          -1.07        -1.02                 0.15          -2.02        -1.24                 0.16           -1.64         -0.46                  0.31
+    TLT 2008-01-02        18.7         0.24          -0.91        -0.33                -0.01          -2.13         0.04                 0.01           -1.68          0.67                 -0.01
+    IEF 2008-01-02        18.7         0.42          -0.87        -0.42                -0.03          -1.44        -0.28                 0.18           -2.12         -0.39                  0.25
+    SHY 2008-01-02        18.7         1.06           7.64         3.75                 0.01           8.85         3.94                 1.04            4.09          3.25                  1.02
+    LQD 2008-01-02        18.7         0.52          -1.26        -0.06                 0.40          -2.48        -0.17                 0.41           -2.85         -0.05                  0.15
+    HYG 2013-01-02        13.7         0.50           1.19         1.16                 0.32           0.27         0.55                 0.44           -0.46         -0.17                  0.39
+    GLD 2010-01-04        16.7         0.51          -4.68        -0.53                 0.26          -9.21        -1.54                 0.56           -4.39         -1.85                  0.42
+    SLV 2012-01-03        14.7         0.06          -0.73        -0.91                 0.08          -1.46        -1.36                 0.12           -2.76         -1.63                  0.34
+    USO 2012-01-03        14.7        -0.17           1.72         1.13                 0.08           0.67         0.81                 0.18           -1.38         -0.44                  0.35
+    DBC 2012-01-03        14.7        -0.03           1.39         2.02                 0.26           1.51         1.63                 0.26           -3.51         -2.14                  0.40
+    GDX 2012-01-03        14.7        -0.03          -2.01        -0.48                 0.17          -3.36        -0.97                -0.04           -3.12         -1.84                  0.17
+    FXE 2011-01-03        15.7        -0.26          -0.16        -0.58                 0.06          -0.67        -1.04                 0.25           -3.14         -0.18                 -0.01
+    FXY 2013-01-02        13.7        -0.54          -1.12        -0.37                 0.03          -6.23        -1.58                 0.15           -2.45         -0.35                  0.35
+    UUP 2013-01-02        13.7         0.63          -0.81        -1.43                 0.05          -2.17        -1.17                 0.47           -7.65         -0.33                  0.12
+   AAPL 1991-01-02        35.7         0.65          -0.17        -0.98                 0.43          -0.51        -1.81                 0.55           -0.50         -0.60                  0.33
+   AMZN 2003-01-02        23.7         0.66          -0.05        -0.16                 0.20          -0.08        -0.20                 0.25           -2.00         -0.14                  0.63
+   GOOG 2010-01-04        16.7         0.68          -0.71        -1.16                 0.25          -0.77        -2.29                 0.27           -0.18         -0.12                  0.12
+    IBM 1991-01-02        35.7         0.28           0.48         1.81                 0.10          -0.17         0.30                 0.03           -1.95         -0.76                  0.08
+     GS 2005-01-03        21.7         0.39          -2.50        -0.79                 0.35          -5.34        -0.97                 0.47           -3.76         -1.74                  0.21
+{
+ "ewma21": {
+  "pooled_oos_r2": -0.7398385654725281,
+  "n_assets_r2_pos": 10,
+  "n_assets_cw_sig_5pct": 6,
+  "median_sharpe_tsmom": 0.0724862631938796,
+  "n_assets_tsmom_beats_long": 11,
+  "diversified_tsmom_sharpe": 0.5489879567127397
+ },
+ "ewma63": {
+  "pooled_oos_r2": -1.4371588335098773,
+  "n_assets_r2_pos": 8,
+  "n_assets_cw_sig_5pct": 2,
+  "median_sharpe_tsmom": 0.20996172893775955,
+  "n_assets_tsmom_beats_long": 13,
+  "diversified_tsmom_sharpe": 0.7074733774894121
+ },
+ "mom12_1": {
+  "pooled_oos_r2": -1.9164665793256486,
+  "n_assets_r2_pos": 3,
+  "n_assets_cw_sig_5pct": 2,
+  "median_sharpe_tsmom": 0.26214857929931973,
+  "n_assets_tsmom_beats_long": 13,
+  "diversified_tsmom_sharpe": 0.6487088743042857
+ },
+ "diversified_long_sharpe": 0.7460910993938283,
+ "n_assets": 48
+}
+
+== B. average test QLIKE across pairs ==
+IV² (raw)                              0.2510
+IV regression                          0.2584
+Pooled boosting + IV                   0.2592
+Pooled boosting + IV, no trend         0.2593
+IV + two-scale                         0.2605
+IV + two-scale + downside trend        0.2621
+IV + two-scale + trend R1              0.2633
+Elastic net + IV                       0.2713
+Hybrid: equation + boosted residual    0.2878
+GARCH(1,1)                             0.2965
+Two-scale + downside trend             0.2984
+Boosting + IV, no trend                0.3028
+Boosting + IV                          0.3034
+Two-scale + trend R1                   0.3046
+Two-scale, no trend                    0.3067
+HAR-RV                                 0.3082
+Heston-style (√R2)                     0.3239
+Boosting, history                      0.3330
+Boosting, history, no trend            0.3454
+
+== B. pooled Diebold-Mariano (negative dqlike = model better) ==
+                              model                       benchmark  pooled_dqlike  pooled_dm_t  pairs_better  pairs_sig_better  pairs_sig_worse  n_pairs  years_better  n_years
+               Two-scale + trend R1             Two-scale, no trend        -0.0051      -1.2823             9                 2                0       18            20       33
+         Two-scale + downside trend             Two-scale, no trend        -0.0106      -2.8384            13                 2                0       18            22       33
+          IV + two-scale + trend R1                  IV + two-scale         0.0009       0.4432             6                 0                1       18            14       33
+    IV + two-scale + downside trend                  IV + two-scale        -0.0010      -0.5654             7                 0                0       18            15       33
+                Two-scale, no trend              Heston-style (√R2)        -0.0112      -1.9367            13                 1                0       18            18       33
+                         GARCH(1,1)              Heston-style (√R2)        -0.0167      -1.4979            14                 1                0       18            16       33
+                     IV + two-scale                   IV regression        -0.0010      -0.3772             8                 0                3       18            14       33
+                      IV regression      Two-scale + downside trend        -0.0194      -3.1238            15                12                0       18            25       33
+                  Boosting, history      Two-scale + downside trend         0.0406       3.3604             2                 0                6       18            11       33
+                  Boosting, history     Boosting, history, no trend        -0.0194      -3.3960            12                 3                0       18            24       33
+                      Boosting + IV IV + two-scale + downside trend         0.0430       3.8599             0                 0                8       18             8       33
+                      Boosting + IV         Boosting + IV, no trend        -0.0076      -1.7484             9                 1                1       18            21       33
+                   Elastic net + IV IV + two-scale + downside trend         0.0108       3.0359             6                 1                5       18             9       33
+                      Boosting + IV                       IV² (raw)         0.0226       1.2208             1                 0                9       18            16       33
+Hybrid: equation + boosted residual IV + two-scale + downside trend         0.0193       4.2382             2                 0                7       18             9       33
+               Pooled boosting + IV IV + two-scale + downside trend         0.0081       1.6399            11                 0                1       18            14       33
+               Pooled boosting + IV  Pooled boosting + IV, no trend        -0.0002      -0.0392            10                 0                3       18            17       33
+               Pooled boosting + IV                       IV² (raw)        -0.0123      -0.8082             8                 0                0       18            22       33
+
+== B. ML permutation importance (QLIKE increase when group shuffled) ==
+                               mean  median  n_pairs_positive
+Boosting, history | history  0.0035  0.0036              10.0
+Boosting, history | trend    0.0337  0.0316              15.0
+Boosting + IV | history     -0.0109 -0.0118               3.0
+Boosting + IV | trend        0.0086  0.0056              10.0
+Boosting + IV | implied      0.0358  0.0175              13.0
+
+== B. trend coefficients at last refit ==
+ pair  R1neg_no_iv  R1neg_with_iv  R1_no_iv  R1_with_iv
+  VIX        0.084          0.052    -0.047      -0.026
+  VXN        0.070          0.023    -0.030      -0.001
+  RVX        0.065          0.033    -0.032      -0.012
+  VXD        0.089          0.053    -0.044      -0.017
+VXEEM        0.065          0.019    -0.037      -0.012
+VXEFA        0.075          0.055    -0.044      -0.030
+VXFXI        0.052          0.011    -0.026      -0.005
+VXEWZ        0.053          0.038    -0.026      -0.018
+  GVZ       -0.021         -0.025     0.029       0.021
+VXSLV       -0.026         -0.033     0.034       0.028
+  OVX        0.050          0.027    -0.030      -0.018
+VXGDX        0.022          0.011    -0.006      -0.002
+VXTLT        0.016         -0.007     0.002       0.008
+VXAPL        0.055          0.027    -0.020      -0.006
+VXAZN        0.059          0.020    -0.029      -0.008
+VXGOG        0.055          0.007    -0.025      -0.004
+VXIBM        0.018         -0.002    -0.006       0.006
+ VXGS        0.075          0.023    -0.036      -0.009
+
+== C. variance swaps ==
+                                                    median_sharpe  mean_pnl  pairs_sig_better  pairs_sig_worse
+rule                                                                                                          
+Always short                                                0.234     0.386                 0                0
+Short if IV² > Boosting + IV                                0.214     0.350                 0                5
+Short if IV² > Boosting, history                            0.211     0.433                 0                4
+Short if IV² > GARCH(1,1)                                   0.240     0.408                 0                1
+Short if IV² > HAR-RV                                       0.175     0.404                 0                2
+Short if IV² > Heston-style (√R2)                           0.126     0.186                 0                5
+Short if IV² > Hybrid: equation + boosted residual          0.172     0.333                 0                5
+Short if IV² > Pooled boosting + IV                         0.251     0.426                 0                4
+Short if IV² > Two-scale + downside trend                   0.211     0.411                 0                4
+Short if IV² > Two-scale + trend R1                         0.175     0.354                 0                4
+Short if IV² > Two-scale, no trend                          0.144     0.310                 0                5
+                                                    sharpe  mean_pnl
+Always short                                         0.594     1.560
+Short if IV² > Heston-style (√R2)                    0.605     1.316
+Short if IV² > GARCH(1,1)                            0.822     1.472
+Short if IV² > Two-scale, no trend                   0.689     1.433
+Short if IV² > Two-scale + trend R1                  0.705     1.486
+Short if IV² > Two-scale + downside trend            0.739     1.529
+Short if IV² > HAR-RV                                0.756     1.500
+Short if IV² > Boosting, history                     0.681     1.509
+Short if IV² > Boosting + IV                         0.666     1.511
+Short if IV² > Hybrid: equation + boosted residual   0.641     1.501
+Short if IV² > Pooled boosting + IV                  0.612     1.563

@@ -1,0 +1,6258 @@
+{
+ "drift_assets": [
+  {
+   "ticker": "^GSPC",
+   "test_start": "1991-01-02",
+   "test_years": 35.7,
+   "sharpe_long": 0.5990803788346891,
+   "oos_r2_ewma21": -0.2708772201678089,
+   "cw_t_ewma21": 0.0024549975127674496,
+   "sharpe_tsmom_ewma21": 0.06576897638948123,
+   "oos_r2_ewma63": -1.1610629709853715,
+   "cw_t_ewma63": -0.9272883155822355,
+   "sharpe_tsmom_ewma63": 0.41015357323845597,
+   "oos_r2_mom12_1": -1.476407498655985,
+   "cw_t_mom12_1": -1.074629823573315,
+   "sharpe_tsmom_mom12_1": 0.5498412562228463
+  },
+  {
+   "ticker": "^DJI",
+   "test_start": "1997-01-02",
+   "test_years": 29.7,
+   "sharpe_long": 0.4494425224462081,
+   "oos_r2_ewma21": 0.26984460221686213,
+   "cw_t_ewma21": 1.2974496056393352,
+   "sharpe_tsmom_ewma21": 0.04935885109419522,
+   "oos_r2_ewma63": -1.0107659729515994,
+   "cw_t_ewma63": 0.01895930043175288,
+   "sharpe_tsmom_ewma63": 0.03436736427905257,
+   "oos_r2_mom12_1": -1.4868560437307332,
+   "cw_t_mom12_1": -0.8377291552661815,
+   "sharpe_tsmom_mom12_1": 0.32230824099800637
+  },
+  {
+   "ticker": "^IXIC",
+   "test_start": "1991-01-02",
+   "test_years": 35.7,
+   "sharpe_long": 0.6882622926241732,
+   "oos_r2_ewma21": 0.004888071841113728,
+   "cw_t_ewma21": 0.6106684173237434,
+   "sharpe_tsmom_ewma21": 0.47172514891795864,
+   "oos_r2_ewma63": -0.3742466668532174,
+   "cw_t_ewma63": -0.5265606421273317,
+   "sharpe_tsmom_ewma63": 0.5117282564664497,
+   "oos_r2_mom12_1": -2.434285245247514,
+   "cw_t_mom12_1": -0.9250574613963978,
+   "sharpe_tsmom_mom12_1": 0.47692383037850933
+  },
+  {
+   "ticker": "^RUT",
+   "test_start": "1993-01-04",
+   "test_years": 33.7,
+   "sharpe_long": 0.3866699536259083,
+   "oos_r2_ewma21": -0.5446554706892259,
+   "cw_t_ewma21": -0.45863485028076634,
+   "sharpe_tsmom_ewma21": 0.3173848327605072,
+   "oos_r2_ewma63": 0.09251875162832324,
+   "cw_t_ewma63": 0.7309119112747093,
+   "sharpe_tsmom_ewma63": 0.22761008952049133,
+   "oos_r2_mom12_1": 0.004135274563721314,
+   "cw_t_mom12_1": 0.9330359509857263,
+   "sharpe_tsmom_mom12_1": 0.07529033589972305
+  },
+  {
+   "ticker": "^N225",
+   "test_start": "1991-01-04",
+   "test_years": 34.8,
+   "sharpe_long": 0.06932163398574244,
+   "oos_r2_ewma21": -0.3452369585816628,
+   "cw_t_ewma21": -0.3907854605531969,
+   "sharpe_tsmom_ewma21": 0.2612201991525346,
+   "oos_r2_ewma63": -0.2148297287994927,
+   "cw_t_ewma63": 0.18451906070061672,
+   "sharpe_tsmom_ewma63": 0.30009496029399113,
+   "oos_r2_mom12_1": -0.4003281196167663,
+   "cw_t_mom12_1": 0.22545027212964433,
+   "sharpe_tsmom_mom12_1": 0.15146024673893585
+  },
+  {
+   "ticker": "^FTSE",
+   "test_start": "1991-01-02",
+   "test_years": 35.8,
+   "sharpe_long": 0.2870608828002486,
+   "oos_r2_ewma21": 0.7303413234103884,
+   "cw_t_ewma21": 2.0072551394138625,
+   "sharpe_tsmom_ewma21": -0.13164561965396904,
+   "oos_r2_ewma63": -0.3937904747990384,
+   "cw_t_ewma63": 0.6935715716976387,
+   "sharpe_tsmom_ewma63": 0.06538563604327371,
+   "oos_r2_mom12_1": -1.8289441382565164,
+   "cw_t_mom12_1": -0.6766662574048758,
+   "sharpe_tsmom_mom12_1": 0.22714802855944097
+  },
+  {
+   "ticker": "^GDAXI",
+   "test_start": "1994-01-03",
+   "test_years": 32.9,
+   "sharpe_long": 0.3988552101422781,
+   "oos_r2_ewma21": -0.21060117443658655,
+   "cw_t_ewma21": -0.08573592910843011,
+   "sharpe_tsmom_ewma21": 0.16155834811376152,
+   "oos_r2_ewma63": -0.47956159112156893,
+   "cw_t_ewma63": -0.7034620155486647,
+   "sharpe_tsmom_ewma63": 0.39971307059192446,
+   "oos_r2_mom12_1": -1.1619963855707072,
+   "cw_t_mom12_1": -1.0556251377702803,
+   "sharpe_tsmom_mom12_1": 0.3928302341911808
+  },
+  {
+   "ticker": "^HSI",
+   "test_start": "1993-01-04",
+   "test_years": 33.0,
+   "sharpe_long": 0.24400318713163902,
+   "oos_r2_ewma21": -1.2271619315782134,
+   "cw_t_ewma21": -0.9462146194061338,
+   "sharpe_tsmom_ewma21": 0.304155365116034,
+   "oos_r2_ewma63": -1.402131321022293,
+   "cw_t_ewma63": -0.2795602864178951,
+   "sharpe_tsmom_ewma63": 0.36679778083976117,
+   "oos_r2_mom12_1": -0.46297121867611146,
+   "cw_t_mom12_1": -0.0010341504193279152,
+   "sharpe_tsmom_mom12_1": 0.24736605642524148
+  },
+  {
+   "ticker": "^GSPTSE",
+   "test_start": "1991-01-02",
+   "test_years": 35.6,
+   "sharpe_long": 0.5407372869302391,
+   "oos_r2_ewma21": -0.5321540025681859,
+   "cw_t_ewma21": -0.5978993543043037,
+   "sharpe_tsmom_ewma21": 0.6759139949793334,
+   "oos_r2_ewma63": -0.832791362916363,
+   "cw_t_ewma63": -1.0836311839301023,
+   "sharpe_tsmom_ewma63": 0.49286250965763007,
+   "oos_r2_mom12_1": -0.7785878488574705,
+   "cw_t_mom12_1": -0.008541743260036618,
+   "sharpe_tsmom_mom12_1": 0.24383606183072457
+  },
+  {
+   "ticker": "^AXJO",
+   "test_start": "1998-01-02",
+   "test_years": 28.8,
+   "sharpe_long": 0.3035974037092822,
+   "oos_r2_ewma21": -2.0423436570004228,
+   "cw_t_ewma21": -0.5938971728377321,
+   "sharpe_tsmom_ewma21": 0.06912603070500715,
+   "oos_r2_ewma63": -3.6210097385054096,
+   "cw_t_ewma63": -1.1627335351146288,
+   "sharpe_tsmom_ewma63": 0.1434669651543671,
+   "oos_r2_mom12_1": -2.9853599609509063,
+   "cw_t_mom12_1": -1.5596317847375807,
+   "sharpe_tsmom_mom12_1": 0.10971287995410753
+  },
+  {
+   "ticker": "XLB",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.35110641175698065,
+   "oos_r2_ewma21": -2.3147509575513814,
+   "cw_t_ewma21": -0.5620332451969071,
+   "sharpe_tsmom_ewma21": -0.1752721821808515,
+   "oos_r2_ewma63": -3.335317100708335,
+   "cw_t_ewma63": -0.5937462175755431,
+   "sharpe_tsmom_ewma63": -0.04846564587371351,
+   "oos_r2_mom12_1": -0.8190076163213877,
+   "cw_t_mom12_1": -0.5779341903724313,
+   "sharpe_tsmom_mom12_1": 0.127702391263848
+  },
+  {
+   "ticker": "XLE",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.3695668236890804,
+   "oos_r2_ewma21": -0.9496807800756679,
+   "cw_t_ewma21": 0.17507403266740867,
+   "sharpe_tsmom_ewma21": 0.06529278039365075,
+   "oos_r2_ewma63": -0.5465500230294351,
+   "cw_t_ewma63": -0.5721300513183908,
+   "sharpe_tsmom_ewma63": 0.4290957345454305,
+   "oos_r2_mom12_1": -1.011200511979582,
+   "cw_t_mom12_1": -0.06614498948879413,
+   "sharpe_tsmom_mom12_1": 0.3713953056804762
+  },
+  {
+   "ticker": "XLF",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.3961664463772854,
+   "oos_r2_ewma21": -4.471312641777203,
+   "cw_t_ewma21": -1.3145126170090309,
+   "sharpe_tsmom_ewma21": -0.19109836279831302,
+   "oos_r2_ewma63": -8.693110777788782,
+   "cw_t_ewma63": -1.8843058138126356,
+   "sharpe_tsmom_ewma63": 0.028856563176320047,
+   "oos_r2_mom12_1": -11.83679430081861,
+   "cw_t_mom12_1": -1.732002579493893,
+   "sharpe_tsmom_mom12_1": 0.1360096148320634
+  },
+  {
+   "ticker": "XLI",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.5472401279856233,
+   "oos_r2_ewma21": -1.7142090308858604,
+   "cw_t_ewma21": -0.37924379874291564,
+   "sharpe_tsmom_ewma21": -0.024168505669218663,
+   "oos_r2_ewma63": -1.5681093304299232,
+   "cw_t_ewma63": -0.8794880607233334,
+   "sharpe_tsmom_ewma63": 0.13384273078802067,
+   "oos_r2_mom12_1": -1.526130767074818,
+   "cw_t_mom12_1": -1.008889146145652,
+   "sharpe_tsmom_mom12_1": 0.3549409283124474
+  },
+  {
+   "ticker": "XLK",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.6869449791425913,
+   "oos_r2_ewma21": -0.2674485678245464,
+   "cw_t_ewma21": -0.9828068458181278,
+   "sharpe_tsmom_ewma21": 0.1320790660434515,
+   "oos_r2_ewma63": 0.3204155758867122,
+   "cw_t_ewma63": 1.0781985984833435,
+   "sharpe_tsmom_ewma63": 0.36713375701486434,
+   "oos_r2_mom12_1": 0.9819134429631116,
+   "cw_t_mom12_1": 2.146390723234333,
+   "sharpe_tsmom_mom12_1": 0.4350729997859837
+  },
+  {
+   "ticker": "XLP",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.6647952255818375,
+   "oos_r2_ewma21": 1.7785640155609128,
+   "cw_t_ewma21": 2.767780653876305,
+   "sharpe_tsmom_ewma21": -0.17238036675848858,
+   "oos_r2_ewma63": 1.4876400292286207,
+   "cw_t_ewma63": 2.3591166244741917,
+   "sharpe_tsmom_ewma63": 0.036179887936417715,
+   "oos_r2_mom12_1": -0.7789937858923679,
+   "cw_t_mom12_1": -0.3380536072016154,
+   "sharpe_tsmom_mom12_1": 0.44342758123005244
+  },
+  {
+   "ticker": "XLU",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.649887796031247,
+   "oos_r2_ewma21": 1.3723790580169593,
+   "cw_t_ewma21": 2.9119789732119115,
+   "sharpe_tsmom_ewma21": 0.00613901673243426,
+   "oos_r2_ewma63": 0.31269617361754376,
+   "cw_t_ewma63": 1.072132998015237,
+   "sharpe_tsmom_ewma63": 0.1462521418716564,
+   "oos_r2_mom12_1": -0.22820469642779173,
+   "cw_t_mom12_1": -0.19532804230174378,
+   "sharpe_tsmom_mom12_1": 0.4405253533813579
+  },
+  {
+   "ticker": "XLV",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.621279508035114,
+   "oos_r2_ewma21": -1.139989237315775,
+   "cw_t_ewma21": 1.629775812956538,
+   "sharpe_tsmom_ewma21": 0.056885072715234124,
+   "oos_r2_ewma63": -4.596394782775648,
+   "cw_t_ewma63": 0.9886589461817102,
+   "sharpe_tsmom_ewma63": 0.10154254124080593,
+   "oos_r2_mom12_1": -2.9034721285522203,
+   "cw_t_mom12_1": 0.00941566581138549,
+   "sharpe_tsmom_mom12_1": 0.20029659637838157
+  },
+  {
+   "ticker": "XLY",
+   "test_start": "2004-01-02",
+   "test_years": 22.7,
+   "sharpe_long": 0.5237567707398711,
+   "oos_r2_ewma21": -0.14161115345965314,
+   "cw_t_ewma21": 0.8234582220280191,
+   "sharpe_tsmom_ewma21": 0.07843082997712801,
+   "oos_r2_ewma63": -2.0244988123740093,
+   "cw_t_ewma63": 0.2395061094682311,
+   "sharpe_tsmom_ewma63": 0.24518698407756837,
+   "oos_r2_mom12_1": -2.9882411848248136,
+   "cw_t_mom12_1": -0.9142283447728086,
+   "sharpe_tsmom_mom12_1": 0.32687984628987643
+  },
+  {
+   "ticker": "EFA",
+   "test_start": "2007-01-03",
+   "test_years": 19.7,
+   "sharpe_long": 0.2064042382711749,
+   "oos_r2_ewma21": -3.3238449641961765,
+   "cw_t_ewma21": -1.4286192597694714,
+   "sharpe_tsmom_ewma21": 0.16171977092341264,
+   "oos_r2_ewma63": -3.275496240285336,
+   "cw_t_ewma63": -1.3806488818454934,
+   "sharpe_tsmom_ewma63": 0.09249039791306261,
+   "oos_r2_mom12_1": -4.737390438403333,
+   "cw_t_mom12_1": -1.7678656387197083,
+   "sharpe_tsmom_mom12_1": 0.09610105066616274
+  },
+  {
+   "ticker": "EEM",
+   "test_start": "2009-01-02",
+   "test_years": 17.7,
+   "sharpe_long": 0.19014056751663694,
+   "oos_r2_ewma21": -0.8704651907192051,
+   "cw_t_ewma21": -0.33090140805735946,
+   "sharpe_tsmom_ewma21": -0.03601978254183565,
+   "oos_r2_ewma63": -2.074068904202675,
+   "cw_t_ewma63": -0.9198635958876885,
+   "sharpe_tsmom_ewma63": 0.013680012944889927,
+   "oos_r2_mom12_1": -9.206190566493522,
+   "cw_t_mom12_1": -1.6184318299790061,
+   "sharpe_tsmom_mom12_1": 0.17824240731578211
+  },
+  {
+   "ticker": "EWJ",
+   "test_start": "2002-01-02",
+   "test_years": 24.7,
+   "sharpe_long": 0.29823834494559626,
+   "oos_r2_ewma21": -0.14021418484366777,
+   "cw_t_ewma21": -0.36415489695501063,
+   "sharpe_tsmom_ewma21": -0.17847561984388974,
+   "oos_r2_ewma63": -0.34405218663404735,
+   "cw_t_ewma63": -0.8931716421280602,
+   "sharpe_tsmom_ewma63": -0.0957128894554553,
+   "oos_r2_mom12_1": -0.5427401438765633,
+   "cw_t_mom12_1": -0.44237444404066883,
+   "sharpe_tsmom_mom12_1": 0.3361089868776361
+  },
+  {
+   "ticker": "EWG",
+   "test_start": "2002-01-02",
+   "test_years": 24.7,
+   "sharpe_long": 0.2709124311587239,
+   "oos_r2_ewma21": -0.508419440451835,
+   "cw_t_ewma21": -0.6991167811624549,
+   "sharpe_tsmom_ewma21": 0.03860870712988669,
+   "oos_r2_ewma63": -0.448239194887079,
+   "cw_t_ewma63": -0.3890574667555056,
+   "sharpe_tsmom_ewma63": 0.3809933118512635,
+   "oos_r2_mom12_1": -0.6421988487003816,
+   "cw_t_mom12_1": -0.28345593851639345,
+   "sharpe_tsmom_mom12_1": 0.16932359820038967
+  },
+  {
+   "ticker": "EWU",
+   "test_start": "2002-01-02",
+   "test_years": 24.7,
+   "sharpe_long": 0.3175695626570351,
+   "oos_r2_ewma21": -2.7125002645947305,
+   "cw_t_ewma21": -1.6744009830689888,
+   "sharpe_tsmom_ewma21": -0.2174059136612353,
+   "oos_r2_ewma63": -1.779918189951979,
+   "cw_t_ewma63": -1.0789723010896917,
+   "sharpe_tsmom_ewma63": 0.1923133683550278,
+   "oos_r2_mom12_1": -3.8527353141296183,
+   "cw_t_mom12_1": -0.44502963669915196,
+   "sharpe_tsmom_mom12_1": 0.37845717028254505
+  },
+  {
+   "ticker": "EWC",
+   "test_start": "2002-01-02",
+   "test_years": 24.7,
+   "sharpe_long": 0.4484113127616822,
+   "oos_r2_ewma21": -0.9960704958612121,
+   "cw_t_ewma21": -0.6466758587110193,
+   "sharpe_tsmom_ewma21": 0.212907461102436,
+   "oos_r2_ewma63": -1.1880237511040503,
+   "cw_t_ewma63": -0.7557239094205964,
+   "sharpe_tsmom_ewma63": 0.27272987225700224,
+   "oos_r2_mom12_1": -1.4240779189296449,
+   "cw_t_mom12_1": -1.294380052138236,
+   "sharpe_tsmom_mom12_1": 0.32170937426973323
+  },
+  {
+   "ticker": "EWA",
+   "test_start": "2002-01-02",
+   "test_years": 24.7,
+   "sharpe_long": 0.35362735460313244,
+   "oos_r2_ewma21": -4.19460253248054,
+   "cw_t_ewma21": -1.5227156472396313,
+   "sharpe_tsmom_ewma21": -0.08435447282754778,
+   "oos_r2_ewma63": -5.329148207678225,
+   "cw_t_ewma63": -1.9456646270832016,
+   "sharpe_tsmom_ewma63": 0.1020088643158108,
+   "oos_r2_mom12_1": -3.517360137141945,
+   "cw_t_mom12_1": -1.2818783991173541,
+   "sharpe_tsmom_mom12_1": 0.0789053105175837
+  },
+  {
+   "ticker": "EWZ",
+   "test_start": "2006-01-03",
+   "test_years": 20.7,
+   "sharpe_long": 0.035517155005486765,
+   "oos_r2_ewma21": -0.5327408969344472,
+   "cw_t_ewma21": 0.3242400235236107,
+   "sharpe_tsmom_ewma21": 0.03893261373006427,
+   "oos_r2_ewma63": -0.9682929392655026,
+   "cw_t_ewma63": -1.2861964026002288,
+   "sharpe_tsmom_ewma63": 0.015445229656802135,
+   "oos_r2_mom12_1": -0.8508813044608043,
+   "cw_t_mom12_1": -1.5463688683703007,
+   "sharpe_tsmom_mom12_1": -0.1305160181477166
+  },
+  {
+   "ticker": "FXI",
+   "test_start": "2010-01-04",
+   "test_years": 16.7,
+   "sharpe_long": 0.020054131851197612,
+   "oos_r2_ewma21": -0.28035799059649147,
+   "cw_t_ewma21": -0.5967218163026009,
+   "sharpe_tsmom_ewma21": 0.10389654793016241,
+   "oos_r2_ewma63": -0.14670019694384973,
+   "cw_t_ewma63": -0.40105222334630364,
+   "sharpe_tsmom_ewma63": -0.03290065527851303,
+   "oos_r2_mom12_1": -0.13036923816664991,
+   "cw_t_mom12_1": -0.2117132585273885,
+   "sharpe_tsmom_mom12_1": 0.0582748590574167
+  },
+  {
+   "ticker": "EWY",
+   "test_start": "2006-01-03",
+   "test_years": 20.7,
+   "sharpe_long": 0.14594572229338118,
+   "oos_r2_ewma21": -1.1105111457981653,
+   "cw_t_ewma21": -1.1636243894520906,
+   "sharpe_tsmom_ewma21": 0.0356256946091398,
+   "oos_r2_ewma63": -2.6159576962827336,
+   "cw_t_ewma63": -1.2264023699300155,
+   "sharpe_tsmom_ewma63": 0.28400725035451085,
+   "oos_r2_mom12_1": -3.1596640809630427,
+   "cw_t_mom12_1": -1.526620409019188,
+   "sharpe_tsmom_mom12_1": 0.2706560581184153
+  },
+  {
+   "ticker": "EWT",
+   "test_start": "2006-01-03",
+   "test_years": 20.7,
+   "sharpe_long": 0.443517452871165,
+   "oos_r2_ewma21": -1.0672955125200945,
+   "cw_t_ewma21": -1.022738212918363,
+   "sharpe_tsmom_ewma21": 0.15269915475330686,
+   "oos_r2_ewma63": -2.02074754848387,
+   "cw_t_ewma63": -1.2412026916929417,
+   "sharpe_tsmom_ewma63": 0.16357886309057537,
+   "oos_r2_mom12_1": -1.6397120508508056,
+   "cw_t_mom12_1": -0.45852642375163766,
+   "sharpe_tsmom_mom12_1": 0.312923391772528
+  },
+  {
+   "ticker": "TLT",
+   "test_start": "2008-01-02",
+   "test_years": 18.7,
+   "sharpe_long": 0.2359965041603662,
+   "oos_r2_ewma21": -0.9145000674279702,
+   "cw_t_ewma21": -0.33482185789969426,
+   "sharpe_tsmom_ewma21": -0.013850758114074518,
+   "oos_r2_ewma63": -2.1305544930514397,
+   "cw_t_ewma63": 0.03671927506512942,
+   "sharpe_tsmom_ewma63": 0.009814430898886162,
+   "oos_r2_mom12_1": -1.679438486952578,
+   "cw_t_mom12_1": 0.6680517483563799,
+   "sharpe_tsmom_mom12_1": -0.011806204530119607
+  },
+  {
+   "ticker": "IEF",
+   "test_start": "2008-01-02",
+   "test_years": 18.7,
+   "sharpe_long": 0.42155567370086305,
+   "oos_r2_ewma21": -0.8684071370762769,
+   "cw_t_ewma21": -0.42044663732727283,
+   "sharpe_tsmom_ewma21": -0.026053900273653646,
+   "oos_r2_ewma63": -1.4414756168570797,
+   "cw_t_ewma63": -0.2839231373720978,
+   "sharpe_tsmom_ewma63": 0.18396394705749267,
+   "oos_r2_mom12_1": -2.120802523750376,
+   "cw_t_mom12_1": -0.389555134710149,
+   "sharpe_tsmom_mom12_1": 0.25364110048022415
+  },
+  {
+   "ticker": "SHY",
+   "test_start": "2008-01-02",
+   "test_years": 18.7,
+   "sharpe_long": 1.0605516322722957,
+   "oos_r2_ewma21": 7.639745468107117,
+   "cw_t_ewma21": 3.754155805845151,
+   "sharpe_tsmom_ewma21": 0.00797542735271028,
+   "oos_r2_ewma63": 8.847422367361201,
+   "cw_t_ewma63": 3.9356148895776073,
+   "sharpe_tsmom_ewma63": 1.0440786135716122,
+   "oos_r2_mom12_1": 4.092932853002928,
+   "cw_t_mom12_1": 3.2516200674185725,
+   "sharpe_tsmom_mom12_1": 1.0220889778574498
+  },
+  {
+   "ticker": "LQD",
+   "test_start": "2008-01-02",
+   "test_years": 18.7,
+   "sharpe_long": 0.5194188419673768,
+   "oos_r2_ewma21": -1.2586497007559982,
+   "cw_t_ewma21": -0.06235595303578599,
+   "sharpe_tsmom_ewma21": 0.3981675708367635,
+   "oos_r2_ewma63": -2.4797247321881155,
+   "cw_t_ewma63": -0.16782658344121987,
+   "sharpe_tsmom_ewma63": 0.41409971940221924,
+   "oos_r2_mom12_1": -2.853219486186309,
+   "cw_t_mom12_1": -0.053804422961548554,
+   "sharpe_tsmom_mom12_1": 0.15252955082130532
+  },
+  {
+   "ticker": "HYG",
+   "test_start": "2013-01-02",
+   "test_years": 13.7,
+   "sharpe_long": 0.5006920634892845,
+   "oos_r2_ewma21": 1.1862970077783475,
+   "cw_t_ewma21": 1.1607740113336282,
+   "sharpe_tsmom_ewma21": 0.31821168239533637,
+   "oos_r2_ewma63": 0.2677601578007449,
+   "cw_t_ewma63": 0.551974341684824,
+   "sharpe_tsmom_ewma63": 0.44083215956892,
+   "oos_r2_mom12_1": -0.46325312109414263,
+   "cw_t_mom12_1": -0.1734756072723228,
+   "sharpe_tsmom_mom12_1": 0.39444300331192156
+  },
+  {
+   "ticker": "GLD",
+   "test_start": "2010-01-04",
+   "test_years": 16.7,
+   "sharpe_long": 0.5134953460459608,
+   "oos_r2_ewma21": -4.677295008887716,
+   "cw_t_ewma21": -0.5327550123333268,
+   "sharpe_tsmom_ewma21": 0.2555461135239756,
+   "oos_r2_ewma63": -9.206902166579889,
+   "cw_t_ewma63": -1.5403145426015543,
+   "sharpe_tsmom_ewma63": 0.55800555215166,
+   "oos_r2_mom12_1": -4.390265461741483,
+   "cw_t_mom12_1": -1.8475966571865126,
+   "sharpe_tsmom_mom12_1": 0.4199498815598514
+  },
+  {
+   "ticker": "SLV",
+   "test_start": "2012-01-03",
+   "test_years": 14.7,
+   "sharpe_long": 0.06210843443924183,
+   "oos_r2_ewma21": -0.7294504388547507,
+   "cw_t_ewma21": -0.9059465378268938,
+   "sharpe_tsmom_ewma21": 0.08092156767806612,
+   "oos_r2_ewma63": -1.4618539513253648,
+   "cw_t_ewma63": -1.3587586242313359,
+   "sharpe_tsmom_ewma63": 0.11780408919727024,
+   "oos_r2_mom12_1": -2.756395332503536,
+   "cw_t_mom12_1": -1.6290557070013216,
+   "sharpe_tsmom_mom12_1": 0.3388640806063375
+  },
+  {
+   "ticker": "USO",
+   "test_start": "2012-01-03",
+   "test_years": 14.7,
+   "sharpe_long": -0.17453836980912663,
+   "oos_r2_ewma21": 1.723079677710515,
+   "cw_t_ewma21": 1.130425459046664,
+   "sharpe_tsmom_ewma21": 0.07584649568275206,
+   "oos_r2_ewma63": 0.6687025754198883,
+   "cw_t_ewma63": 0.8084669694493455,
+   "sharpe_tsmom_ewma63": 0.1814693711032995,
+   "oos_r2_mom12_1": -1.3771896437582587,
+   "cw_t_mom12_1": -0.4376858384758681,
+   "sharpe_tsmom_mom12_1": 0.3484882183419942
+  },
+  {
+   "ticker": "DBC",
+   "test_start": "2012-01-03",
+   "test_years": 14.7,
+   "sharpe_long": -0.034029779046994155,
+   "oos_r2_ewma21": 1.3916791526167982,
+   "cw_t_ewma21": 2.019469664749098,
+   "sharpe_tsmom_ewma21": 0.2640604539160609,
+   "oos_r2_ewma63": 1.5146488424293003,
+   "cw_t_ewma63": 1.6307659878560323,
+   "sharpe_tsmom_ewma63": 0.2617140240909707,
+   "oos_r2_mom12_1": -3.5108248571357414,
+   "cw_t_mom12_1": -2.1394168083306626,
+   "sharpe_tsmom_mom12_1": 0.39521888219347606
+  },
+  {
+   "ticker": "GDX",
+   "test_start": "2012-01-03",
+   "test_years": 14.7,
+   "sharpe_long": -0.029505095623111523,
+   "oos_r2_ewma21": -2.007893821580997,
+   "cw_t_ewma21": -0.4831742454717235,
+   "sharpe_tsmom_ewma21": 0.16530018654447826,
+   "oos_r2_ewma63": -3.3575316094616614,
+   "cw_t_ewma63": -0.9690320473940639,
+   "sharpe_tsmom_ewma63": -0.03501321600237791,
+   "oos_r2_mom12_1": -3.11918942120597,
+   "cw_t_mom12_1": -1.8392712175188006,
+   "sharpe_tsmom_mom12_1": 0.16817580393454917
+  },
+  {
+   "ticker": "FXE",
+   "test_start": "2011-01-03",
+   "test_years": 15.7,
+   "sharpe_long": -0.25747884755134126,
+   "oos_r2_ewma21": -0.15688666218696135,
+   "cw_t_ewma21": -0.5797870513411119,
+   "sharpe_tsmom_ewma21": 0.06294269207176675,
+   "oos_r2_ewma63": -0.6742411939894222,
+   "cw_t_ewma63": -1.0412714666284477,
+   "sharpe_tsmom_ewma63": 0.2519699467866359,
+   "oos_r2_mom12_1": -3.144970255498758,
+   "cw_t_mom12_1": -0.18337228393041544,
+   "sharpe_tsmom_mom12_1": -0.008578133807311733
+  },
+  {
+   "ticker": "FXY",
+   "test_start": "2013-01-02",
+   "test_years": 13.7,
+   "sharpe_long": -0.5356839801353671,
+   "oos_r2_ewma21": -1.1170175270336147,
+   "cw_t_ewma21": -0.3712118507694572,
+   "sharpe_tsmom_ewma21": 0.03047184668098792,
+   "oos_r2_ewma63": -6.227629731193329,
+   "cw_t_ewma63": -1.5847786697365358,
+   "sharpe_tsmom_ewma63": 0.15359487544120043,
+   "oos_r2_mom12_1": -2.4477456260690866,
+   "cw_t_mom12_1": -0.34784211909002916,
+   "sharpe_tsmom_mom12_1": 0.35272666513543166
+  },
+  {
+   "ticker": "UUP",
+   "test_start": "2013-01-02",
+   "test_years": 13.7,
+   "sharpe_long": 0.6276945477288812,
+   "oos_r2_ewma21": -0.812314487748611,
+   "cw_t_ewma21": -1.432553306445955,
+   "sharpe_tsmom_ewma21": 0.04781557256935803,
+   "oos_r2_ewma63": -2.173818667198102,
+   "cw_t_ewma63": -1.1738721957187868,
+   "sharpe_tsmom_ewma63": 0.4688057900121667,
+   "oos_r2_mom12_1": -7.654179203702993,
+   "cw_t_mom12_1": -0.33112431149201643,
+   "sharpe_tsmom_mom12_1": 0.12411626974597588
+  },
+  {
+   "ticker": "AAPL",
+   "test_start": "1991-01-02",
+   "test_years": 35.7,
+   "sharpe_long": 0.6535880753466291,
+   "oos_r2_ewma21": -0.17455243107407092,
+   "cw_t_ewma21": -0.9765376825006018,
+   "sharpe_tsmom_ewma21": 0.42878302836415616,
+   "oos_r2_ewma63": -0.5065253256057334,
+   "cw_t_ewma63": -1.8128784863838239,
+   "sharpe_tsmom_ewma63": 0.5517289953592373,
+   "oos_r2_mom12_1": -0.49920744916467363,
+   "cw_t_mom12_1": -0.597862153769848,
+   "sharpe_tsmom_mom12_1": 0.3312696766617545
+  },
+  {
+   "ticker": "AMZN",
+   "test_start": "2003-01-02",
+   "test_years": 23.7,
+   "sharpe_long": 0.6637407104903094,
+   "oos_r2_ewma21": -0.04659138112246275,
+   "cw_t_ewma21": -0.15895890264300142,
+   "sharpe_tsmom_ewma21": 0.20357279553731905,
+   "oos_r2_ewma63": -0.07783502965517108,
+   "cw_t_ewma63": -0.19678887283330665,
+   "sharpe_tsmom_ewma63": 0.25191545379911895,
+   "oos_r2_mom12_1": -2.004618072998654,
+   "cw_t_mom12_1": -0.14396330453260534,
+   "sharpe_tsmom_mom12_1": 0.6268773298463086
+  },
+  {
+   "ticker": "GOOG",
+   "test_start": "2010-01-04",
+   "test_years": 16.7,
+   "sharpe_long": 0.6752746935434761,
+   "oos_r2_ewma21": -0.7091849306175124,
+   "cw_t_ewma21": -1.1604442640842236,
+   "sharpe_tsmom_ewma21": 0.2490122188038599,
+   "oos_r2_ewma63": -0.7704549187366627,
+   "cw_t_ewma63": -2.2891737279210487,
+   "sharpe_tsmom_ewma63": 0.2742419473498585,
+   "oos_r2_mom12_1": -0.17573647546877957,
+   "cw_t_mom12_1": -0.12115717791191434,
+   "sharpe_tsmom_mom12_1": 0.12000138962907639
+  },
+  {
+   "ticker": "IBM",
+   "test_start": "1991-01-02",
+   "test_years": 35.7,
+   "sharpe_long": 0.27721105102671745,
+   "oos_r2_ewma21": 0.4809732838231273,
+   "cw_t_ewma21": 1.80529390679405,
+   "sharpe_tsmom_ewma21": 0.09744655913662402,
+   "oos_r2_ewma63": -0.167283740433799,
+   "cw_t_ewma63": 0.29843429258903476,
+   "sharpe_tsmom_ewma63": 0.02781175922050521,
+   "oos_r2_mom12_1": -1.954462741603269,
+   "cw_t_mom12_1": -0.7611951998752138,
+   "sharpe_tsmom_mom12_1": 0.0767004408391534
+  },
+  {
+   "ticker": "GS",
+   "test_start": "2005-01-03",
+   "test_years": 21.7,
+   "sharpe_long": 0.38774431056680625,
+   "oos_r2_ewma21": -2.495570299143446,
+   "cw_t_ewma21": -0.7875180509667866,
+   "sharpe_tsmom_ewma21": 0.3531353427012225,
+   "oos_r2_ewma63": -5.3372353553487795,
+   "cw_t_ewma63": -0.9692080514069078,
+   "sharpe_tsmom_ewma63": 0.4730359799447038,
+   "oos_r2_mom12_1": -3.7566333749773584,
+   "cw_t_mom12_1": -1.7382943673839517,
+   "sharpe_tsmom_mom12_1": 0.21410170354513575
+  }
+ ],
+ "drift_pooled": {
+  "ewma21": {
+   "pooled_oos_r2": -0.7398385654725281,
+   "n_assets_r2_pos": 10,
+   "n_assets_cw_sig_5pct": 6,
+   "median_sharpe_tsmom": 0.0724862631938796,
+   "n_assets_tsmom_beats_long": 11,
+   "diversified_tsmom_sharpe": 0.5489879567127397
+  },
+  "ewma63": {
+   "pooled_oos_r2": -1.4371588335098773,
+   "n_assets_r2_pos": 8,
+   "n_assets_cw_sig_5pct": 2,
+   "median_sharpe_tsmom": 0.20996172893775955,
+   "n_assets_tsmom_beats_long": 13,
+   "diversified_tsmom_sharpe": 0.7074733774894121
+  },
+  "mom12_1": {
+   "pooled_oos_r2": -1.9164665793256486,
+   "n_assets_r2_pos": 3,
+   "n_assets_cw_sig_5pct": 2,
+   "median_sharpe_tsmom": 0.26214857929931973,
+   "n_assets_tsmom_beats_long": 13,
+   "diversified_tsmom_sharpe": 0.6487088743042857
+  },
+  "diversified_long_sharpe": 0.7460910993938283,
+  "n_assets": 48
+ },
+ "vol_pairs": [
+  {
+   "pair": "VIX",
+   "underlying": "^GSPC",
+   "test_start": "1994-01-03",
+   "test_years": 32.7,
+   "qlike:Heston-style (\u221aR2)": 0.3392792927656684,
+   "qlike:HAR-RV": 0.31500188172895993,
+   "qlike:Two-scale, no trend": 0.30926434525486285,
+   "qlike:Two-scale + trend R1": 0.31488404613796994,
+   "qlike:Two-scale + downside trend": 0.3002758292102425,
+   "qlike:IV regression": 0.30068090904538325,
+   "qlike:IV + two-scale": 0.2917201035506697,
+   "qlike:IV + two-scale + trend R1": 0.29969252969894355,
+   "qlike:IV + two-scale + downside trend": 0.2904647387433399,
+   "qlike:GARCH(1,1)": 0.29977735234359854,
+   "qlike:Boosting, history": 0.31153662128870124,
+   "qlike:Boosting, history, no trend": 0.34502729705422913,
+   "qlike:Boosting + IV": 0.3092015595255461,
+   "qlike:Boosting + IV, no trend": 0.32170770738923615,
+   "qlike:Elastic net + IV": 0.2942675401599264,
+   "qlike:Hybrid: equation + boosted residual": 0.2974814908373967,
+   "qlike:Pooled boosting + IV": 0.29028482277587236,
+   "qlike:Pooled boosting + IV, no trend": 0.30326135415688793,
+   "qlike:IV\u00b2 (raw)": 0.31470128813820225
+  },
+  {
+   "pair": "VXN",
+   "underlying": "^NDX",
+   "test_start": "2013-01-02",
+   "test_years": 13.7,
+   "qlike:Heston-style (\u221aR2)": 0.3625750618734315,
+   "qlike:HAR-RV": 0.32047848314997923,
+   "qlike:Two-scale, no trend": 0.31966858855093894,
+   "qlike:Two-scale + trend R1": 0.3403897307781739,
+   "qlike:Two-scale + downside trend": 0.31548407078928303,
+   "qlike:IV regression": 0.2782868806249378,
+   "qlike:IV + two-scale": 0.273210697692784,
+   "qlike:IV + two-scale + trend R1": 0.27825277855793834,
+   "qlike:IV + two-scale + downside trend": 0.2732521575474267,
+   "qlike:GARCH(1,1)": 0.30497240656645425,
+   "qlike:Boosting, history": 0.327386334377829,
+   "qlike:Boosting, history, no trend": 0.3746649206118826,
+   "qlike:Boosting + IV": 0.3075575379989587,
+   "qlike:Boosting + IV, no trend": 0.31410456552292293,
+   "qlike:Elastic net + IV": 0.2866096804705559,
+   "qlike:Hybrid: equation + boosted residual": 0.3010561432080052,
+   "qlike:Pooled boosting + IV": 0.25581408789728627,
+   "qlike:Pooled boosting + IV, no trend": 0.27938586861051234,
+   "qlike:IV\u00b2 (raw)": 0.2692382314011847
+  },
+  {
+   "pair": "RVX",
+   "underlying": "^RUT",
+   "test_start": "2013-01-02",
+   "test_years": 13.7,
+   "qlike:Heston-style (\u221aR2)": 0.3325940330772616,
+   "qlike:HAR-RV": 0.28679543924147066,
+   "qlike:Two-scale, no trend": 0.29592109595769484,
+   "qlike:Two-scale + trend R1": 0.28796232105390973,
+   "qlike:Two-scale + downside trend": 0.28466723261604365,
+   "qlike:IV regression": 0.25949386031925614,
+   "qlike:IV + two-scale": 0.2551121701758421,
+   "qlike:IV + two-scale + trend R1": 0.25514089350976643,
+   "qlike:IV + two-scale + downside trend": 0.25400096860967336,
+   "qlike:GARCH(1,1)": 0.29557606605283804,
+   "qlike:Boosting, history": 0.328669279117929,
+   "qlike:Boosting, history, no trend": 0.3335283925262927,
+   "qlike:Boosting + IV": 0.28915941411234086,
+   "qlike:Boosting + IV, no trend": 0.2887284912782436,
+   "qlike:Elastic net + IV": 0.2561129054003933,
+   "qlike:Hybrid: equation + boosted residual": 0.2656860701921968,
+   "qlike:Pooled boosting + IV": 0.2733237746403138,
+   "qlike:Pooled boosting + IV, no trend": 0.26937746605497603,
+   "qlike:IV\u00b2 (raw)": 0.2562225334844926
+  },
+  {
+   "pair": "VXD",
+   "underlying": "^DJI",
+   "test_start": "2013-01-02",
+   "test_years": 13.7,
+   "qlike:Heston-style (\u221aR2)": 0.4696226591268026,
+   "qlike:HAR-RV": 0.41340681569501164,
+   "qlike:Two-scale, no trend": 0.4104125715451897,
+   "qlike:Two-scale + trend R1": 0.4252660490395112,
+   "qlike:Two-scale + downside trend": 0.40372091878329,
+   "qlike:IV regression": 0.3836270300539168,
+   "qlike:IV + two-scale": 0.37920165904648134,
+   "qlike:IV + two-scale + trend R1": 0.3872376423712057,
+   "qlike:IV + two-scale + downside trend": 0.38041181990488593,
+   "qlike:GARCH(1,1)": 0.3842219191797271,
+   "qlike:Boosting, history": 0.48035403617942896,
+   "qlike:Boosting, history, no trend": 0.4985475606186067,
+   "qlike:Boosting + IV": 0.48626739334839963,
+   "qlike:Boosting + IV, no trend": 0.4803499830842224,
+   "qlike:Elastic net + IV": 0.3985751070160878,
+   "qlike:Hybrid: equation + boosted residual": 0.4397603913689124,
+   "qlike:Pooled boosting + IV": 0.38761603857323534,
+   "qlike:Pooled boosting + IV, no trend": 0.3906751124849801,
+   "qlike:IV\u00b2 (raw)": 0.376220904529014
+  },
+  {
+   "pair": "VXEEM",
+   "underlying": "EEM",
+   "test_start": "2015-01-02",
+   "test_years": 11.7,
+   "qlike:Heston-style (\u221aR2)": 0.2826889347054139,
+   "qlike:HAR-RV": 0.25241391291811666,
+   "qlike:Two-scale, no trend": 0.26498638257329726,
+   "qlike:Two-scale + trend R1": 0.27964553766944394,
+   "qlike:Two-scale + downside trend": 0.25770756112354243,
+   "qlike:IV regression": 0.24315160546595982,
+   "qlike:IV + two-scale": 0.24747494136262782,
+   "qlike:IV + two-scale + trend R1": 0.2512493701578292,
+   "qlike:IV + two-scale + downside trend": 0.2531477660376179,
+   "qlike:GARCH(1,1)": 0.2497423560436276,
+   "qlike:Boosting, history": 0.30217630592946665,
+   "qlike:Boosting, history, no trend": 0.28455476175912003,
+   "qlike:Boosting + IV": 0.27526674329687145,
+   "qlike:Boosting + IV, no trend": 0.2615776670593011,
+   "qlike:Elastic net + IV": 0.24611453585630994,
+   "qlike:Hybrid: equation + boosted residual": 0.2720479987790606,
+   "qlike:Pooled boosting + IV": 0.237928610564095,
+   "qlike:Pooled boosting + IV, no trend": 0.2413587167485387,
+   "qlike:IV\u00b2 (raw)": 0.2402001335932549
+  },
+  {
+   "pair": "VXEFA",
+   "underlying": "EFA",
+   "test_start": "2012-01-03",
+   "test_years": 14.7,
+   "qlike:Heston-style (\u221aR2)": 0.37865787970050707,
+   "qlike:HAR-RV": 0.3389927056439006,
+   "qlike:Two-scale, no trend": 0.3383444884203799,
+   "qlike:Two-scale + trend R1": 0.33201722734450784,
+   "qlike:Two-scale + downside trend": 0.3286212363712083,
+   "qlike:IV regression": 0.3298709413108057,
+   "qlike:IV + two-scale": 0.3260902836253225,
+   "qlike:IV + two-scale + trend R1": 0.3381303045782577,
+   "qlike:IV + two-scale + downside trend": 0.3356851091489611,
+   "qlike:GARCH(1,1)": 0.3147733339284325,
+   "qlike:Boosting, history": 0.4039034767614617,
+   "qlike:Boosting, history, no trend": 0.3990001229924368,
+   "qlike:Boosting + IV": 0.39518587292102747,
+   "qlike:Boosting + IV, no trend": 0.38899523351201243,
+   "qlike:Elastic net + IV": 0.3736149171930935,
+   "qlike:Hybrid: equation + boosted residual": 0.3570249792847022,
+   "qlike:Pooled boosting + IV": 0.3147235844309541,
+   "qlike:Pooled boosting + IV, no trend": 0.314353337169771,
+   "qlike:IV\u00b2 (raw)": 0.3113332287070873
+  },
+  {
+   "pair": "VXFXI",
+   "underlying": "FXI",
+   "test_start": "2015-01-02",
+   "test_years": 8.1,
+   "qlike:Heston-style (\u221aR2)": 0.2107872925981916,
+   "qlike:HAR-RV": 0.21779581892086117,
+   "qlike:Two-scale, no trend": 0.21205625417378568,
+   "qlike:Two-scale + trend R1": 0.2178644974895144,
+   "qlike:Two-scale + downside trend": 0.20687551732652865,
+   "qlike:IV regression": 0.20142782552667007,
+   "qlike:IV + two-scale": 0.2040139718057947,
+   "qlike:IV + two-scale + trend R1": 0.2064495115929441,
+   "qlike:IV + two-scale + downside trend": 0.20626952997422787,
+   "qlike:GARCH(1,1)": 0.21711572672501753,
+   "qlike:Boosting, history": 0.2576255573785734,
+   "qlike:Boosting, history, no trend": 0.25230229821033917,
+   "qlike:Boosting + IV": 0.24819179140563005,
+   "qlike:Boosting + IV, no trend": 0.24021879738609464,
+   "qlike:Elastic net + IV": 0.2103421942704513,
+   "qlike:Hybrid: equation + boosted residual": 0.24821094772633776,
+   "qlike:Pooled boosting + IV": 0.20607596676493672,
+   "qlike:Pooled boosting + IV, no trend": 0.2030399972745653,
+   "qlike:IV\u00b2 (raw)": 0.20393961370475133
+  },
+  {
+   "pair": "VXEWZ",
+   "underlying": "EWZ",
+   "test_start": "2015-01-02",
+   "test_years": 11.7,
+   "qlike:Heston-style (\u221aR2)": 0.35174744123351,
+   "qlike:HAR-RV": 0.3176368268338722,
+   "qlike:Two-scale, no trend": 0.3315019135887877,
+   "qlike:Two-scale + trend R1": 0.3185995391346294,
+   "qlike:Two-scale + downside trend": 0.30855123215754277,
+   "qlike:IV regression": 0.31588415118171276,
+   "qlike:IV + two-scale": 0.32317135044632256,
+   "qlike:IV + two-scale + trend R1": 0.3207114934379063,
+   "qlike:IV + two-scale + downside trend": 0.31794269508775674,
+   "qlike:GARCH(1,1)": 0.3031419549356589,
+   "qlike:Boosting, history": 0.34860275290370174,
+   "qlike:Boosting, history, no trend": 0.3836738382566483,
+   "qlike:Boosting + IV": 0.36680227574340346,
+   "qlike:Boosting + IV, no trend": 0.37887872568589687,
+   "qlike:Elastic net + IV": 0.32004299235070893,
+   "qlike:Hybrid: equation + boosted residual": 0.35456321515597145,
+   "qlike:Pooled boosting + IV": 0.32232245757330663,
+   "qlike:Pooled boosting + IV, no trend": 0.32278962955781154,
+   "qlike:IV\u00b2 (raw)": 0.2992243395480783
+  },
+  {
+   "pair": "GVZ",
+   "underlying": "GLD",
+   "test_start": "2013-01-02",
+   "test_years": 13.7,
+   "qlike:Heston-style (\u221aR2)": 0.23910090038095178,
+   "qlike:HAR-RV": 0.2519169717805928,
+   "qlike:Two-scale, no trend": 0.23869445202508693,
+   "qlike:Two-scale + trend R1": 0.2508929613711455,
+   "qlike:Two-scale + downside trend": 0.2444997534737443,
+   "qlike:IV regression": 0.2097055097325205,
+   "qlike:IV + two-scale": 0.21335403997294858,
+   "qlike:IV + two-scale + trend R1": 0.22859247791907347,
+   "qlike:IV + two-scale + downside trend": 0.22124076369090515,
+   "qlike:GARCH(1,1)": 0.24155600597886892,
+   "qlike:Boosting, history": 0.2344941381018134,
+   "qlike:Boosting, history, no trend": 0.25069521477515283,
+   "qlike:Boosting + IV": 0.22462435540414685,
+   "qlike:Boosting + IV, no trend": 0.23124889922189212,
+   "qlike:Elastic net + IV": 0.2949589490809939,
+   "qlike:Hybrid: equation + boosted residual": 0.23677267200841276,
+   "qlike:Pooled boosting + IV": 0.19250946854731563,
+   "qlike:Pooled boosting + IV, no trend": 0.20344337993494976,
+   "qlike:IV\u00b2 (raw)": 0.19874091971151403
+  },
+  {
+   "pair": "VXSLV",
+   "underlying": "SLV",
+   "test_start": "2015-01-02",
+   "test_years": 8.4,
+   "qlike:Heston-style (\u221aR2)": 0.2977187654685489,
+   "qlike:HAR-RV": 0.31267578034501936,
+   "qlike:Two-scale, no trend": 0.29904534884892703,
+   "qlike:Two-scale + trend R1": 0.24214293743140522,
+   "qlike:Two-scale + downside trend": 0.2839354240383802,
+   "qlike:IV regression": 0.22542283784920497,
+   "qlike:IV + two-scale": 0.2429199458973934,
+   "qlike:IV + two-scale + trend R1": 0.2237256713075839,
+   "qlike:IV + two-scale + downside trend": 0.23216905144642358,
+   "qlike:GARCH(1,1)": 0.2857190984902883,
+   "qlike:Boosting, history": 0.30779557881050945,
+   "qlike:Boosting, history, no trend": 0.32714082161089963,
+   "qlike:Boosting + IV": 0.2886628740530576,
+   "qlike:Boosting + IV, no trend": 0.2847414401070552,
+   "qlike:Elastic net + IV": 0.2147996835768215,
+   "qlike:Hybrid: equation + boosted residual": 0.318825654723638,
+   "qlike:Pooled boosting + IV": 0.20887405965273975,
+   "qlike:Pooled boosting + IV, no trend": 0.2170068485268426,
+   "qlike:IV\u00b2 (raw)": 0.22490680171334057
+  },
+  {
+   "pair": "OVX",
+   "underlying": "USO",
+   "test_start": "2013-01-02",
+   "test_years": 13.7,
+   "qlike:Heston-style (\u221aR2)": 0.3637139265793982,
+   "qlike:HAR-RV": 0.33624741105870415,
+   "qlike:Two-scale, no trend": 0.3432199935684787,
+   "qlike:Two-scale + trend R1": 0.33589668142493223,
+   "qlike:Two-scale + downside trend": 0.30594911056910035,
+   "qlike:IV regression": 0.2543249527116526,
+   "qlike:IV + two-scale": 0.25119044286103337,
+   "qlike:IV + two-scale + trend R1": 0.25076640535085,
+   "qlike:IV + two-scale + downside trend": 0.24788675760166765,
+   "qlike:GARCH(1,1)": 0.332789007451063,
+   "qlike:Boosting, history": 0.3443997764477305,
+   "qlike:Boosting, history, no trend": 0.4091342234717599,
+   "qlike:Boosting + IV": 0.300624317161062,
+   "qlike:Boosting + IV, no trend": 0.3213584781013153,
+   "qlike:Elastic net + IV": 0.2627120192203874,
+   "qlike:Hybrid: equation + boosted residual": 0.2547679588453897,
+   "qlike:Pooled boosting + IV": 0.23467559501335386,
+   "qlike:Pooled boosting + IV, no trend": 0.2348250062293948,
+   "qlike:IV\u00b2 (raw)": 0.23479499991729727
+  },
+  {
+   "pair": "VXGDX",
+   "underlying": "GDX",
+   "test_start": "2015-01-02",
+   "test_years": 8.1,
+   "qlike:Heston-style (\u221aR2)": 0.3240717813230641,
+   "qlike:HAR-RV": 0.31116538378743225,
+   "qlike:Two-scale, no trend": 0.30567058998498936,
+   "qlike:Two-scale + trend R1": 0.31812603325669914,
+   "qlike:Two-scale + downside trend": 0.32023791679345043,
+   "qlike:IV regression": 0.2883502685296915,
+   "qlike:IV + two-scale": 0.2914037223097341,
+   "qlike:IV + two-scale + trend R1": 0.2993453650492104,
+   "qlike:IV + two-scale + downside trend": 0.3025525996987759,
+   "qlike:GARCH(1,1)": 0.3030450776982225,
+   "qlike:Boosting, history": 0.31673948344035496,
+   "qlike:Boosting, history, no trend": 0.3331759113490299,
+   "qlike:Boosting + IV": 0.3232213503146216,
+   "qlike:Boosting + IV, no trend": 0.33572958128736796,
+   "qlike:Elastic net + IV": 0.33363694956835543,
+   "qlike:Hybrid: equation + boosted residual": 0.29934702119981216,
+   "qlike:Pooled boosting + IV": 0.31730393203747687,
+   "qlike:Pooled boosting + IV, no trend": 0.31184151873414606,
+   "qlike:IV\u00b2 (raw)": 0.27349355955717175
+  },
+  {
+   "pair": "VXTLT",
+   "underlying": "TLT",
+   "test_start": "2008-01-02",
+   "test_years": 18.7,
+   "qlike:Heston-style (\u221aR2)": 0.18586862191383166,
+   "qlike:HAR-RV": 0.19682879244886317,
+   "qlike:Two-scale, no trend": 0.18553001358997928,
+   "qlike:Two-scale + trend R1": 0.18353192900410037,
+   "qlike:Two-scale + downside trend": 0.18612403033820837,
+   "qlike:IV regression": 0.1525986635807184,
+   "qlike:IV + two-scale": 0.15724549525031548,
+   "qlike:IV + two-scale + trend R1": 0.15617334674781053,
+   "qlike:IV + two-scale + downside trend": 0.15752679575896988,
+   "qlike:GARCH(1,1)": 0.1823847840498699,
+   "qlike:Boosting, history": 0.2223395503265375,
+   "qlike:Boosting, history, no trend": 0.24205583238807182,
+   "qlike:Boosting + IV": 0.20410516918937172,
+   "qlike:Boosting + IV, no trend": 0.20886335469559456,
+   "qlike:Elastic net + IV": 0.15638146557822216,
+   "qlike:Hybrid: equation + boosted residual": 0.1559927471282584,
+   "qlike:Pooled boosting + IV": 0.18116799745965806,
+   "qlike:Pooled boosting + IV, no trend": 0.164714024194565,
+   "qlike:IV\u00b2 (raw)": 0.15422795093747987
+  },
+  {
+   "pair": "VXAPL",
+   "underlying": "AAPL",
+   "test_start": "2015-01-02",
+   "test_years": 11.7,
+   "qlike:Heston-style (\u221aR2)": 0.2950925005169277,
+   "qlike:HAR-RV": 0.27603940294142604,
+   "qlike:Two-scale, no trend": 0.278031965492266,
+   "qlike:Two-scale + trend R1": 0.28889965625207376,
+   "qlike:Two-scale + downside trend": 0.280856640976539,
+   "qlike:IV regression": 0.2161146900667864,
+   "qlike:IV + two-scale": 0.2140934213321969,
+   "qlike:IV + two-scale + trend R1": 0.21774059476220203,
+   "qlike:IV + two-scale + downside trend": 0.2166780858154455,
+   "qlike:GARCH(1,1)": 0.31145307541922196,
+   "qlike:Boosting, history": 0.28273421917361624,
+   "qlike:Boosting, history, no trend": 0.2951637285268908,
+   "qlike:Boosting + IV": 0.24030786811267332,
+   "qlike:Boosting + IV, no trend": 0.23515448269306347,
+   "qlike:Elastic net + IV": 0.22535950377799382,
+   "qlike:Hybrid: equation + boosted residual": 0.23008306633412812,
+   "qlike:Pooled boosting + IV": 0.21236931541215243,
+   "qlike:Pooled boosting + IV, no trend": 0.2149033380894784,
+   "qlike:IV\u00b2 (raw)": 0.21736121527095104
+  },
+  {
+   "pair": "VXAZN",
+   "underlying": "AMZN",
+   "test_start": "2015-01-02",
+   "test_years": 11.7,
+   "qlike:Heston-style (\u221aR2)": 0.3227049692534382,
+   "qlike:HAR-RV": 0.32150829109302775,
+   "qlike:Two-scale, no trend": 0.3242770586619336,
+   "qlike:Two-scale + trend R1": 0.310280569380154,
+   "qlike:Two-scale + downside trend": 0.30806107419616496,
+   "qlike:IV regression": 0.2074620951474628,
+   "qlike:IV + two-scale": 0.20470253855644407,
+   "qlike:IV + two-scale + trend R1": 0.20423763831318817,
+   "qlike:IV + two-scale + downside trend": 0.20438874317835004,
+   "qlike:GARCH(1,1)": 0.3301174269354225,
+   "qlike:Boosting, history": 0.32214955384138727,
+   "qlike:Boosting, history, no trend": 0.3205109257509468,
+   "qlike:Boosting + IV": 0.22825001435463782,
+   "qlike:Boosting + IV, no trend": 0.23168418397039578,
+   "qlike:Elastic net + IV": 0.201346764878684,
+   "qlike:Hybrid: equation + boosted residual": 0.22658186085823823,
+   "qlike:Pooled boosting + IV": 0.19884429855496769,
+   "qlike:Pooled boosting + IV, no trend": 0.2017074340695296,
+   "qlike:IV\u00b2 (raw)": 0.20224439698625574
+  },
+  {
+   "pair": "VXGOG",
+   "underlying": "GOOG",
+   "test_start": "2015-01-02",
+   "test_years": 11.7,
+   "qlike:Heston-style (\u221aR2)": 0.29782358408948834,
+   "qlike:HAR-RV": 0.2978684030222076,
+   "qlike:Two-scale, no trend": 0.29816877545467324,
+   "qlike:Two-scale + trend R1": 0.2906567495850194,
+   "qlike:Two-scale + downside trend": 0.2880446228379863,
+   "qlike:IV regression": 0.2279431064909116,
+   "qlike:IV + two-scale": 0.23045628751943867,
+   "qlike:IV + two-scale + trend R1": 0.22872196918740023,
+   "qlike:IV + two-scale + downside trend": 0.22943506311433082,
+   "qlike:GARCH(1,1)": 0.28854556766494854,
+   "qlike:Boosting, history": 0.3183702040621641,
+   "qlike:Boosting, history, no trend": 0.3280256799484955,
+   "qlike:Boosting + IV": 0.2621756964487975,
+   "qlike:Boosting + IV, no trend": 0.2681965239965308,
+   "qlike:Elastic net + IV": 0.23134396872717417,
+   "qlike:Hybrid: equation + boosted residual": 0.25194058154851573,
+   "qlike:Pooled boosting + IV": 0.24638738385605122,
+   "qlike:Pooled boosting + IV, no trend": 0.23551816249974078,
+   "qlike:IV\u00b2 (raw)": 0.2148800817577299
+  },
+  {
+   "pair": "VXIBM",
+   "underlying": "IBM",
+   "test_start": "2015-01-02",
+   "test_years": 11.6,
+   "qlike:Heston-style (\u221aR2)": 0.4570088061203165,
+   "qlike:HAR-RV": 0.48785276898325813,
+   "qlike:Two-scale, no trend": 0.4619950023012005,
+   "qlike:Two-scale + trend R1": 0.46624474235238883,
+   "qlike:Two-scale + downside trend": 0.46872523809579314,
+   "qlike:IV regression": 0.30635674748092134,
+   "qlike:IV + two-scale": 0.325852707520074,
+   "qlike:IV + two-scale + trend R1": 0.32864810619722745,
+   "qlike:IV + two-scale + downside trend": 0.3291898463466422,
+   "qlike:GARCH(1,1)": 0.3980720329559816,
+   "qlike:Boosting, history": 0.5248722597805572,
+   "qlike:Boosting, history, no trend": 0.5092611391535412,
+   "qlike:Boosting + IV": 0.3869576088456862,
+   "qlike:Boosting + IV, no trend": 0.36867008599494805,
+   "qlike:Elastic net + IV": 0.3281506314120204,
+   "qlike:Hybrid: equation + boosted residual": 0.3558620966234374,
+   "qlike:Pooled boosting + IV": 0.31514183293241504,
+   "qlike:Pooled boosting + IV, no trend": 0.3048236565253393,
+   "qlike:IV\u00b2 (raw)": 0.2914631428211462
+  },
+  {
+   "pair": "VXGS",
+   "underlying": "GS",
+   "test_start": "2015-01-02",
+   "test_years": 11.7,
+   "qlike:Heston-style (\u221aR2)": 0.3184727466536889,
+   "qlike:HAR-RV": 0.29314137852841543,
+   "qlike:Two-scale, no trend": 0.3045466631578239,
+   "qlike:Two-scale + trend R1": 0.27899238789022845,
+   "qlike:Two-scale + downside trend": 0.27943594934474486,
+   "qlike:IV regression": 0.25008311642691483,
+   "qlike:IV + two-scale": 0.257760304623123,
+   "qlike:IV + two-scale + trend R1": 0.264100222312421,
+   "qlike:IV + two-scale + downside trend": 0.26502786923403276,
+   "qlike:GARCH(1,1)": 0.29396282100848276,
+   "qlike:Boosting, history": 0.3602510693494411,
+   "qlike:Boosting, history, no trend": 0.3308364123080866,
+   "qlike:Boosting + IV": 0.3253834765962823,
+   "qlike:Boosting + IV, no trend": 0.2903405928660294,
+   "qlike:Elastic net + IV": 0.2485675424383403,
+   "qlike:Hybrid: equation + boosted residual": 0.31355050557815295,
+   "qlike:Pooled boosting + IV": 0.27020924136897906,
+   "qlike:Pooled boosting + IV, no trend": 0.25469909165112403,
+   "qlike:IV\u00b2 (raw)": 0.23421347659996164
+  }
+ ],
+ "vol_rmse": {
+  "VIX": {
+   "Heston-style (\u221aR2)": 7.761607838940317,
+   "HAR-RV": 7.2607600687290414,
+   "Two-scale, no trend": 7.303501564610994,
+   "Two-scale + trend R1": 7.052046935189465,
+   "Two-scale + downside trend": 6.978796368157646,
+   "IV regression": 6.9208779951186985,
+   "IV + two-scale": 6.885643628150941,
+   "IV + two-scale + trend R1": 6.854341975234972,
+   "IV + two-scale + downside trend": 6.815079708700014,
+   "GARCH(1,1)": 7.275398412099807,
+   "Boosting, history": 7.4109514043564335,
+   "Boosting, history, no trend": 7.840349016095695,
+   "Boosting + IV": 7.349210286308095,
+   "Boosting + IV, no trend": 7.564340087984345,
+   "Elastic net + IV": 6.824402259728229,
+   "Hybrid: equation + boosted residual": 6.929148412508857,
+   "Pooled boosting + IV": 6.923406434723085,
+   "Pooled boosting + IV, no trend": 7.117764253162813
+  },
+  "VXN": {
+   "Heston-style (\u221aR2)": 8.79946049451842,
+   "HAR-RV": 8.286329052663977,
+   "Two-scale, no trend": 8.30902851184113,
+   "Two-scale + trend R1": 8.261348084111694,
+   "Two-scale + downside trend": 8.094790617876457,
+   "IV regression": 7.7699422727904395,
+   "IV + two-scale": 7.719060081758987,
+   "IV + two-scale + trend R1": 7.797968861631113,
+   "IV + two-scale + downside trend": 7.722602423493055,
+   "GARCH(1,1)": 8.777285361411357,
+   "Boosting, history": 8.453042367072308,
+   "Boosting, history, no trend": 8.7265920577343,
+   "Boosting + IV": 8.279950092112998,
+   "Boosting + IV, no trend": 8.28466307008688,
+   "Elastic net + IV": 7.888060314669051,
+   "Hybrid: equation + boosted residual": 7.99724452157368,
+   "Pooled boosting + IV": 7.625168739128608,
+   "Pooled boosting + IV, no trend": 7.814885754589848
+  },
+  "RVX": {
+   "Heston-style (\u221aR2)": 8.950639919147033,
+   "HAR-RV": 8.66944419898988,
+   "Two-scale, no trend": 8.678196777480021,
+   "Two-scale + trend R1": 8.521780119525808,
+   "Two-scale + downside trend": 8.425541726809062,
+   "IV regression": 8.044305257249974,
+   "IV + two-scale": 8.058938285469337,
+   "IV + two-scale + trend R1": 8.03601774463392,
+   "IV + two-scale + downside trend": 8.003239743067311,
+   "GARCH(1,1)": 8.962254091308653,
+   "Boosting, history": 9.351448098154314,
+   "Boosting, history, no trend": 9.491671008591286,
+   "Boosting + IV": 8.822318984363886,
+   "Boosting + IV, no trend": 8.820672038079245,
+   "Elastic net + IV": 8.213906543607015,
+   "Hybrid: equation + boosted residual": 8.13478847106674,
+   "Pooled boosting + IV": 8.19214077039732,
+   "Pooled boosting + IV, no trend": 8.233597871401138
+  },
+  "VXD": {
+   "Heston-style (\u221aR2)": 8.373840936510554,
+   "HAR-RV": 7.9433924070599975,
+   "Two-scale, no trend": 7.937252944600541,
+   "Two-scale + trend R1": 7.787568895075031,
+   "Two-scale + downside trend": 7.679334131135036,
+   "IV regression": 7.6550779258857515,
+   "IV + two-scale": 7.6400277506118375,
+   "IV + two-scale + trend R1": 7.651858722239589,
+   "IV + two-scale + downside trend": 7.611944782069524,
+   "GARCH(1,1)": 8.110455266484106,
+   "Boosting, history": 8.659138503684131,
+   "Boosting, history, no trend": 8.704990254090891,
+   "Boosting + IV": 8.567405045134366,
+   "Boosting + IV, no trend": 8.518239917499603,
+   "Elastic net + IV": 7.764414774760195,
+   "Hybrid: equation + boosted residual": 7.932378204270963,
+   "Pooled boosting + IV": 7.668831353222681,
+   "Pooled boosting + IV, no trend": 7.786683342364274
+  },
+  "VXEEM": {
+   "Heston-style (\u221aR2)": 8.530911499291612,
+   "HAR-RV": 8.278788573816989,
+   "Two-scale, no trend": 8.33723107806477,
+   "Two-scale + trend R1": 8.256537486146424,
+   "Two-scale + downside trend": 8.137740328253852,
+   "IV regression": 7.563774287315593,
+   "IV + two-scale": 7.6054464327017515,
+   "IV + two-scale + trend R1": 7.661319496765956,
+   "IV + two-scale + downside trend": 7.657409272181093,
+   "GARCH(1,1)": 8.691457798812237,
+   "Boosting, history": 8.475532963738583,
+   "Boosting, history, no trend": 8.585904908759025,
+   "Boosting + IV": 8.153171115126352,
+   "Boosting + IV, no trend": 8.122893386094526,
+   "Elastic net + IV": 7.691101393332882,
+   "Hybrid: equation + boosted residual": 7.852870728965714,
+   "Pooled boosting + IV": 7.7457309897761215,
+   "Pooled boosting + IV, no trend": 7.8329468432226825
+  },
+  "VXEFA": {
+   "Heston-style (\u221aR2)": 8.244174661038462,
+   "HAR-RV": 8.132900737897762,
+   "Two-scale, no trend": 8.134110453656026,
+   "Two-scale + trend R1": 7.925701392428197,
+   "Two-scale + downside trend": 7.857197014112371,
+   "IV regression": 7.101108961710369,
+   "IV + two-scale": 7.751742524466512,
+   "IV + two-scale + trend R1": 7.946811386268562,
+   "IV + two-scale + downside trend": 7.902930104427443,
+   "GARCH(1,1)": 7.7212707234482885,
+   "Boosting, history": 8.734221110306143,
+   "Boosting, history, no trend": 8.649064032216874,
+   "Boosting + IV": 8.394207856850006,
+   "Boosting + IV, no trend": 8.295339680244386,
+   "Elastic net + IV": 8.621565694595914,
+   "Hybrid: equation + boosted residual": 8.186830855563883,
+   "Pooled boosting + IV": 6.682965660813875,
+   "Pooled boosting + IV, no trend": 6.726320688672321
+  },
+  "VXFXI": {
+   "Heston-style (\u221aR2)": 8.198478663461852,
+   "HAR-RV": 8.370692182112906,
+   "Two-scale, no trend": 8.217777025532344,
+   "Two-scale + trend R1": 8.157020098957032,
+   "Two-scale + downside trend": 8.026700664520675,
+   "IV regression": 7.809415471890338,
+   "IV + two-scale": 7.849056043011441,
+   "IV + two-scale + trend R1": 7.879627361450417,
+   "IV + two-scale + downside trend": 7.898838822476272,
+   "GARCH(1,1)": 8.843570076432188,
+   "Boosting, history": 8.684759009526804,
+   "Boosting, history, no trend": 8.714948516185459,
+   "Boosting + IV": 8.602185410529644,
+   "Boosting + IV, no trend": 8.436075461147961,
+   "Elastic net + IV": 7.911846085608944,
+   "Hybrid: equation + boosted residual": 8.499810363584345,
+   "Pooled boosting + IV": 7.89029341616647,
+   "Pooled boosting + IV, no trend": 7.921545199272835
+  },
+  "VXEWZ": {
+   "Heston-style (\u221aR2)": 14.977803623094216,
+   "HAR-RV": 14.772843859173276,
+   "Two-scale, no trend": 14.758625463266503,
+   "Two-scale + trend R1": 14.724061733772453,
+   "Two-scale + downside trend": 14.592910513777493,
+   "IV regression": 14.252958525108594,
+   "IV + two-scale": 14.356847665779066,
+   "IV + two-scale + trend R1": 14.35224712356826,
+   "IV + two-scale + downside trend": 14.292965383673831,
+   "GARCH(1,1)": 15.36756508918865,
+   "Boosting, history": 15.170739184824678,
+   "Boosting, history, no trend": 15.561739324548629,
+   "Boosting + IV": 15.027986849109418,
+   "Boosting + IV, no trend": 15.337219889755804,
+   "Elastic net + IV": 14.344196025178324,
+   "Hybrid: equation + boosted residual": 14.658445826724828,
+   "Pooled boosting + IV": 14.193632629252221,
+   "Pooled boosting + IV, no trend": 14.463931182159238
+  },
+  "GVZ": {
+   "Heston-style (\u221aR2)": 5.816389121307573,
+   "HAR-RV": 6.011958847423652,
+   "Two-scale, no trend": 5.859121349787402,
+   "Two-scale + trend R1": 5.769702753017989,
+   "Two-scale + downside trend": 5.8763024231157335,
+   "IV regression": 5.358952486745188,
+   "IV + two-scale": 5.419431925478958,
+   "IV + two-scale + trend R1": 5.367714456391108,
+   "IV + two-scale + downside trend": 5.427592228110329,
+   "GARCH(1,1)": 6.058643289982343,
+   "Boosting, history": 5.9060200105033545,
+   "Boosting, history, no trend": 6.008427494405706,
+   "Boosting + IV": 5.6926412332900505,
+   "Boosting + IV, no trend": 5.686048647176389,
+   "Elastic net + IV": 5.9246413181132835,
+   "Hybrid: equation + boosted residual": 5.595478286768405,
+   "Pooled boosting + IV": 5.456363298136686,
+   "Pooled boosting + IV, no trend": 5.3224790850644546
+  },
+  "VXSLV": {
+   "Heston-style (\u221aR2)": 14.589687044404373,
+   "HAR-RV": 14.607701971722708,
+   "Two-scale, no trend": 14.525481093889193,
+   "Two-scale + trend R1": 13.138714863787776,
+   "Two-scale + downside trend": 14.292464580654988,
+   "IV regression": 12.723547605767022,
+   "IV + two-scale": 12.88806632975743,
+   "IV + two-scale + trend R1": 12.034105947929346,
+   "IV + two-scale + downside trend": 12.550110530001737,
+   "GARCH(1,1)": 15.049122088840171,
+   "Boosting, history": 13.675503383573155,
+   "Boosting, history, no trend": 15.026104057179973,
+   "Boosting + IV": 13.661557222523127,
+   "Boosting + IV, no trend": 14.177340224436078,
+   "Elastic net + IV": 12.113985975348902,
+   "Hybrid: equation + boosted residual": 12.832519762668488,
+   "Pooled boosting + IV": 11.549784189963924,
+   "Pooled boosting + IV, no trend": 12.716083544278833
+  },
+  "OVX": {
+   "Heston-style (\u221aR2)": 16.379825519052236,
+   "HAR-RV": 15.199526473323798,
+   "Two-scale, no trend": 15.59863827811308,
+   "Two-scale + trend R1": 15.830095899168176,
+   "Two-scale + downside trend": 15.58275068574467,
+   "IV regression": 14.411971881172708,
+   "IV + two-scale": 14.445801807716013,
+   "IV + two-scale + trend R1": 14.49885222451546,
+   "IV + two-scale + downside trend": 14.578874636406594,
+   "GARCH(1,1)": 16.040379499466138,
+   "Boosting, history": 16.50386669749923,
+   "Boosting, history, no trend": 17.838500125358355,
+   "Boosting + IV": 16.037386256143915,
+   "Boosting + IV, no trend": 16.8202684713017,
+   "Elastic net + IV": 14.53426094310077,
+   "Hybrid: equation + boosted residual": 14.834353155592025,
+   "Pooled boosting + IV": 15.167026253189542,
+   "Pooled boosting + IV, no trend": 14.785377178910112
+  },
+  "VXGDX": {
+   "Heston-style (\u221aR2)": 16.423161184837948,
+   "HAR-RV": 16.478595229308315,
+   "Two-scale, no trend": 16.09876134039393,
+   "Two-scale + trend R1": 16.121283072587442,
+   "Two-scale + downside trend": 16.065094664730488,
+   "IV regression": 14.681006808833985,
+   "IV + two-scale": 15.006402343795388,
+   "IV + two-scale + trend R1": 15.054554180172323,
+   "IV + two-scale + downside trend": 15.058060396852587,
+   "GARCH(1,1)": 16.561172217890025,
+   "Boosting, history": 15.519257266086681,
+   "Boosting, history, no trend": 15.856282742885416,
+   "Boosting + IV": 15.305725834548534,
+   "Boosting + IV, no trend": 15.658932971984111,
+   "Elastic net + IV": 15.673281614958615,
+   "Hybrid: equation + boosted residual": 15.063071444970374,
+   "Pooled boosting + IV": 14.375207027639576,
+   "Pooled boosting + IV, no trend": 14.714147486460089
+  },
+  "VXTLT": {
+   "Heston-style (\u221aR2)": 4.89757240044966,
+   "HAR-RV": 4.910539815633626,
+   "Two-scale, no trend": 4.890359502572108,
+   "Two-scale + trend R1": 4.896259904659841,
+   "Two-scale + downside trend": 4.891315413826863,
+   "IV regression": 4.3438283247225264,
+   "IV + two-scale": 4.450273967752256,
+   "IV + two-scale + trend R1": 4.429666462946121,
+   "IV + two-scale + downside trend": 4.4448823160685675,
+   "GARCH(1,1)": 4.868793694705138,
+   "Boosting, history": 4.9429476138305555,
+   "Boosting, history, no trend": 5.042015622849666,
+   "Boosting + IV": 4.83345515785686,
+   "Boosting + IV, no trend": 4.917091862748994,
+   "Elastic net + IV": 4.4489247710161495,
+   "Hybrid: equation + boosted residual": 4.502393546465604,
+   "Pooled boosting + IV": 4.6431945602560045,
+   "Pooled boosting + IV, no trend": 4.402759738537934
+  },
+  "VXAPL": {
+   "Heston-style (\u221aR2)": 11.15001009349341,
+   "HAR-RV": 10.791325824641575,
+   "Two-scale, no trend": 10.84380383110685,
+   "Two-scale + trend R1": 10.851796458842951,
+   "Two-scale + downside trend": 10.726628194092827,
+   "IV regression": 9.632779725615812,
+   "IV + two-scale": 9.574263095943719,
+   "IV + two-scale + trend R1": 9.602968134926417,
+   "IV + two-scale + downside trend": 9.554431001210721,
+   "GARCH(1,1)": 13.417100927140654,
+   "Boosting, history": 10.915144240997824,
+   "Boosting, history, no trend": 11.168480827950624,
+   "Boosting + IV": 10.137092812654405,
+   "Boosting + IV, no trend": 10.082120882245984,
+   "Elastic net + IV": 9.764928637744298,
+   "Hybrid: equation + boosted residual": 9.817964672253796,
+   "Pooled boosting + IV": 9.703427228232156,
+   "Pooled boosting + IV, no trend": 9.827203136566972
+  },
+  "VXAZN": {
+   "Heston-style (\u221aR2)": 12.664428670888347,
+   "HAR-RV": 12.740842892193083,
+   "Two-scale, no trend": 12.701983809589635,
+   "Two-scale + trend R1": 12.386519038373969,
+   "Two-scale + downside trend": 12.345084436798047,
+   "IV regression": 9.877548012052017,
+   "IV + two-scale": 10.021155986505349,
+   "IV + two-scale + trend R1": 10.00781123239245,
+   "IV + two-scale + downside trend": 10.017889174656942,
+   "GARCH(1,1)": 13.13555116527009,
+   "Boosting, history": 12.648297256192956,
+   "Boosting, history, no trend": 12.665649830620811,
+   "Boosting + IV": 10.528375065680454,
+   "Boosting + IV, no trend": 10.549395149382335,
+   "Elastic net + IV": 10.014698414994804,
+   "Hybrid: equation + boosted residual": 10.468315838236022,
+   "Pooled boosting + IV": 10.021075931471302,
+   "Pooled boosting + IV, no trend": 9.914809151049484
+  },
+  "VXGOG": {
+   "Heston-style (\u221aR2)": 10.307905429720753,
+   "HAR-RV": 10.345775547036792,
+   "Two-scale, no trend": 10.33176292955324,
+   "Two-scale + trend R1": 10.120464157432133,
+   "Two-scale + downside trend": 10.086189163571973,
+   "IV regression": 8.9030079883293,
+   "IV + two-scale": 8.907615904290816,
+   "IV + two-scale + trend R1": 8.95739379093958,
+   "IV + two-scale + downside trend": 8.942442979814663,
+   "GARCH(1,1)": 10.829937842451947,
+   "Boosting, history": 10.41784820646003,
+   "Boosting, history, no trend": 10.768324751308494,
+   "Boosting + IV": 9.47350539606493,
+   "Boosting + IV, no trend": 9.658619150715484,
+   "Elastic net + IV": 8.95549117614367,
+   "Hybrid: equation + boosted residual": 9.253892203878998,
+   "Pooled boosting + IV": 9.070245504233592,
+   "Pooled boosting + IV, no trend": 8.845059449616189
+  },
+  "VXIBM": {
+   "Heston-style (\u221aR2)": 12.857000197637216,
+   "HAR-RV": 13.186746958402878,
+   "Two-scale, no trend": 12.97487612862719,
+   "Two-scale + trend R1": 13.004126123296485,
+   "Two-scale + downside trend": 13.036075236398778,
+   "IV regression": 11.031475502479202,
+   "IV + two-scale": 11.195363600347035,
+   "IV + two-scale + trend R1": 11.222360619918836,
+   "IV + two-scale + downside trend": 11.22466292936223,
+   "GARCH(1,1)": 13.714231103706362,
+   "Boosting, history": 13.132470094648763,
+   "Boosting, history, no trend": 12.97494125652752,
+   "Boosting + IV": 12.119889411486326,
+   "Boosting + IV, no trend": 11.924995157681757,
+   "Elastic net + IV": 11.218969993517595,
+   "Hybrid: equation + boosted residual": 11.586348439132182,
+   "Pooled boosting + IV": 11.09339296320955,
+   "Pooled boosting + IV, no trend": 11.055753011616629
+  },
+  "VXGS": {
+   "Heston-style (\u221aR2)": 11.933732541484783,
+   "HAR-RV": 11.938979001474243,
+   "Two-scale, no trend": 11.799252414793182,
+   "Two-scale + trend R1": 11.399932904733499,
+   "Two-scale + downside trend": 11.319870852192432,
+   "IV regression": 10.630301313100823,
+   "IV + two-scale": 10.727173430210618,
+   "IV + two-scale + trend R1": 10.781404378075793,
+   "IV + two-scale + downside trend": 10.791005673009069,
+   "GARCH(1,1)": 12.482896942445326,
+   "Boosting, history": 12.415731469445166,
+   "Boosting, history, no trend": 12.32014855516703,
+   "Boosting + IV": 12.005903920687842,
+   "Boosting + IV, no trend": 11.59138294480444,
+   "Elastic net + IV": 10.721018621889638,
+   "Hybrid: equation + boosted residual": 11.233897361185932,
+   "Pooled boosting + IV": 11.058647013334907,
+   "Pooled boosting + IV, no trend": 10.915647692806662
+  }
+ },
+ "vol_dm": [
+  {
+   "pair": "VIX",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.005619700883107184,
+   "dm_t": 0.3987240170786661
+  },
+  {
+   "pair": "VIX",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.008988516044620315,
+   "dm_t": -1.2397253375059878
+  },
+  {
+   "pair": "VIX",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.007972426148273872,
+   "dm_t": 0.88902435823411
+  },
+  {
+   "pair": "VIX",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.0012553648073297756,
+   "dm_t": -0.273594930493721
+  },
+  {
+   "pair": "VIX",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.030014947510805592,
+   "dm_t": -2.158863943147859
+  },
+  {
+   "pair": "VIX",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.03950194042206982,
+   "dm_t": -1.9381450395630204
+  },
+  {
+   "pair": "VIX",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": -0.008960805494713552,
+   "dm_t": -1.3617979873996027
+  },
+  {
+   "pair": "VIX",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.0004050798351407498,
+   "dm_t": 0.03666675879410541
+  },
+  {
+   "pair": "VIX",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.011260792078458788,
+   "dm_t": 0.9531674506246932
+  },
+  {
+   "pair": "VIX",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.03349067576552786,
+   "dm_t": -3.5658864110032167
+  },
+  {
+   "pair": "VIX",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.018736820782206204,
+   "dm_t": 1.8505141095516946
+  },
+  {
+   "pair": "VIX",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.012506147863690018,
+   "dm_t": -1.5174931479284735
+  },
+  {
+   "pair": "VIX",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.003802801416586473,
+   "dm_t": 0.8307946785558392
+  },
+  {
+   "pair": "VIX",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.005499728612656096,
+   "dm_t": -0.21004019195833631
+  },
+  {
+   "pair": "VIX",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.0070167520940568094,
+   "dm_t": 0.955394220174463
+  },
+  {
+   "pair": "VIX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.0001799159674675447,
+   "dm_t": -0.017226649177039387
+  },
+  {
+   "pair": "VIX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.01297653138101559,
+   "dm_t": -1.8739525249836857
+  },
+  {
+   "pair": "VIX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.024416465362329838,
+   "dm_t": -1.3037117635853892
+  },
+  {
+   "pair": "VXN",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.02072114222723503,
+   "dm_t": 1.1472330517039544
+  },
+  {
+   "pair": "VXN",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.004184517761655886,
+   "dm_t": -0.738465724515274
+  },
+  {
+   "pair": "VXN",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.005042080865154335,
+   "dm_t": 1.7088459554784083
+  },
+  {
+   "pair": "VXN",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 4.1459854642722414e-05,
+   "dm_t": 0.03344596697219984
+  },
+  {
+   "pair": "VXN",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.04290647332249262,
+   "dm_t": -1.7071841797448193
+  },
+  {
+   "pair": "VXN",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.05760265530697733,
+   "dm_t": -1.4671078564058293
+  },
+  {
+   "pair": "VXN",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": -0.005076182932153799,
+   "dm_t": -0.6752592657773008
+  },
+  {
+   "pair": "VXN",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.03719719016434525,
+   "dm_t": -2.3712088457618945
+  },
+  {
+   "pair": "VXN",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.011902263588546036,
+   "dm_t": 0.7593282323704849
+  },
+  {
+   "pair": "VXN",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.04727858623405352,
+   "dm_t": -2.2179638333440628
+  },
+  {
+   "pair": "VXN",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.03430538045153195,
+   "dm_t": 2.264616097120901
+  },
+  {
+   "pair": "VXN",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.006547027523964285,
+   "dm_t": -0.739015211176472
+  },
+  {
+   "pair": "VXN",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.013357522923129219,
+   "dm_t": 3.1215149685402115
+  },
+  {
+   "pair": "VXN",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.03831930659777399,
+   "dm_t": 1.6809394389891896
+  },
+  {
+   "pair": "VXN",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.027803985660578505,
+   "dm_t": 2.6332931152438754
+  },
+  {
+   "pair": "VXN",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.017438069650140435,
+   "dm_t": -1.7231680895090982
+  },
+  {
+   "pair": "VXN",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.023571780713226107,
+   "dm_t": -1.510811993286129
+  },
+  {
+   "pair": "VXN",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.013424143503898405,
+   "dm_t": -0.996792403690878
+  },
+  {
+   "pair": "RVX",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.00795877490378509,
+   "dm_t": -1.2325611475309324
+  },
+  {
+   "pair": "RVX",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.011253863341651188,
+   "dm_t": -1.3186010093099678
+  },
+  {
+   "pair": "RVX",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 2.8723333924321966e-05,
+   "dm_t": 0.021355638219238422
+  },
+  {
+   "pair": "RVX",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.0011112015661687564,
+   "dm_t": -0.5737137521688818
+  },
+  {
+   "pair": "RVX",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.03667293711956682,
+   "dm_t": -1.1526452315734892
+  },
+  {
+   "pair": "RVX",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.03701796702442365,
+   "dm_t": -0.8468895870386267
+  },
+  {
+   "pair": "RVX",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": -0.0043816901434139905,
+   "dm_t": -0.5139207204975104
+  },
+  {
+   "pair": "RVX",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.025173372296787528,
+   "dm_t": -2.907370842748798
+  },
+  {
+   "pair": "RVX",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.04400204650188534,
+   "dm_t": 3.3940119296338556
+  },
+  {
+   "pair": "RVX",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.004859113408363692,
+   "dm_t": -0.3891772898459079
+  },
+  {
+   "pair": "RVX",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.035158445502667494,
+   "dm_t": 3.691780754462847
+  },
+  {
+   "pair": "RVX",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.000430922834097224,
+   "dm_t": 0.06967136496522194
+  },
+  {
+   "pair": "RVX",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.002111936790719851,
+   "dm_t": 0.24999650223619746
+  },
+  {
+   "pair": "RVX",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.032936880627848296,
+   "dm_t": 1.0819579318844916
+  },
+  {
+   "pair": "RVX",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.01168510158252349,
+   "dm_t": 2.487266669228616
+  },
+  {
+   "pair": "RVX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.019322806030640478,
+   "dm_t": 1.0270552508772282
+  },
+  {
+   "pair": "RVX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": 0.003946308585337846,
+   "dm_t": 0.5742883551271398
+  },
+  {
+   "pair": "RVX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.01710124115582128,
+   "dm_t": 0.39491301040028853
+  },
+  {
+   "pair": "VXD",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.014853477494321537,
+   "dm_t": 0.574121664686736
+  },
+  {
+   "pair": "VXD",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.00669165276189973,
+   "dm_t": -0.5665286120481523
+  },
+  {
+   "pair": "VXD",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.008035983324724374,
+   "dm_t": 1.0393572251117866
+  },
+  {
+   "pair": "VXD",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.0012101608584045218,
+   "dm_t": 0.26891379015580147
+  },
+  {
+   "pair": "VXD",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.05921008758161293,
+   "dm_t": -1.4106842820559782
+  },
+  {
+   "pair": "VXD",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.08540073994707553,
+   "dm_t": -1.4907118367408085
+  },
+  {
+   "pair": "VXD",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": -0.0044253710074354455,
+   "dm_t": -0.3424556718727244
+  },
+  {
+   "pair": "VXD",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.020093888729373153,
+   "dm_t": -1.5791910803617892
+  },
+  {
+   "pair": "VXD",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.07663311739613904,
+   "dm_t": 2.3488845330998323
+  },
+  {
+   "pair": "VXD",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.018193524439177742,
+   "dm_t": -1.07795299392205
+  },
+  {
+   "pair": "VXD",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.10585557344351369,
+   "dm_t": 3.071340868150205
+  },
+  {
+   "pair": "VXD",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.005917410264177185,
+   "dm_t": 0.34488431968564626
+  },
+  {
+   "pair": "VXD",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.018163287111201916,
+   "dm_t": 1.639714028051899
+  },
+  {
+   "pair": "VXD",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.11004648881938552,
+   "dm_t": 1.8906481809947584
+  },
+  {
+   "pair": "VXD",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.059348571464026494,
+   "dm_t": 3.0667797698108226
+  },
+  {
+   "pair": "VXD",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.0072042186683494575,
+   "dm_t": 0.40653385902830513
+  },
+  {
+   "pair": "VXD",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.0030590739117447832,
+   "dm_t": -0.2784733936152132
+  },
+  {
+   "pair": "VXD",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.011395134044221296,
+   "dm_t": 0.24147135849947612
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.014659155096146676,
+   "dm_t": 0.6987355574151914
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.0072788214497548805,
+   "dm_t": -0.7419366598944976
+  },
+  {
+   "pair": "VXEEM",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.003774428795201417,
+   "dm_t": 0.5436167091216011
+  },
+  {
+   "pair": "VXEEM",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.005672824674990093,
+   "dm_t": 1.8039072558743199
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.01770255213211659,
+   "dm_t": -1.9311107252598034
+  },
+  {
+   "pair": "VXEEM",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.032946578661786276,
+   "dm_t": -1.215490241310351
+  },
+  {
+   "pair": "VXEEM",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.0043233358966679476,
+   "dm_t": 1.4471939002793948
+  },
+  {
+   "pair": "VXEEM",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.014555955657582555,
+   "dm_t": -0.7851244083771147
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.04446874480592422,
+   "dm_t": 1.744698305651315
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": 0.017621544170346604,
+   "dm_t": 1.0351937880677935
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.022118977259253592,
+   "dm_t": 1.4943547280624532
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.01368907623757045,
+   "dm_t": 0.9760466051186543
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.0070332301813079215,
+   "dm_t": -0.5809372799011313
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.03506660970361662,
+   "dm_t": 1.0755773825073873
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.01890023274144267,
+   "dm_t": 1.2458472567527654
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.015219155473522915,
+   "dm_t": -1.8627134668335186
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.0034301061844436917,
+   "dm_t": -0.5352589384792118
+  },
+  {
+   "pair": "VXEEM",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.0022715230291598908,
+   "dm_t": -0.09399656512885092
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.006327261075872038,
+   "dm_t": -0.6005261001311626
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.009723252049171596,
+   "dm_t": -1.3399214844629965
+  },
+  {
+   "pair": "VXEFA",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.012040020952935236,
+   "dm_t": 1.2140863958312922
+  },
+  {
+   "pair": "VXEFA",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.009594825523638599,
+   "dm_t": 1.5712069098072439
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.040313391280127175,
+   "dm_t": -1.3722397493072838
+  },
+  {
+   "pair": "VXEFA",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.06388454577207453,
+   "dm_t": -2.259025669667544
+  },
+  {
+   "pair": "VXEFA",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": -0.003780657685483209,
+   "dm_t": -0.13067951573837355
+  },
+  {
+   "pair": "VXEFA",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.0012497049395973944,
+   "dm_t": 0.03477302796281976
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.07528224039025347,
+   "dm_t": 2.9494267753285786
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": 0.004903353769024937,
+   "dm_t": 0.36715964381002575
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.05950076377206642,
+   "dm_t": 1.7404288822975298
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.006190639409015031,
+   "dm_t": 0.3617783995083916
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.037929808044132415,
+   "dm_t": 3.958556965369833
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.08385264421394016,
+   "dm_t": 2.9350356085123033
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.021339870135741137,
+   "dm_t": 1.1774660217251314
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.02096152471800696,
+   "dm_t": -0.5002179920108137
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": 0.0003702472611831176,
+   "dm_t": 0.056720320679634964
+  },
+  {
+   "pair": "VXEFA",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.0033903557238667624,
+   "dm_t": 0.0970182501461301
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.005808243315728668,
+   "dm_t": 0.447500952490851
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.005180736847257067,
+   "dm_t": -0.8428149246703545
+  },
+  {
+   "pair": "VXFXI",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.002435539787149406,
+   "dm_t": 0.5830785898477208
+  },
+  {
+   "pair": "VXFXI",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.0022555581684331758,
+   "dm_t": 1.137769735428952
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.0012689615755941011,
+   "dm_t": 0.3540723984357322
+  },
+  {
+   "pair": "VXFXI",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.00632843412682596,
+   "dm_t": 0.639471709045508
+  },
+  {
+   "pair": "VXFXI",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.002586146279124628,
+   "dm_t": 1.8809395509839948
+  },
+  {
+   "pair": "VXFXI",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.0054476917998585485,
+   "dm_t": -0.4748492541738515
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.05075004005204481,
+   "dm_t": 4.199044599164993
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": 0.00532325916823428,
+   "dm_t": 0.6204759824525382
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.04192226143140218,
+   "dm_t": 3.4118950694713357
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.00797299401953541,
+   "dm_t": 1.1537601284562948
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.004072664296223411,
+   "dm_t": 0.5697741245470539
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.0442521777008787,
+   "dm_t": 2.728109337231327
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.04194141775210987,
+   "dm_t": 4.075854413048331
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.00019356320929115995,
+   "dm_t": -0.026937833472809137
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": 0.0030359694903714083,
+   "dm_t": 0.6261983336397567
+  },
+  {
+   "pair": "VXFXI",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.002136353060185355,
+   "dm_t": 0.11614819306779495
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.012902374454158328,
+   "dm_t": -0.7835823973637364
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.022950681431244964,
+   "dm_t": -1.0575278985466212
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.0024598570084163143,
+   "dm_t": -0.4756656128708184
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.005228655358565799,
+   "dm_t": -1.021261572321109
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.0202455276447223,
+   "dm_t": -1.0380772805867478
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.04860548629785116,
+   "dm_t": -1.218445119979739
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.007287199264609838,
+   "dm_t": 3.027990306320766
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.007332919024169964,
+   "dm_t": 0.2326416916633925
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.040051520746158954,
+   "dm_t": 2.1205402585490924
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.035071085352946556,
+   "dm_t": -1.580590434188502
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.048859580655646676,
+   "dm_t": 1.6443067727227845
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.012076449942493472,
+   "dm_t": -2.151893605393458
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.0021002972629522495,
+   "dm_t": 0.602284355355281
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.06757793619532514,
+   "dm_t": 1.32029861891793
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.03662052006821466,
+   "dm_t": 1.2937249146570644
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.004379762485549875,
+   "dm_t": 0.23214657634894445
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.0004671719845049396,
+   "dm_t": -0.07198991958737706
+  },
+  {
+   "pair": "VXEWZ",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.023098118025228327,
+   "dm_t": 0.5545185322430947
+  },
+  {
+   "pair": "GVZ",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.012198509346058555,
+   "dm_t": 0.4155634330705598
+  },
+  {
+   "pair": "GVZ",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.005805301448657398,
+   "dm_t": 0.7035672669250733
+  },
+  {
+   "pair": "GVZ",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.015238437946124913,
+   "dm_t": 0.6800416502143151
+  },
+  {
+   "pair": "GVZ",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.00788672371795659,
+   "dm_t": 0.8096994684475806
+  },
+  {
+   "pair": "GVZ",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.00040644835586486395,
+   "dm_t": -0.12310633827324854
+  },
+  {
+   "pair": "GVZ",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.002455105597917149,
+   "dm_t": 0.3355476720167765
+  },
+  {
+   "pair": "GVZ",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.003648530240428082,
+   "dm_t": 1.238845591071789
+  },
+  {
+   "pair": "GVZ",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.03479424374122384,
+   "dm_t": -2.8560078296208267
+  },
+  {
+   "pair": "GVZ",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.010005615371930876,
+   "dm_t": -0.6146063057075206
+  },
+  {
+   "pair": "GVZ",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.016201076673339403,
+   "dm_t": -0.7459667242373376
+  },
+  {
+   "pair": "GVZ",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.003383591713241721,
+   "dm_t": 0.16556697396191833
+  },
+  {
+   "pair": "GVZ",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.0066245438177452536,
+   "dm_t": -0.521696000891615
+  },
+  {
+   "pair": "GVZ",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.07371818539008874,
+   "dm_t": 2.8961548014643737
+  },
+  {
+   "pair": "GVZ",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.025883435692632843,
+   "dm_t": 2.1608080214798315
+  },
+  {
+   "pair": "GVZ",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.015531908317507608,
+   "dm_t": 1.4708545457969138
+  },
+  {
+   "pair": "GVZ",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.028731295143589533,
+   "dm_t": -1.829464819638922
+  },
+  {
+   "pair": "GVZ",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.010933911387634172,
+   "dm_t": -1.2359539405292987
+  },
+  {
+   "pair": "GVZ",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.0062314511641984064,
+   "dm_t": -0.48010311276979417
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.056902411417521816,
+   "dm_t": -2.021692236565877
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.015109924810546776,
+   "dm_t": -1.955848281818107
+  },
+  {
+   "pair": "VXSLV",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.019194274589809466,
+   "dm_t": -1.4761747707168478
+  },
+  {
+   "pair": "VXSLV",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.01075089445096979,
+   "dm_t": -1.4797352872219378
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.001326583380378141,
+   "dm_t": 0.27063868871911806
+  },
+  {
+   "pair": "VXSLV",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.01199966697826054,
+   "dm_t": -0.5030957227701889
+  },
+  {
+   "pair": "VXSLV",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.017497108048188402,
+   "dm_t": 1.2182183653134377
+  },
+  {
+   "pair": "VXSLV",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.058512586189175264,
+   "dm_t": -2.8547243681330263
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.023860154772129247,
+   "dm_t": 0.3667464153191221
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.019345242800390135,
+   "dm_t": -0.27556309402160134
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.056493822606634075,
+   "dm_t": 1.6734944260625293
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.003921433946002459,
+   "dm_t": 0.115243117513143
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.01736936786960208,
+   "dm_t": -0.7578642568118894
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.06375607233971711,
+   "dm_t": 1.1509515374662287
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.08665660327721436,
+   "dm_t": 1.5589611432860064
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.023294991793683852,
+   "dm_t": -1.5255682117249274
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.008132788874102868,
+   "dm_t": -0.7207573059168176
+  },
+  {
+   "pair": "VXSLV",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.01603274206060082,
+   "dm_t": -0.7831068000613857
+  },
+  {
+   "pair": "OVX",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.007323312143546523,
+   "dm_t": -0.29468387464489504
+  },
+  {
+   "pair": "OVX",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.037270882999378335,
+   "dm_t": -2.030518691029798
+  },
+  {
+   "pair": "OVX",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.00042403751018339325,
+   "dm_t": -0.053874996438089996
+  },
+  {
+   "pair": "OVX",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.0033036852593657322,
+   "dm_t": -0.38522935022625776
+  },
+  {
+   "pair": "OVX",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.020493933010919483,
+   "dm_t": -1.363364522630242
+  },
+  {
+   "pair": "OVX",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.030924919128335226,
+   "dm_t": -1.7218960888799388
+  },
+  {
+   "pair": "OVX",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": -0.0031345098506192427,
+   "dm_t": -0.4995310428996899
+  },
+  {
+   "pair": "OVX",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.051624157857447776,
+   "dm_t": -2.2466991764356905
+  },
+  {
+   "pair": "OVX",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.03845066587863009,
+   "dm_t": 1.2782149233711795
+  },
+  {
+   "pair": "OVX",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.06473444702402936,
+   "dm_t": -2.5331291551054664
+  },
+  {
+   "pair": "OVX",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.05273755955939436,
+   "dm_t": 1.7606749233097707
+  },
+  {
+   "pair": "OVX",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.020734160940253273,
+   "dm_t": -1.9228062358702873
+  },
+  {
+   "pair": "OVX",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.01482526161871973,
+   "dm_t": 2.9076965589017902
+  },
+  {
+   "pair": "OVX",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.06582931724376476,
+   "dm_t": 1.9846991789879633
+  },
+  {
+   "pair": "OVX",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.006881201243722068,
+   "dm_t": 0.7322460366694865
+  },
+  {
+   "pair": "OVX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.013211162588313782,
+   "dm_t": -1.3817064299122868
+  },
+  {
+   "pair": "OVX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.00014941121604096402,
+   "dm_t": -0.02305858177857627
+  },
+  {
+   "pair": "OVX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.00011940490394336779,
+   "dm_t": -0.006265170951945069
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.012455443271709813,
+   "dm_t": 1.1744436671604015
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.01456732680846113,
+   "dm_t": 0.9129626594933782
+  },
+  {
+   "pair": "VXGDX",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.007941642739476281,
+   "dm_t": 1.086644704247446
+  },
+  {
+   "pair": "VXGDX",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.011148877389041845,
+   "dm_t": 0.942153855904876
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.018401191338074774,
+   "dm_t": -1.1389308400771683
+  },
+  {
+   "pair": "VXGDX",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.02102670362484156,
+   "dm_t": -1.1486944475281617
+  },
+  {
+   "pair": "VXGDX",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.003053453780042586,
+   "dm_t": 0.6871065534765133
+  },
+  {
+   "pair": "VXGDX",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.03188764826375894,
+   "dm_t": -2.3150905185768207
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.0034984333530954912,
+   "dm_t": -0.18371774074571218
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.01643642790867491,
+   "dm_t": -1.2516248129016685
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.020668750615845784,
+   "dm_t": 1.1022171455983467
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.012508230972746231,
+   "dm_t": -0.9860451826288247
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.031084349869579517,
+   "dm_t": 2.267513510726341
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.049727790757449986,
+   "dm_t": 2.1594138890721517
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.0032055784989637828,
+   "dm_t": -0.25284361181829745
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.014751332338700912,
+   "dm_t": 0.4410126611246485
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": 0.0054624133033307955,
+   "dm_t": 0.28771150295050174
+  },
+  {
+   "pair": "VXGDX",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.04381037248030511,
+   "dm_t": 0.9608399699969767
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.0019980845858789133,
+   "dm_t": -0.5005257187631589
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.0005940167482290857,
+   "dm_t": 0.8950829643212624
+  },
+  {
+   "pair": "VXTLT",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.0010721485025049634,
+   "dm_t": -1.2183457540382603
+  },
+  {
+   "pair": "VXTLT",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.0002813005086544194,
+   "dm_t": 0.6919564279608964
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.0003386083238523387,
+   "dm_t": -0.16809896821767914
+  },
+  {
+   "pair": "VXTLT",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.003483837863961756,
+   "dm_t": -0.885302697158749
+  },
+  {
+   "pair": "VXTLT",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.004646831669597067,
+   "dm_t": 2.154665541801961
+  },
+  {
+   "pair": "VXTLT",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.03352536675748998,
+   "dm_t": -2.494125682442261
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.03621551998832909,
+   "dm_t": 1.2335983996363302
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.01971628206153439,
+   "dm_t": -1.4187921543230202
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.04657837343040178,
+   "dm_t": 2.0205773242989116
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.004758185506222881,
+   "dm_t": -0.7973703393610165
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.0011453301807477201,
+   "dm_t": -0.44122893185701795
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.0498772182518918,
+   "dm_t": 2.046059462944926
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.0015340486307115118,
+   "dm_t": -0.2323523494499861
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.02364120170068817,
+   "dm_t": 2.6570155689657917
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": 0.016453973265093055,
+   "dm_t": 2.894376937339289
+  },
+  {
+   "pair": "VXTLT",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.02694004652217818,
+   "dm_t": 1.7951995501699747
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.010867690759807763,
+   "dm_t": 0.821827316743743
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.002824675484272995,
+   "dm_t": 0.27576953961755013
+  },
+  {
+   "pair": "VXAPL",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.0036471734300051093,
+   "dm_t": 1.3462691733639698
+  },
+  {
+   "pair": "VXAPL",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.002584664483248595,
+   "dm_t": 0.4628497736796045
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.017060535024661642,
+   "dm_t": -1.8731794023367856
+  },
+  {
+   "pair": "VXAPL",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.016360574902294225,
+   "dm_t": 0.4468854591257741
+  },
+  {
+   "pair": "VXAPL",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": -0.002021268734589495,
+   "dm_t": -0.7526670061113221
+  },
+  {
+   "pair": "VXAPL",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.06474195090975259,
+   "dm_t": -3.2399093788078623
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.0018775781970772321,
+   "dm_t": 0.11774232101354111
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.01242950935327454,
+   "dm_t": -1.0241125049147677
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.023629782297227783,
+   "dm_t": 2.05463313949619
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.005153385419609877,
+   "dm_t": 0.9912274939292688
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.00868141796254831,
+   "dm_t": 1.8433484577312256
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.02294665284172225,
+   "dm_t": 1.1622864166161475
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.013404980518682618,
+   "dm_t": 1.7014142970278388
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.0043087704032931115,
+   "dm_t": -0.390826586436736
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.0025340226773259674,
+   "dm_t": -0.34036501000886504
+  },
+  {
+   "pair": "VXAPL",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.004991899858798638,
+   "dm_t": -0.5147261592234115
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.01399648928177962,
+   "dm_t": -2.066353064437164
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.016215984465768697,
+   "dm_t": -2.6452360561407495
+  },
+  {
+   "pair": "VXAZN",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.000464900243255955,
+   "dm_t": -0.42038246495906895
+  },
+  {
+   "pair": "VXAZN",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.0003137953780940348,
+   "dm_t": -0.24407424464740413
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.0015720894084954367,
+   "dm_t": 0.675570566252404
+  },
+  {
+   "pair": "VXAZN",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.007412457681984291,
+   "dm_t": 0.6656734804000269
+  },
+  {
+   "pair": "VXAZN",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": -0.0027595565910187316,
+   "dm_t": -0.32306741512274606
+  },
+  {
+   "pair": "VXAZN",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.10059897904870219,
+   "dm_t": -4.872812297954802
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.0140884796452223,
+   "dm_t": 0.9922833860308854
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": 0.001638628090440476,
+   "dm_t": 0.19878429993763
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.023861271176287776,
+   "dm_t": 3.2430832977187736
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.003434169615757942,
+   "dm_t": -0.5221385931281912
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.003041978299666032,
+   "dm_t": -0.7192933578280107
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.02600561736838209,
+   "dm_t": 2.066990818888588
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.022193117679888196,
+   "dm_t": 2.535193502389483
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.005544444623382348,
+   "dm_t": -0.6683932350924966
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": -0.0028631355145618625,
+   "dm_t": -0.6625990999419223
+  },
+  {
+   "pair": "VXAZN",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": -0.0034000984312880277,
+   "dm_t": -0.3362073275848977
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.007512025869653841,
+   "dm_t": -1.4173961563549813
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.010124152616686848,
+   "dm_t": -1.763398742751077
+  },
+  {
+   "pair": "VXGOG",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.0017343183320384713,
+   "dm_t": -0.4961751340304845
+  },
+  {
+   "pair": "VXGOG",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": -0.0010212244051079021,
+   "dm_t": -0.523845846669424
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.00034519136518487237,
+   "dm_t": 0.11189986239126405
+  },
+  {
+   "pair": "VXGOG",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.009278016424539811,
+   "dm_t": -0.3935448200418203
+  },
+  {
+   "pair": "VXGOG",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.0025131810285270763,
+   "dm_t": 0.3654103818707575
+  },
+  {
+   "pair": "VXGOG",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.06010151634707477,
+   "dm_t": -3.451413241620593
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.030325581224177698,
+   "dm_t": 1.3837188617320217
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": -0.009655475886331425,
+   "dm_t": -0.8672887994219614
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.03274063333446673,
+   "dm_t": 1.4901954142952525
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": -0.006020827547733294,
+   "dm_t": -0.8262043898806363
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.0019089056128433685,
+   "dm_t": 0.3244916356936395
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.04729561469106758,
+   "dm_t": 2.0059249815710296
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.022505518434184947,
+   "dm_t": 1.2773457411559206
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.01695232074172048,
+   "dm_t": 1.1888881673391165
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": 0.010869221356310434,
+   "dm_t": 2.2364367090081867
+  },
+  {
+   "pair": "VXGOG",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.03150730209832131,
+   "dm_t": 1.7028765661424885
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.004249740051188302,
+   "dm_t": 1.1011085236531017
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": 0.006730235794592664,
+   "dm_t": 1.5297017423975594
+  },
+  {
+   "pair": "VXIBM",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.002795398677153479,
+   "dm_t": 0.6444030700462808
+  },
+  {
+   "pair": "VXIBM",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.0033371388265681983,
+   "dm_t": 0.8419698976985093
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": 0.004986196180883881,
+   "dm_t": 0.4428234002529707
+  },
+  {
+   "pair": "VXIBM",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.05893677316433505,
+   "dm_t": -1.0026354256150647
+  },
+  {
+   "pair": "VXIBM",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.019495960039152636,
+   "dm_t": 1.9323682816182808
+  },
+  {
+   "pair": "VXIBM",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.1623684906148718,
+   "dm_t": -4.291135975651553
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.05614702168476403,
+   "dm_t": 1.7121494796944596
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": 0.015611120627015956,
+   "dm_t": 1.2968238060514727
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.057767762499044084,
+   "dm_t": 1.661232395953078
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.01828752285073824,
+   "dm_t": 1.7234952614090404
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.0010392149346217527,
+   "dm_t": -0.10727316235040314
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.09549446602454006,
+   "dm_t": 1.8600209165824726
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.026672250276795186,
+   "dm_t": 2.098683454221494
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.01404801341422713,
+   "dm_t": -1.0057218022981567
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": 0.010318176407075668,
+   "dm_t": 1.2346927564342387
+  },
+  {
+   "pair": "VXIBM",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.023678690111268857,
+   "dm_t": 0.8814290850115413
+  },
+  {
+   "pair": "VXGS",
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.025554275267595513,
+   "dm_t": -1.576974184114561
+  },
+  {
+   "pair": "VXGS",
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "dqlike": -0.025110713813079028,
+   "dm_t": -1.4020696041217915
+  },
+  {
+   "pair": "VXGS",
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.006339917689298013,
+   "dm_t": 2.130371778917472
+  },
+  {
+   "pair": "VXGS",
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "dqlike": 0.0072675646109097705,
+   "dm_t": 1.9373545072472134
+  },
+  {
+   "pair": "VXGS",
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.013926083495864973,
+   "dm_t": -1.0652923095498863
+  },
+  {
+   "pair": "VXGS",
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "dqlike": -0.024509925645206126,
+   "dm_t": -0.9123165747654848
+  },
+  {
+   "pair": "VXGS",
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "dqlike": 0.0076771881962081215,
+   "dm_t": 2.0204947469746677
+  },
+  {
+   "pair": "VXGS",
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": -0.029352832917830054,
+   "dm_t": -2.420586930868944
+  },
+  {
+   "pair": "VXGS",
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "dqlike": 0.08081512000469619,
+   "dm_t": 2.3482792189665957
+  },
+  {
+   "pair": "VXGS",
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "dqlike": 0.02941465704135448,
+   "dm_t": 1.829936725292485
+  },
+  {
+   "pair": "VXGS",
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.060355607362249604,
+   "dm_t": 2.7665250860685404
+  },
+  {
+   "pair": "VXGS",
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "dqlike": 0.03504288373025283,
+   "dm_t": 2.1535904112205877
+  },
+  {
+   "pair": "VXGS",
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": -0.016460326795692426,
+   "dm_t": -2.01736727186306
+  },
+  {
+   "pair": "VXGS",
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.09116999999632067,
+   "dm_t": 1.9929163867052317
+  },
+  {
+   "pair": "VXGS",
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.048522636344120226,
+   "dm_t": 2.6200177024009785
+  },
+  {
+   "pair": "VXGS",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "dqlike": 0.005181372134946317,
+   "dm_t": 0.7495927682857352
+  },
+  {
+   "pair": "VXGS",
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "dqlike": 0.015510149717854959,
+   "dm_t": 2.3624220590361906
+  },
+  {
+   "pair": "VXGS",
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "dqlike": 0.035995764769017384,
+   "dm_t": 1.301682196124919
+  }
+ ],
+ "vol_pooled": [
+  {
+   "model": "Two-scale + trend R1",
+   "benchmark": "Two-scale, no trend",
+   "pooled_dqlike": -0.005143007168008126,
+   "pooled_dm_t": -1.2823437120219614,
+   "pairs_better": 9,
+   "pairs_sig_better": 2,
+   "pairs_sig_worse": 0,
+   "n_pairs": 18,
+   "years_better": 20,
+   "n_years": 33
+  },
+  {
+   "model": "Two-scale + downside trend",
+   "benchmark": "Two-scale, no trend",
+   "pooled_dqlike": -0.010587854809060757,
+   "pooled_dm_t": -2.838363679173336,
+   "pairs_better": 13,
+   "pairs_sig_better": 2,
+   "pairs_sig_worse": 0,
+   "n_pairs": 18,
+   "years_better": 22,
+   "n_years": 33
+  },
+  {
+   "model": "IV + two-scale + trend R1",
+   "benchmark": "IV + two-scale",
+   "pooled_dqlike": 0.0009111189091603946,
+   "pooled_dm_t": 0.44316940439236374,
+   "pairs_better": 6,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 1,
+   "n_pairs": 18,
+   "years_better": 14,
+   "n_years": 33
+  },
+  {
+   "model": "IV + two-scale + downside trend",
+   "benchmark": "IV + two-scale",
+   "pooled_dqlike": -0.0010179947275947006,
+   "pooled_dm_t": -0.5653865798957517,
+   "pairs_better": 7,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 0,
+   "n_pairs": 18,
+   "years_better": 15,
+   "n_years": 33
+  },
+  {
+   "model": "Two-scale, no trend",
+   "benchmark": "Heston-style (\u221aR2)",
+   "pooled_dqlike": -0.011189358494601129,
+   "pooled_dm_t": -1.9366858843592303,
+   "pairs_better": 13,
+   "pairs_sig_better": 1,
+   "pairs_sig_worse": 0,
+   "n_pairs": 18,
+   "years_better": 18,
+   "n_years": 33
+  },
+  {
+   "model": "GARCH(1,1)",
+   "benchmark": "Heston-style (\u221aR2)",
+   "pooled_dqlike": -0.016734454221013474,
+   "pooled_dm_t": -1.497940704103572,
+   "pairs_better": 14,
+   "pairs_sig_better": 1,
+   "pairs_sig_worse": 0,
+   "n_pairs": 18,
+   "years_better": 16,
+   "n_years": 33
+  },
+  {
+   "model": "IV + two-scale",
+   "benchmark": "IV regression",
+   "pooled_dqlike": -0.0009571967321665614,
+   "pooled_dm_t": -0.37722383038944285,
+   "pairs_better": 8,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 3,
+   "n_pairs": 18,
+   "years_better": 14,
+   "n_years": 33
+  },
+  {
+   "model": "IV regression",
+   "benchmark": "Two-scale + downside trend",
+   "pooled_dqlike": -0.019426774787692763,
+   "pooled_dm_t": -3.1238010700390046,
+   "pairs_better": 15,
+   "pairs_sig_better": 12,
+   "pairs_sig_worse": 0,
+   "n_pairs": 18,
+   "years_better": 25,
+   "n_years": 33
+  },
+  {
+   "model": "Boosting, history",
+   "benchmark": "Two-scale + downside trend",
+   "pooled_dqlike": 0.04055089544211233,
+   "pooled_dm_t": 3.3604380856752534,
+   "pairs_better": 2,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 6,
+   "n_pairs": 18,
+   "years_better": 11,
+   "n_years": 33
+  },
+  {
+   "model": "Boosting, history",
+   "benchmark": "Boosting, history, no trend",
+   "pooled_dqlike": -0.01943104663541996,
+   "pooled_dm_t": -3.3959868546870315,
+   "pairs_better": 12,
+   "pairs_sig_better": 3,
+   "pairs_sig_worse": 0,
+   "n_pairs": 18,
+   "years_better": 24,
+   "n_years": 33
+  },
+  {
+   "model": "Boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "pooled_dqlike": 0.042974084495272735,
+   "pooled_dm_t": 3.8599213035638873,
+   "pairs_better": 0,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 8,
+   "n_pairs": 18,
+   "years_better": 8,
+   "n_years": 33
+  },
+  {
+   "model": "Boosting + IV",
+   "benchmark": "Boosting + IV, no trend",
+   "pooled_dqlike": -0.00761261432943406,
+   "pooled_dm_t": -1.7484048130735466,
+   "pairs_better": 9,
+   "pairs_sig_better": 1,
+   "pairs_sig_worse": 1,
+   "n_pairs": 18,
+   "years_better": 21,
+   "n_years": 33
+  },
+  {
+   "model": "Elastic net + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "pooled_dqlike": 0.0107694397084692,
+   "pooled_dm_t": 3.03586298434806,
+   "pairs_better": 6,
+   "pairs_sig_better": 1,
+   "pairs_sig_worse": 5,
+   "n_pairs": 18,
+   "years_better": 9,
+   "n_years": 33
+  },
+  {
+   "model": "Boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "pooled_dqlike": 0.022554046560177586,
+   "pooled_dm_t": 1.2208148078478906,
+   "pairs_better": 1,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 9,
+   "n_pairs": 18,
+   "years_better": 16,
+   "n_years": 33
+  },
+  {
+   "model": "Hybrid: equation + boosted residual",
+   "benchmark": "IV + two-scale + downside trend",
+   "pooled_dqlike": 0.019290048603113834,
+   "pooled_dm_t": 4.238206766519324,
+   "pairs_better": 2,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 7,
+   "n_pairs": 18,
+   "years_better": 9,
+   "n_years": 33
+  },
+  {
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV + two-scale + downside trend",
+   "pooled_dqlike": 0.00808846690677204,
+   "pooled_dm_t": 1.6399476512554982,
+   "pairs_better": 11,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 1,
+   "n_pairs": 18,
+   "years_better": 14,
+   "n_years": 33
+  },
+  {
+   "model": "Pooled boosting + IV",
+   "benchmark": "Pooled boosting + IV, no trend",
+   "pooled_dqlike": -0.0001562187739786108,
+   "pooled_dm_t": -0.03918347731035226,
+   "pairs_better": 10,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 3,
+   "n_pairs": 18,
+   "years_better": 17,
+   "n_years": 33
+  },
+  {
+   "model": "Pooled boosting + IV",
+   "benchmark": "IV\u00b2 (raw)",
+   "pooled_dqlike": -0.012331571028323114,
+   "pooled_dm_t": -0.8082486150906282,
+   "pairs_better": 8,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 0,
+   "n_pairs": 18,
+   "years_better": 22,
+   "n_years": 33
+  }
+ ],
+ "vol_avg_qlike": {
+  "IV\u00b2 (raw)": 0.2509670454654952,
+  "IV regression": 0.25837695508585706,
+  "Pooled boosting + IV": 0.2591984704475061,
+  "Pooled boosting + IV, no trend": 0.25931799680628637,
+  "IV + two-scale": 0.26049856019714146,
+  "IV + two-scale + downside trend": 0.26207057560774627,
+  "IV + two-scale + trend R1": 0.2632731289473199,
+  "Elastic net + IV": 0.27127429727647334,
+  "Hybrid: equation + boosted residual": 0.287753077855587,
+  "GARCH(1,1)": 0.29649811185709585,
+  "Two-scale + downside trend": 0.2984318532800996,
+  "Boosting + IV, no trend": 0.3028082663251179,
+  "Boosting + IV": 0.3034414066018064,
+  "Two-scale + trend R1": 0.3045718664775448,
+  "Two-scale, no trend": 0.30674086128612754,
+  "HAR-RV": 0.30820924822895107,
+  "Heston-style (\u221aR2)": 0.32386273318780234,
+  "Boosting, history": 0.3330222331817335,
+  "Boosting, history, no trend": 0.3454055045173573
+ },
+ "ml_importance": [
+  {
+   "pair": "VIX",
+   "Boosting, history | history": 0.0590957533259611,
+   "Boosting, history | trend": 0.08429273498177252,
+   "Boosting + IV | history": -0.012794448922968937,
+   "Boosting + IV | trend": 0.048235850602719184,
+   "Boosting + IV | implied": -0.0001814871513135283
+  },
+  {
+   "pair": "VXN",
+   "Boosting, history | history": 0.06371338225810061,
+   "Boosting, history | trend": 0.052015514575689925,
+   "Boosting + IV | history": 0.017652613573276334,
+   "Boosting + IV | trend": 0.012704318468146198,
+   "Boosting + IV | implied": 0.061764460340062395
+  },
+  {
+   "pair": "RVX",
+   "Boosting, history | history": -0.0076391372042783345,
+   "Boosting, history | trend": 0.03408810325876511,
+   "Boosting + IV | history": -0.0176673750698821,
+   "Boosting + IV | trend": -0.0013468877810380807,
+   "Boosting + IV | implied": 0.013119921100906276
+  },
+  {
+   "pair": "VXD",
+   "Boosting, history | history": 0.03032598708125666,
+   "Boosting, history | trend": 0.02918964161306393,
+   "Boosting + IV | history": -0.01250732112669921,
+   "Boosting + IV | trend": -0.008288677491870655,
+   "Boosting + IV | implied": 0.020102606788737595
+  },
+  {
+   "pair": "VXEEM",
+   "Boosting, history | history": -0.01803480006248221,
+   "Boosting, history | trend": 0.009252800698406068,
+   "Boosting + IV | history": -0.014303276589511749,
+   "Boosting + IV | trend": -0.026433623962757998,
+   "Boosting + IV | implied": 0.007359183040953671
+  },
+  {
+   "pair": "VXEFA",
+   "Boosting, history | history": -0.02655448526633946,
+   "Boosting, history | trend": 0.0075311842590812805,
+   "Boosting + IV | history": -0.04501353180956558,
+   "Boosting + IV | trend": -0.003395066375906654,
+   "Boosting + IV | implied": -0.03606147346387093
+  },
+  {
+   "pair": "VXFXI",
+   "Boosting, history | history": -0.023410464016306042,
+   "Boosting, history | trend": -0.0033821202914369177,
+   "Boosting + IV | history": -0.023458105678192644,
+   "Boosting + IV | trend": -0.009735354681452172,
+   "Boosting + IV | implied": 0.006698391891679311
+  },
+  {
+   "pair": "VXEWZ",
+   "Boosting, history | history": 0.020067192144961474,
+   "Boosting, history | trend": 0.03510606724246665,
+   "Boosting + IV | history": -0.003612828816397664,
+   "Boosting + IV | trend": -0.004993090758477468,
+   "Boosting + IV | implied": -0.03644866240199378
+  },
+  {
+   "pair": "GVZ",
+   "Boosting, history | history": 0.0024355381000348304,
+   "Boosting, history | trend": 0.048316028690130255,
+   "Boosting + IV | history": -0.011052121682179958,
+   "Boosting + IV | trend": 0.03340375754451744,
+   "Boosting + IV | implied": 0.014801245497199309
+  },
+  {
+   "pair": "VXSLV",
+   "Boosting, history | history": -0.060234023086937497,
+   "Boosting, history | trend": 0.06101884254380235,
+   "Boosting + IV | history": -0.035417787036422094,
+   "Boosting + IV | trend": 0.030273887420193445,
+   "Boosting + IV | implied": -0.008648539644267398
+  },
+  {
+   "pair": "OVX",
+   "Boosting, history | history": 0.03833328942126206,
+   "Boosting, history | trend": 0.08341660154441352,
+   "Boosting + IV | history": 0.020280851853956474,
+   "Boosting + IV | trend": 0.0675090935861987,
+   "Boosting + IV | implied": 0.08707444656370517
+  },
+  {
+   "pair": "VXGDX",
+   "Boosting, history | history": -0.04009895439825799,
+   "Boosting, history | trend": -0.001623697946429495,
+   "Boosting + IV | history": -0.03230905263649739,
+   "Boosting + IV | trend": 0.005096134929285666,
+   "Boosting + IV | implied": -0.041931940975502735
+  },
+  {
+   "pair": "VXTLT",
+   "Boosting, history | history": 0.0219363670900922,
+   "Boosting, history | trend": 0.02211046852970986,
+   "Boosting + IV | history": -0.002965262656481239,
+   "Boosting + IV | trend": 0.007679016316097348,
+   "Boosting + IV | implied": 0.029145957992437986
+  },
+  {
+   "pair": "VXAPL",
+   "Boosting, history | history": 0.020396640968930055,
+   "Boosting, history | trend": 0.06702084561206763,
+   "Boosting + IV | history": 0.010425913851362446,
+   "Boosting + IV | trend": 0.007842324436286028,
+   "Boosting + IV | implied": 0.09351484454492345
+  },
+  {
+   "pair": "VXAZN",
+   "Boosting, history | history": 0.022615573602853312,
+   "Boosting, history | trend": -0.003869372816013737,
+   "Boosting + IV | history": -0.0005519824851748921,
+   "Boosting + IV | trend": -0.0032301599477276175,
+   "Boosting + IV | implied": 0.17292308860788333
+  },
+  {
+   "pair": "VXGOG",
+   "Boosting, history | history": -0.01620932005826941,
+   "Boosting, history | trend": 0.02134593830504592,
+   "Boosting + IV | history": -0.0011030605029020016,
+   "Boosting + IV | trend": 0.006076273916432107,
+   "Boosting + IV | implied": 0.08979615743826858
+  },
+  {
+   "pair": "VXIBM",
+   "Boosting, history | history": 0.004710146903630473,
+   "Boosting, history | trend": 0.02381617846283189,
+   "Boosting + IV | history": -0.0037313500235833606,
+   "Boosting + IV | trend": 0.007363921299721752,
+   "Boosting + IV | implied": 0.14936098697482705
+  },
+  {
+   "pair": "VXGS",
+   "Boosting, history | history": -0.028857279758436483,
+   "Boosting, history | trend": 0.03714494662041303,
+   "Boosting + IV | history": -0.028499137255903865,
+   "Boosting + IV | trend": -0.01428326863592627,
+   "Boosting + IV | implied": 0.022100256248995816
+  }
+ ],
+ "trend_coef_last_fit": [
+  {
+   "pair": "VIX",
+   "R1neg_no_iv": 0.08393050643210798,
+   "R1neg_with_iv": 0.052241021212260826,
+   "R1_no_iv": -0.047461780319523666,
+   "R1_with_iv": -0.025900622326162654
+  },
+  {
+   "pair": "VXN",
+   "R1neg_no_iv": 0.06999975122076842,
+   "R1neg_with_iv": 0.02345521692041505,
+   "R1_no_iv": -0.02985838431985117,
+   "R1_with_iv": -0.0005695035454906465
+  },
+  {
+   "pair": "RVX",
+   "R1neg_no_iv": 0.06521289957554657,
+   "R1neg_with_iv": 0.032932563738692536,
+   "R1_no_iv": -0.032401591397916124,
+   "R1_with_iv": -0.012204559668804564
+  },
+  {
+   "pair": "VXD",
+   "R1neg_no_iv": 0.0891866511148846,
+   "R1neg_with_iv": 0.05260985889435999,
+   "R1_no_iv": -0.04418261936045216,
+   "R1_with_iv": -0.016869566458107464
+  },
+  {
+   "pair": "VXEEM",
+   "R1neg_no_iv": 0.06451838639479504,
+   "R1neg_with_iv": 0.01871217491136569,
+   "R1_no_iv": -0.03712449154393539,
+   "R1_with_iv": -0.011713822807696969
+  },
+  {
+   "pair": "VXEFA",
+   "R1neg_no_iv": 0.0754487562902902,
+   "R1neg_with_iv": 0.0548283617820829,
+   "R1_no_iv": -0.04415168539050459,
+   "R1_with_iv": -0.02957840992560011
+  },
+  {
+   "pair": "VXFXI",
+   "R1neg_no_iv": 0.05177429486399793,
+   "R1neg_with_iv": 0.010976235212970979,
+   "R1_no_iv": -0.025843240798984226,
+   "R1_with_iv": -0.0052185902298458944
+  },
+  {
+   "pair": "VXEWZ",
+   "R1neg_no_iv": 0.05285329832962941,
+   "R1neg_with_iv": 0.03838303180900926,
+   "R1_no_iv": -0.025670224806993908,
+   "R1_with_iv": -0.017666711429435992
+  },
+  {
+   "pair": "GVZ",
+   "R1neg_no_iv": -0.02085973657500777,
+   "R1neg_with_iv": -0.025142581178385155,
+   "R1_no_iv": 0.028538890573563458,
+   "R1_with_iv": 0.021427781104247888
+  },
+  {
+   "pair": "VXSLV",
+   "R1neg_no_iv": -0.025625709199220196,
+   "R1neg_with_iv": -0.03282423942446204,
+   "R1_no_iv": 0.03370340720453041,
+   "R1_with_iv": 0.028221684356326278
+  },
+  {
+   "pair": "OVX",
+   "R1neg_no_iv": 0.050415807811652336,
+   "R1neg_with_iv": 0.027494740491964955,
+   "R1_no_iv": -0.030083879292768973,
+   "R1_with_iv": -0.018130703351740808
+  },
+  {
+   "pair": "VXGDX",
+   "R1neg_no_iv": 0.02215934352876268,
+   "R1neg_with_iv": 0.011199821791288011,
+   "R1_no_iv": -0.006062422255656695,
+   "R1_with_iv": -0.0021695237561969393
+  },
+  {
+   "pair": "VXTLT",
+   "R1neg_no_iv": 0.01588212302392994,
+   "R1neg_with_iv": -0.007056051699288296,
+   "R1_no_iv": 0.002291756265106966,
+   "R1_with_iv": 0.007659225939177275
+  },
+  {
+   "pair": "VXAPL",
+   "R1neg_no_iv": 0.05524368816911482,
+   "R1neg_with_iv": 0.026989932820494607,
+   "R1_no_iv": -0.020412727996550768,
+   "R1_with_iv": -0.005572962657778748
+  },
+  {
+   "pair": "VXAZN",
+   "R1neg_no_iv": 0.05880114043379577,
+   "R1neg_with_iv": 0.01986658190806774,
+   "R1_no_iv": -0.029355842963326356,
+   "R1_with_iv": -0.008407228138832944
+  },
+  {
+   "pair": "VXGOG",
+   "R1neg_no_iv": 0.05509685101251273,
+   "R1neg_with_iv": 0.007289523929611853,
+   "R1_no_iv": -0.02464496683413925,
+   "R1_with_iv": -0.003601107616211915
+  },
+  {
+   "pair": "VXIBM",
+   "R1neg_no_iv": 0.017565954698330624,
+   "R1neg_with_iv": -0.0022115366677543237,
+   "R1_no_iv": -0.0060438841434750715,
+   "R1_with_iv": 0.006409582175684103
+  },
+  {
+   "pair": "VXGS",
+   "R1neg_no_iv": 0.07493193988835554,
+   "R1neg_with_iv": 0.022752171408339402,
+   "R1_no_iv": -0.035869661998053165,
+   "R1_with_iv": -0.00907179282845448
+  }
+ ],
+ "varswap_pairs": [
+  {
+   "pair": "VIX",
+   "rule": "Always short",
+   "sharpe": 0.6856813735562814,
+   "mean_pnl": 2.027182033836804,
+   "worst": -262.2750263044512,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.5488106072761187,
+   "mean_pnl": 1.55324728676962,
+   "worst": -262.2750263044512,
+   "pct_traded": 84.39397619625942,
+   "vs_always_t": -5.377416478197541
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.8381563023413948,
+   "mean_pnl": 1.8990108408111923,
+   "worst": -262.2750263044512,
+   "pct_traded": 82.88802526111246,
+   "vs_always_t": -0.7761817269319071
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.6733666790157304,
+   "mean_pnl": 1.8008472583820951,
+   "worst": -262.2750263044512,
+   "pct_traded": 88.46247267427738,
+   "vs_always_t": -2.524195868346417
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.7034253897296072,
+   "mean_pnl": 1.9383492614074387,
+   "worst": -262.2750263044512,
+   "pct_traded": 92.1423366529026,
+   "vs_always_t": -0.9701032876477608
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.6959379700334197,
+   "mean_pnl": 1.9331995648334315,
+   "worst": -262.2750263044512,
+   "pct_traded": 92.50667962108331,
+   "vs_always_t": -1.063569936473922
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.7631561832347767,
+   "mean_pnl": 1.9167683006483247,
+   "worst": -262.2750263044512,
+   "pct_traded": 86.90794267670634,
+   "vs_always_t": -1.0135325804460433
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.70959073364559,
+   "mean_pnl": 2.007169206264847,
+   "worst": -262.2750263044512,
+   "pct_traded": 91.06145251396647,
+   "vs_always_t": -0.21889140986137404
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.703602349298887,
+   "mean_pnl": 2.0169207406619347,
+   "worst": -262.2750263044512,
+   "pct_traded": 95.0449356327423,
+   "vs_always_t": -0.1534557907001034
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.6922998424606908,
+   "mean_pnl": 1.982903533039194,
+   "worst": -262.2750263044512,
+   "pct_traded": 94.38911829001701,
+   "vs_always_t": -0.7562973030402932
+  },
+  {
+   "pair": "VIX",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.6880742865941877,
+   "mean_pnl": 2.011367722434226,
+   "worst": -262.2750263044512,
+   "pct_traded": 97.8625212533398,
+   "vs_always_t": -0.45550681640237195
+  },
+  {
+   "pair": "VXN",
+   "rule": "Always short",
+   "sharpe": 0.24804321788313652,
+   "mean_pnl": 0.7423428943724576,
+   "worst": -200.6752319188676,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.059537973741006146,
+   "mean_pnl": 0.1163899734531134,
+   "worst": -200.6752319188676,
+   "pct_traded": 64.8421662322618,
+   "vs_always_t": -3.792915285120337
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.29409907646759936,
+   "mean_pnl": 0.4064464537062227,
+   "worst": -200.6752319188676,
+   "pct_traded": 55.545902114103676,
+   "vs_always_t": -1.0413912782735681
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.16296208601775125,
+   "mean_pnl": 0.4246866260520574,
+   "worst": -200.6752319188676,
+   "pct_traded": 70.11294526498698,
+   "vs_always_t": -1.6105496453683097
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.1982313660703946,
+   "mean_pnl": 0.5182777528564289,
+   "worst": -200.6752319188676,
+   "pct_traded": 73.5881841876629,
+   "vs_always_t": -0.9130093864652379
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.21458088956209365,
+   "mean_pnl": 0.555665673326935,
+   "worst": -200.6752319188676,
+   "pct_traded": 73.35650159281784,
+   "vs_always_t": -0.698959642232089
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.19098527339515559,
+   "mean_pnl": 0.4655299968916457,
+   "worst": -200.6752319188676,
+   "pct_traded": 69.38893715609615,
+   "vs_always_t": -1.4545000743407501
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.2034152736603194,
+   "mean_pnl": 0.5175376497788468,
+   "worst": -200.6752319188676,
+   "pct_traded": 66.31914277439907,
+   "vs_always_t": -1.0821612329784112
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.28641202074170874,
+   "mean_pnl": 0.7009846265293082,
+   "worst": -192.29401778897412,
+   "pct_traded": 73.70402548508544,
+   "vs_always_t": -0.18801808593282646
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.21169936175741716,
+   "mean_pnl": 0.549021006127436,
+   "worst": -200.6752319188676,
+   "pct_traded": 77.4688676513177,
+   "vs_always_t": -1.3014825370947307
+  },
+  {
+   "pair": "VXN",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.3643435513829725,
+   "mean_pnl": 0.9583410170551483,
+   "worst": -192.29401778897412,
+   "pct_traded": 94.5264986967854,
+   "vs_always_t": 1.0532401797431572
+  },
+  {
+   "pair": "RVX",
+   "rule": "Always short",
+   "sharpe": 0.31660625263905395,
+   "mean_pnl": 1.2222041568892255,
+   "worst": -332.23492580613845,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.15142326912602888,
+   "mean_pnl": 0.5061446625993973,
+   "worst": -332.23492580613845,
+   "pct_traded": 69.28654292343387,
+   "vs_always_t": -5.800674709556864
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.5281018746254925,
+   "mean_pnl": 1.0547416648299492,
+   "worst": -332.23492580613845,
+   "pct_traded": 82.36658932714617,
+   "vs_always_t": -0.6915910203599054
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.22316127205219588,
+   "mean_pnl": 0.6500782067165148,
+   "worst": -332.23492580613845,
+   "pct_traded": 72.36078886310905,
+   "vs_always_t": -4.360913206178985
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.2023176023968912,
+   "mean_pnl": 0.7241283472879864,
+   "worst": -332.23492580613845,
+   "pct_traded": 74.15893271461717,
+   "vs_always_t": -3.4446336983833943
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.27824341803543856,
+   "mean_pnl": 0.8368397510859568,
+   "worst": -332.23492580613845,
+   "pct_traded": 73.6368909512761,
+   "vs_always_t": -2.1851306556831966
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.41619086980111575,
+   "mean_pnl": 0.8380989022841936,
+   "worst": -332.23492580613845,
+   "pct_traded": 69.25754060324826,
+   "vs_always_t": -1.2238967991282392
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.17299488127053678,
+   "mean_pnl": 0.6176562923543566,
+   "worst": -332.23492580613845,
+   "pct_traded": 68.41647331786544,
+   "vs_always_t": -4.004390738572966
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.31392600361600675,
+   "mean_pnl": 0.7902133310469548,
+   "worst": -332.23492580613845,
+   "pct_traded": 78.59628770301624,
+   "vs_always_t": -2.8310330405453428
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.37152391760696757,
+   "mean_pnl": 1.0396142410528104,
+   "worst": -332.23492580613845,
+   "pct_traded": 86.9199535962877,
+   "vs_always_t": -1.0903934501245187
+  },
+  {
+   "pair": "RVX",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.26843055392420384,
+   "mean_pnl": 1.0226159229404697,
+   "worst": -332.23492580613845,
+   "pct_traded": 95.04060324825986,
+   "vs_always_t": -3.0343380005943508
+  },
+  {
+   "pair": "VXD",
+   "rule": "Always short",
+   "sharpe": 0.28479223600240183,
+   "mean_pnl": 1.0135694232519705,
+   "worst": -280.904756796864,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.13377066033442317,
+   "mean_pnl": 0.3936149808207947,
+   "worst": -280.904756796864,
+   "pct_traded": 71.23367198838896,
+   "vs_always_t": -5.3923715999555855
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.5485429043493545,
+   "mean_pnl": 0.9388340651855671,
+   "worst": -280.904756796864,
+   "pct_traded": 81.45137880986938,
+   "vs_always_t": -0.24858391617849163
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.2877570214729216,
+   "mean_pnl": 0.6897236991401648,
+   "worst": -280.904756796864,
+   "pct_traded": 76.0232220609579,
+   "vs_always_t": -2.0612305427833375
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.206760217082291,
+   "mean_pnl": 0.6632424638618507,
+   "worst": -280.904756796864,
+   "pct_traded": 77.82293178519593,
+   "vs_always_t": -2.7944658200413093
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.20647002754937785,
+   "mean_pnl": 0.6661288876460306,
+   "worst": -280.904756796864,
+   "pct_traded": 79.12917271407838,
+   "vs_always_t": -2.7417462050091252
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.2669376101738103,
+   "mean_pnl": 0.6547674991187068,
+   "worst": -280.904756796864,
+   "pct_traded": 73.933236574746,
+   "vs_always_t": -2.5468019453925144
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.21792766138651812,
+   "mean_pnl": 0.5295155524329714,
+   "worst": -280.904756796864,
+   "pct_traded": 68.04063860667634,
+   "vs_always_t": -3.2477568793073623
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.1455159736089838,
+   "mean_pnl": 0.46093952320288234,
+   "worst": -280.904756796864,
+   "pct_traded": 78.69375907111757,
+   "vs_always_t": -6.412016545790523
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.17775843823904638,
+   "mean_pnl": 0.5606559479098847,
+   "worst": -280.904756796864,
+   "pct_traded": 82.96081277213354,
+   "vs_always_t": -5.456420131943669
+  },
+  {
+   "pair": "VXD",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.26722498716159776,
+   "mean_pnl": 0.9495528491959132,
+   "worst": -280.904756796864,
+   "pct_traded": 97.27140783744558,
+   "vs_always_t": -2.027166354970906
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Always short",
+   "sharpe": 0.24463129600016148,
+   "mean_pnl": 0.7961163221873125,
+   "worst": -211.97544830868802,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.3246925579523672,
+   "mean_pnl": 0.6104465259680883,
+   "worst": -186.8037965766526,
+   "pct_traded": 62.74643099932019,
+   "vs_always_t": -0.4307854623973428
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.405193073305795,
+   "mean_pnl": 0.6858968293839135,
+   "worst": -157.27355670516835,
+   "pct_traded": 58.735554044867435,
+   "vs_always_t": -0.20078547176197728
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.3369904274406253,
+   "mean_pnl": 0.646397785854973,
+   "worst": -186.8037965766526,
+   "pct_traded": 67.675050985724,
+   "vs_always_t": -0.3474830734436345
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.4466687906465205,
+   "mean_pnl": 0.8868249429161071,
+   "worst": -157.27355670516835,
+   "pct_traded": 72.56968048946295,
+   "vs_always_t": 0.1900199743688433
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.42698509954788433,
+   "mean_pnl": 0.836581425046344,
+   "worst": -157.27355670516835,
+   "pct_traded": 73.82732834806254,
+   "vs_always_t": 0.07906932221110893
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.4739245922921377,
+   "mean_pnl": 0.8605071292349503,
+   "worst": -157.27355670516835,
+   "pct_traded": 66.62134602311353,
+   "vs_always_t": 0.12142045612745876
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.46028488178926047,
+   "mean_pnl": 0.9034447003758093,
+   "worst": -186.8037965766526,
+   "pct_traded": 71.34602311352822,
+   "vs_always_t": 0.25784240700974925
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.2756285542100733,
+   "mean_pnl": 0.6837928259665395,
+   "worst": -207.18202417339165,
+   "pct_traded": 80.86335825968729,
+   "vs_always_t": -0.586153519508077
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.20842739473156505,
+   "mean_pnl": 0.660842867947482,
+   "worst": -211.97544830868802,
+   "pct_traded": 88.23929299796058,
+   "vs_always_t": -2.1362939346846637
+  },
+  {
+   "pair": "VXEEM",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.25161980077103946,
+   "mean_pnl": 0.7955911467306952,
+   "worst": -211.97544830868802,
+   "pct_traded": 92.65805574439156,
+   "vs_always_t": -0.0050078685844892265
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Always short",
+   "sharpe": 0.23658200542162353,
+   "mean_pnl": 0.6768996439898127,
+   "worst": -259.3548893050519,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.2266625929900841,
+   "mean_pnl": 0.3143973711820162,
+   "worst": -241.55314029397493,
+   "pct_traded": 43.95991332611051,
+   "vs_always_t": -0.8550251387111589
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.6238244552030039,
+   "mean_pnl": 0.904262974018839,
+   "worst": -216.11256785436487,
+   "pct_traded": 62.026002166847235,
+   "vs_always_t": 0.38973681812835104
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.5138861738836532,
+   "mean_pnl": 0.6372242117236568,
+   "worst": -216.11256785436487,
+   "pct_traded": 47.29144095341278,
+   "vs_always_t": -0.06684625131166558
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.4939295703010874,
+   "mean_pnl": 0.6571394616877797,
+   "worst": -216.11256785436487,
+   "pct_traded": 47.53521126760563,
+   "vs_always_t": -0.031435669992498326
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.525557616345621,
+   "mean_pnl": 0.7009650859754298,
+   "worst": -216.11256785436487,
+   "pct_traded": 48.23943661971831,
+   "vs_always_t": 0.038164276514249404
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.5476383102128926,
+   "mean_pnl": 0.6724542187232322,
+   "worst": -216.11256785436487,
+   "pct_traded": 46.96641386782232,
+   "vs_always_t": -0.007461510613294913
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.03398782314421021,
+   "mean_pnl": -0.11222173984024589,
+   "worst": -259.3548893050519,
+   "pct_traded": 49.91874322860239,
+   "vs_always_t": -5.001896135222496
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.05454031100312736,
+   "mean_pnl": -0.06474512499749711,
+   "worst": -259.3548893050519,
+   "pct_traded": 62.08017334777898,
+   "vs_always_t": -5.004968258815528
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.08968356900626336,
+   "mean_pnl": 0.08876151856025301,
+   "worst": -259.3548893050519,
+   "pct_traded": 66.41386782231852,
+   "vs_always_t": -3.5801145027073065
+  },
+  {
+   "pair": "VXEFA",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.20909630045187327,
+   "mean_pnl": 0.599210215380463,
+   "worst": -259.3548893050519,
+   "pct_traded": 95.09750812567714,
+   "vs_always_t": -1.8489888279993894
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Always short",
+   "sharpe": 0.3058386220585267,
+   "mean_pnl": 0.8595698687829924,
+   "worst": -100.75915982411865,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.5772563787114608,
+   "mean_pnl": 1.058009529653049,
+   "worst": -99.86900301317155,
+   "pct_traded": 65.94911937377691,
+   "vs_always_t": 0.5535466127794748
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.47852796452430707,
+   "mean_pnl": 0.8246767932962371,
+   "worst": -99.86900301317155,
+   "pct_traded": 61.54598825831703,
+   "vs_always_t": -0.08436214712353549
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.5278320645530147,
+   "mean_pnl": 1.005152227437017,
+   "worst": -99.86900301317155,
+   "pct_traded": 67.56360078277886,
+   "vs_always_t": 0.42954153156393954
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.46889386829261087,
+   "mean_pnl": 0.9432479133574652,
+   "worst": -99.86900301317155,
+   "pct_traded": 68.73776908023484,
+   "vs_always_t": 0.2555679557922672
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.4918959748878839,
+   "mean_pnl": 0.9733767573295888,
+   "worst": -99.86900301317155,
+   "pct_traded": 71.37964774951077,
+   "vs_always_t": 0.3843340358403722
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.5096395634574529,
+   "mean_pnl": 0.9713022674686762,
+   "worst": -99.86900301317155,
+   "pct_traded": 66.63405088062623,
+   "vs_always_t": 0.30623902196298836
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.18190800641828733,
+   "mean_pnl": 0.44914172894936655,
+   "worst": -100.75915982411865,
+   "pct_traded": 62.328767123287676,
+   "vs_always_t": -1.6826435401335227
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.11233287236464744,
+   "mean_pnl": 0.265194096280392,
+   "worst": -100.75915982411865,
+   "pct_traded": 68.59099804305285,
+   "vs_always_t": -2.6929204320135964
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.1402960322048527,
+   "mean_pnl": 0.3649524765986476,
+   "worst": -100.75915982411865,
+   "pct_traded": 78.5225048923679,
+   "vs_always_t": -2.9689734032805752
+  },
+  {
+   "pair": "VXFXI",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.2912414156494726,
+   "mean_pnl": 0.798165418199249,
+   "worst": -100.75915982411865,
+   "pct_traded": 97.21135029354208,
+   "vs_always_t": -1.0802953129965662
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Always short",
+   "sharpe": 0.09013300690017398,
+   "mean_pnl": 0.64140955172274,
+   "worst": -571.150902361374,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.31202641565333133,
+   "mean_pnl": 0.6049424026573037,
+   "worst": -524.3289068426535,
+   "pct_traded": 64.14261460101868,
+   "vs_always_t": -0.035682236017149274
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.5645498370112689,
+   "mean_pnl": 1.1889819171986062,
+   "worst": -439.49349243332466,
+   "pct_traded": 67.97962648556876,
+   "vs_always_t": 0.37440465527883116
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.3363909209537508,
+   "mean_pnl": 0.7379835469092626,
+   "worst": -524.3289068426535,
+   "pct_traded": 68.55687606112055,
+   "vs_always_t": 0.0908176730951623
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.5432607368319494,
+   "mean_pnl": 1.2854024518257239,
+   "worst": -439.49349243332466,
+   "pct_traded": 71.00169779286927,
+   "vs_always_t": 0.4472751772143359
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.6353282396485102,
+   "mean_pnl": 1.5327355660502033,
+   "worst": -426.4712600603766,
+   "pct_traded": 71.81663837011885,
+   "vs_always_t": 0.527685874502073
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.4560278625185132,
+   "mean_pnl": 1.0415054806593247,
+   "worst": -439.49349243332466,
+   "pct_traded": 69.54159592529712,
+   "vs_always_t": 0.2835502361737257
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.27428423000575636,
+   "mean_pnl": 0.5305732145680907,
+   "worst": -571.150902361374,
+   "pct_traded": 68.65874363327674,
+   "vs_always_t": -0.14548592992848092
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.4030781891372377,
+   "mean_pnl": 0.7261962384942426,
+   "worst": -571.150902361374,
+   "pct_traded": 70.83191850594227,
+   "vs_always_t": 0.09554990751269016
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.2997242241313917,
+   "mean_pnl": 0.5127026772344536,
+   "worst": -571.150902361374,
+   "pct_traded": 74.29541595925298,
+   "vs_always_t": -0.18496705719093678
+  },
+  {
+   "pair": "VXEWZ",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.07296095591783223,
+   "mean_pnl": 0.4622258621909951,
+   "worst": -571.150902361374,
+   "pct_traded": 91.17147707979628,
+   "vs_always_t": -1.772348669452268
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Always short",
+   "sharpe": 0.07200139287525237,
+   "mean_pnl": 0.15094531954518445,
+   "worst": -66.92847683112825,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.13150747068888524,
+   "mean_pnl": 0.20590867471467714,
+   "worst": -66.92847683112825,
+   "pct_traded": 59.495505943751816,
+   "vs_always_t": 0.24238528191894965
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.08261854142650604,
+   "mean_pnl": 0.11799902767496201,
+   "worst": -66.92847683112825,
+   "pct_traded": 58.944621629457814,
+   "vs_always_t": -0.15797179169908507
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.12478418350205041,
+   "mean_pnl": 0.19949289474367887,
+   "worst": -66.92847683112825,
+   "pct_traded": 59.553493766309074,
+   "vs_always_t": 0.19551260640773846
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.020874239606229365,
+   "mean_pnl": 0.027492191061591856,
+   "worst": -66.92847683112825,
+   "pct_traded": 60.249347636996234,
+   "vs_always_t": -1.124424471299016
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.046162540610027177,
+   "mean_pnl": 0.06766785709885322,
+   "worst": -66.92847683112825,
+   "pct_traded": 59.031603363293705,
+   "vs_always_t": -0.5819441833702896
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.1561901840680196,
+   "mean_pnl": 0.24602699600175335,
+   "worst": -66.92847683112825,
+   "pct_traded": 56.48013917077414,
+   "vs_always_t": 0.3748291562118944
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.29034956277011487,
+   "mean_pnl": 0.42056778779975407,
+   "worst": -59.43262879957169,
+   "pct_traded": 62.04697013627138,
+   "vs_always_t": 1.1568329053567312
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.2237975944356947,
+   "mean_pnl": 0.3569069808758469,
+   "worst": -57.83640706328884,
+   "pct_traded": 74.1374311394607,
+   "vs_always_t": 1.1916581526029049
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.1665408568084312,
+   "mean_pnl": 0.29786369146080754,
+   "worst": -66.92847683112825,
+   "pct_traded": 79.35633516961438,
+   "vs_always_t": 1.037171461870018
+  },
+  {
+   "pair": "GVZ",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.2528165529583991,
+   "mean_pnl": 0.44205479806614345,
+   "worst": -66.92847683112825,
+   "pct_traded": 88.19947810959698,
+   "vs_always_t": 1.87040938776556
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Always short",
+   "sharpe": 0.23118771083899334,
+   "mean_pnl": 1.0871786789453268,
+   "worst": -139.7963318576108,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.11633176952650476,
+   "mean_pnl": 0.44018938127398194,
+   "worst": -139.7963318576108,
+   "pct_traded": 58.80681818181818,
+   "vs_always_t": -1.9313692248914816
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.06403909089443013,
+   "mean_pnl": 0.11743434492807782,
+   "worst": -139.7963318576108,
+   "pct_traded": 51.041666666666664,
+   "vs_always_t": -1.7566417291534455
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.08135910819359224,
+   "mean_pnl": 0.3532949757659164,
+   "worst": -139.7963318576108,
+   "pct_traded": 59.84848484848485,
+   "vs_always_t": -2.684344910073158
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.06526938321963721,
+   "mean_pnl": 0.25053985703663495,
+   "worst": -139.7963318576108,
+   "pct_traded": 58.854166666666664,
+   "vs_always_t": -3.1613332868723725
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.10698006856909391,
+   "mean_pnl": 0.4092268596834026,
+   "worst": -139.7963318576108,
+   "pct_traded": 58.191287878787875,
+   "vs_always_t": -2.1039570407836963
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.14369835913371448,
+   "mean_pnl": 0.48015400594062047,
+   "worst": -139.7963318576108,
+   "pct_traded": 48.10606060606061,
+   "vs_always_t": -0.9596759426564965
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.3424077321797201,
+   "mean_pnl": 1.4072408284370914,
+   "worst": -139.7963318576108,
+   "pct_traded": 66.28787878787878,
+   "vs_always_t": 0.6197140233257932
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.3341821128809369,
+   "mean_pnl": 1.3129151411310598,
+   "worst": -139.7963318576108,
+   "pct_traded": 67.4715909090909,
+   "vs_always_t": 0.3910084692881115
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.35526601366676186,
+   "mean_pnl": 1.3878685997979787,
+   "worst": -139.7963318576108,
+   "pct_traded": 76.98863636363636,
+   "vs_always_t": 0.4965082749722551
+  },
+  {
+   "pair": "VXSLV",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.582247501364335,
+   "mean_pnl": 2.1124293751035643,
+   "worst": -139.7963318576108,
+   "pct_traded": 93.65530303030303,
+   "vs_always_t": 1.4789178604788278
+  },
+  {
+   "pair": "OVX",
+   "rule": "Always short",
+   "sharpe": 0.33789120025722197,
+   "mean_pnl": 2.1152320284029758,
+   "worst": -371.47911381859814,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.1569756018502448,
+   "mean_pnl": 0.9464705668590189,
+   "worst": -371.47911381859814,
+   "pct_traded": 68.5995940852421,
+   "vs_always_t": -4.14139329251908
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.18659714873869496,
+   "mean_pnl": 1.1111972404105883,
+   "worst": -371.47911381859814,
+   "pct_traded": 73.03566251087271,
+   "vs_always_t": -3.7655982127995964
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.20828407925923068,
+   "mean_pnl": 1.2571213657522708,
+   "worst": -371.47911381859814,
+   "pct_traded": 72.86169904320093,
+   "vs_always_t": -4.594743500505422
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.2301440158158254,
+   "mean_pnl": 1.4244862394954663,
+   "worst": -371.47911381859814,
+   "pct_traded": 75.79008408234272,
+   "vs_always_t": -2.569504805997271
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.26140273640136114,
+   "mean_pnl": 1.5870857701581629,
+   "worst": -371.47911381859814,
+   "pct_traded": 77.73267613801102,
+   "vs_always_t": -2.0006113174982856
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.23010952828420403,
+   "mean_pnl": 1.3978380952074827,
+   "worst": -371.47911381859814,
+   "pct_traded": 72.3688025514642,
+   "vs_always_t": -4.118848056035579
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.2774492487695334,
+   "mean_pnl": 1.622042432727714,
+   "worst": -371.47911381859814,
+   "pct_traded": 75.70310234850682,
+   "vs_always_t": -3.02088705723755
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.4013043931648592,
+   "mean_pnl": 1.8746138471842118,
+   "worst": -371.47911381859814,
+   "pct_traded": 77.67468831545375,
+   "vs_always_t": -0.7522616191945038
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.31110475543076077,
+   "mean_pnl": 1.6882879838025306,
+   "worst": -371.47911381859814,
+   "pct_traded": 83.64743403885184,
+   "vs_always_t": -2.118854015345724
+  },
+  {
+   "pair": "OVX",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.2680767623141058,
+   "mean_pnl": 1.618616008638444,
+   "worst": -371.47911381859814,
+   "pct_traded": 88.89533198028414,
+   "vs_always_t": -1.5272531059188728
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Always short",
+   "sharpe": -0.3453952730611254,
+   "mean_pnl": -3.191341266093032,
+   "worst": -422.2550398272233,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": -0.36363765522338154,
+   "mean_pnl": -2.2837764442267368,
+   "worst": -418.7598358472202,
+   "pct_traded": 36.154598825831705,
+   "vs_always_t": 0.633549908723034
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": -0.29319144170154604,
+   "mean_pnl": -1.6540291487390417,
+   "worst": -392.6857806391046,
+   "pct_traded": 39.87279843444227,
+   "vs_always_t": 0.8509904151440788
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": -0.3829197630816229,
+   "mean_pnl": -1.9868791590823267,
+   "worst": -392.6857806391046,
+   "pct_traded": 40.50880626223092,
+   "vs_always_t": 0.7011441087018817
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": -0.36872683944506657,
+   "mean_pnl": -2.2992338447428646,
+   "worst": -420.99681038064557,
+   "pct_traded": 46.57534246575342,
+   "vs_always_t": 0.6384803436394394
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": -0.36860583929002083,
+   "mean_pnl": -2.3815510583166986,
+   "worst": -420.99681038064557,
+   "pct_traded": 48.14090019569471,
+   "vs_always_t": 0.6262918980531567
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": -0.3386917544190698,
+   "mean_pnl": -1.9567699051739023,
+   "worst": -418.7598358472202,
+   "pct_traded": 41.14481409001957,
+   "vs_always_t": 0.7795728926249519
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": -0.035919377066824354,
+   "mean_pnl": -0.8631674231171724,
+   "worst": -384.7781262645183,
+   "pct_traded": 54.354207436399214,
+   "vs_always_t": 1.227894555221121
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": -0.12059532175134391,
+   "mean_pnl": -1.7812999471112934,
+   "worst": -391.13699126560476,
+   "pct_traded": 59.295499021526425,
+   "vs_always_t": 1.25988482672598
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": -0.2023166973048414,
+   "mean_pnl": -1.9540656744453049,
+   "worst": -390.96575866417027,
+   "pct_traded": 56.800391389432484,
+   "vs_always_t": 0.9674114464055619
+  },
+  {
+   "pair": "VXGDX",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": -0.26211577599440167,
+   "mean_pnl": -2.4379646631861163,
+   "worst": -422.2550398272233,
+   "pct_traded": 87.279843444227,
+   "vs_always_t": 1.9269594839200272
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Always short",
+   "sharpe": -0.01753201545541519,
+   "mean_pnl": -0.06364254844509129,
+   "worst": -128.67758485610622,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.08234404101748793,
+   "mean_pnl": 0.046404729573145176,
+   "worst": -128.67758485610622,
+   "pct_traded": 68.19825569027867,
+   "vs_always_t": 1.0445890993800284
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.05886228760634352,
+   "mean_pnl": 0.01352063695212701,
+   "worst": -128.67758485610622,
+   "pct_traded": 73.34609657519677,
+   "vs_always_t": 0.7800477597633517
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.05002679909619295,
+   "mean_pnl": 0.006183292362333353,
+   "worst": -128.67758485610622,
+   "pct_traded": 69.19804296958094,
+   "vs_always_t": 0.6746213236236746
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.05666739503818193,
+   "mean_pnl": 0.012449932081284943,
+   "worst": -128.67758485610622,
+   "pct_traded": 69.70857264411828,
+   "vs_always_t": 0.7357708493326872
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.04522932943335295,
+   "mean_pnl": 0.0012778194677281792,
+   "worst": -128.67758485610622,
+   "pct_traded": 69.30440331844288,
+   "vs_always_t": 0.628385513325763
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.0838425411085431,
+   "mean_pnl": 0.06626794319728617,
+   "worst": -128.67758485610622,
+   "pct_traded": 73.06955966815572,
+   "vs_always_t": 1.3081950535363709
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.2208301880564311,
+   "mean_pnl": 0.2167619068903305,
+   "worst": -128.67758485610622,
+   "pct_traded": 72.3250372261221,
+   "vs_always_t": 1.574007594735556
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.20520469025855442,
+   "mean_pnl": 0.17168696086953839,
+   "worst": -128.67758485610622,
+   "pct_traded": 77.2601574133163,
+   "vs_always_t": 1.2677869512587345
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.0840048368813836,
+   "mean_pnl": 0.04027207863104141,
+   "worst": -128.67758485610622,
+   "pct_traded": 77.74941501808127,
+   "vs_always_t": 0.6400002382332015
+  },
+  {
+   "pair": "VXTLT",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": -0.040967172057651234,
+   "mean_pnl": -0.1250661711157646,
+   "worst": -128.67758485610622,
+   "pct_traded": 84.64156562433524,
+   "vs_always_t": -0.992044855041643
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Always short",
+   "sharpe": 0.15297208717966204,
+   "mean_pnl": 0.4655853348179913,
+   "worst": -182.7314463209206,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.05932686402188666,
+   "mean_pnl": 0.13907217545802097,
+   "worst": -182.7314463209206,
+   "pct_traded": 60.74702886247878,
+   "vs_always_t": -1.3431925057731897
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.4953955109756462,
+   "mean_pnl": 0.4947898473729545,
+   "worst": -123.91220568056134,
+   "pct_traded": 28.387096774193548,
+   "vs_always_t": 0.03870911500041288
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.09796693527152664,
+   "mean_pnl": 0.26100096642496967,
+   "worst": -182.7314463209206,
+   "pct_traded": 63.1578947368421,
+   "vs_always_t": -0.926026815036323
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.15209317165959005,
+   "mean_pnl": 0.43158106897045295,
+   "worst": -182.7314463209206,
+   "pct_traded": 63.1578947368421,
+   "vs_always_t": -0.11354308947287788
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.21721105485180492,
+   "mean_pnl": 0.6054166528780256,
+   "worst": -182.7314463209206,
+   "pct_traded": 62.88624787775892,
+   "vs_always_t": 0.3993149134497882
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.15859495569230667,
+   "mean_pnl": 0.43239321231080935,
+   "worst": -177.1292767288296,
+   "pct_traded": 63.1918505942275,
+   "vs_always_t": -0.1323423326226519
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.36510333763139224,
+   "mean_pnl": 0.7507211705525592,
+   "worst": -175.1250510221431,
+   "pct_traded": 66.6893039049236,
+   "vs_always_t": 0.681382471399085
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.17713871827073602,
+   "mean_pnl": 0.46798281239180634,
+   "worst": -182.7314463209206,
+   "pct_traded": 85.09337860780984,
+   "vs_always_t": 0.008510097726477898
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.16638587719118303,
+   "mean_pnl": 0.41163747974658227,
+   "worst": -182.7314463209206,
+   "pct_traded": 87.06281833616299,
+   "vs_always_t": -0.27793758576464295
+  },
+  {
+   "pair": "VXAPL",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.1686691234840739,
+   "mean_pnl": 0.4823731440018927,
+   "worst": -182.7314463209206,
+   "pct_traded": 90.96774193548387,
+   "vs_always_t": 0.15679975179525288
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Always short",
+   "sharpe": 0.2396063102240775,
+   "mean_pnl": 0.7026463859780937,
+   "worst": -80.34797414677747,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.1204456469151044,
+   "mean_pnl": 0.26975666824000955,
+   "worst": -58.98089730518253,
+   "pct_traded": 51.528532608695656,
+   "vs_always_t": -1.1823538399611933
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.020781448225335286,
+   "mean_pnl": 0.014556364632593842,
+   "worst": -69.03020416535412,
+   "pct_traded": 43.817934782608695,
+   "vs_always_t": -1.8878524018713998
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.12043776967869697,
+   "mean_pnl": 0.27522235403170564,
+   "worst": -58.98089730518253,
+   "pct_traded": 51.29076086956522,
+   "vs_always_t": -1.1592270253113532
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.10268988349212685,
+   "mean_pnl": 0.22738177073580723,
+   "worst": -69.03020416535412,
+   "pct_traded": 52.17391304347826,
+   "vs_always_t": -1.389111072255568
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.1167617431191099,
+   "mean_pnl": 0.28121555785436897,
+   "worst": -69.03020416535412,
+   "pct_traded": 50.95108695652174,
+   "vs_always_t": -1.153168337518688
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.12663636944909157,
+   "mean_pnl": 0.29025078531075377,
+   "worst": -58.98089730518253,
+   "pct_traded": 51.29076086956522,
+   "vs_always_t": -1.0864810538831489
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": 0.15716615027992978,
+   "mean_pnl": 0.36688180982219815,
+   "worst": -62.71509679751362,
+   "pct_traded": 54.21195652173913,
+   "vs_always_t": -0.903944100790189
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": 0.22343221564513205,
+   "mean_pnl": 0.45651450514411074,
+   "worst": -80.34797414677747,
+   "pct_traded": 72.52038043478261,
+   "vs_always_t": -0.8076850373177181
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": 0.24516252948821737,
+   "mean_pnl": 0.5439322788662463,
+   "worst": -80.34797414677747,
+   "pct_traded": 77.58152173913044,
+   "vs_always_t": -0.5464926276352102
+  },
+  {
+   "pair": "VXAZN",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": 0.2506765388482778,
+   "mean_pnl": 0.704463202200735,
+   "worst": -80.34797414677747,
+   "pct_traded": 92.56114130434783,
+   "vs_always_t": 0.01914338969741218
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Always short",
+   "sharpe": -0.18537560478757042,
+   "mean_pnl": -0.7064941919898177,
+   "worst": -173.46889313611078,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": 0.04063132803831752,
+   "mean_pnl": 0.05601298711920483,
+   "worst": -136.3657090202795,
+   "pct_traded": 58.43803056027165,
+   "vs_always_t": 1.529749245542935
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": 0.12137093822813073,
+   "mean_pnl": 0.15857211815460373,
+   "worst": -104.18299712246576,
+   "pct_traded": 45.331069609507644,
+   "vs_always_t": 1.325856533590454
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": 0.048162817538376264,
+   "mean_pnl": 0.06990971445772555,
+   "worst": -136.3657090202795,
+   "pct_traded": 59.79626485568761,
+   "vs_always_t": 1.532044099648875
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": 0.09159892496318608,
+   "mean_pnl": 0.1618619513234883,
+   "worst": -136.3657090202795,
+   "pct_traded": 61.90152801358234,
+   "vs_always_t": 1.812952771005496
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": 0.0826794274259609,
+   "mean_pnl": 0.151753799495403,
+   "worst": -136.3657090202795,
+   "pct_traded": 62.41086587436333,
+   "vs_always_t": 1.8170530761992445
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": 0.0855416271598609,
+   "mean_pnl": 0.1422264392291809,
+   "worst": -114.06380331394028,
+   "pct_traded": 62.30899830220713,
+   "vs_always_t": 1.572989354399795
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": -0.0017441246573874887,
+   "mean_pnl": -0.06567479179194875,
+   "worst": -170.65128063511364,
+   "pct_traded": 60.57724957555178,
+   "vs_always_t": 1.417585693988783
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": -0.1636691690338855,
+   "mean_pnl": -0.5622671421584676,
+   "worst": -173.46889313611078,
+   "pct_traded": 72.19015280135824,
+   "vs_always_t": 0.4953687219340429
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": -0.13965837948586246,
+   "mean_pnl": -0.4403610188648519,
+   "worst": -173.46889313611078,
+   "pct_traded": 73.3446519524618,
+   "vs_always_t": 0.6205642622717398
+  },
+  {
+   "pair": "VXGOG",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": -0.2778948512077661,
+   "mean_pnl": -1.030590880888658,
+   "worst": -173.46889313611078,
+   "pct_traded": 89.03225806451613,
+   "vs_always_t": -2.621677610477433
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Always short",
+   "sharpe": -0.22191034020682845,
+   "mean_pnl": -1.06346159600218,
+   "worst": -193.83182445947557,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": -0.21087186683636436,
+   "mean_pnl": -0.9779313963440911,
+   "worst": -174.06850229243489,
+   "pct_traded": 64.86671223513328,
+   "vs_always_t": 0.17578803466302736
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": -0.10522989561665172,
+   "mean_pnl": -0.38545465715737043,
+   "worst": -141.07795506235388,
+   "pct_traded": 48.18865345181135,
+   "vs_always_t": 0.881114566240305
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": -0.17844913304695803,
+   "mean_pnl": -0.8212309702481877,
+   "worst": -174.06850229243489,
+   "pct_traded": 68.18181818181817,
+   "vs_always_t": 0.46034350571993904
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": -0.1932903598556577,
+   "mean_pnl": -0.8877742450996554,
+   "worst": -174.06850229243489,
+   "pct_traded": 69.03622693096378,
+   "vs_always_t": 0.3495132076543237
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": -0.1791190203364668,
+   "mean_pnl": -0.8356734775234651,
+   "worst": -174.06850229243489,
+   "pct_traded": 69.24128503075872,
+   "vs_always_t": 0.4497113013916726
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": -0.17941151363694222,
+   "mean_pnl": -0.8561445050902323,
+   "worst": -193.83182445947557,
+   "pct_traded": 71.32604237867396,
+   "vs_always_t": 0.44718775029996954
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": -0.1941639112183158,
+   "mean_pnl": -0.8968140176869414,
+   "worst": -193.83182445947557,
+   "pct_traded": 72.86397812713602,
+   "vs_always_t": 0.5191066273576513
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": -0.1558371661257569,
+   "mean_pnl": -0.7226595041242941,
+   "worst": -193.83182445947557,
+   "pct_traded": 79.32330827067669,
+   "vs_always_t": 0.999597455662184
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": -0.22484522627367254,
+   "mean_pnl": -1.0496605176100935,
+   "worst": -193.83182445947557,
+   "pct_traded": 82.60423786739575,
+   "vs_always_t": 0.07586107630061975
+  },
+  {
+   "pair": "VXIBM",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": -0.17287454401219055,
+   "mean_pnl": -0.8219728784181382,
+   "worst": -193.83182445947557,
+   "pct_traded": 91.38755980861244,
+   "vs_always_t": 1.2787119890438985
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Always short",
+   "sharpe": -0.07028157613668347,
+   "mean_pnl": -0.5237093180773031,
+   "worst": -326.59596804968874,
+   "pct_traded": 100.0,
+   "vs_always_t": NaN
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "sharpe": -0.08700651757745863,
+   "mean_pnl": -0.6424313003280678,
+   "worst": -326.59596804968874,
+   "pct_traded": 62.30899830220713,
+   "vs_always_t": -0.44224402378556577
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "sharpe": -0.06401460319304732,
+   "mean_pnl": -0.5424758883329163,
+   "worst": -315.56123561283397,
+   "pct_traded": 59.32088285229202,
+   "vs_always_t": -0.058357739328158464
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "sharpe": -0.08408055311131103,
+   "mean_pnl": -0.6282263159929978,
+   "worst": -326.59596804968874,
+   "pct_traded": 64.51612903225806,
+   "vs_always_t": -0.39621976047009855
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "sharpe": -0.0717221236606674,
+   "mean_pnl": -0.594301194602803,
+   "worst": -326.59596804968874,
+   "pct_traded": 69.06621392190154,
+   "vs_always_t": -0.27078925718254165
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "sharpe": -0.05305593100929579,
+   "mean_pnl": -0.5168942542740295,
+   "worst": -326.59596804968874,
+   "pct_traded": 70.93378607809846,
+   "vs_always_t": 0.026217845545669458
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "sharpe": -0.03841686048149314,
+   "mean_pnl": -0.3863682846440742,
+   "worst": -296.10824422157964,
+   "pct_traded": 65.63667232597624,
+   "vs_always_t": 0.43108517948789915
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "sharpe": -0.08707712180186297,
+   "mean_pnl": -0.6121716130932957,
+   "worst": -326.59596804968874,
+   "pct_traded": 72.93718166383701,
+   "vs_always_t": -0.45296942505827703
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "sharpe": -0.1391821853600202,
+   "mean_pnl": -0.8620924145651713,
+   "worst": -326.59596804968874,
+   "pct_traded": 82.58064516129032,
+   "vs_always_t": -2.172022109610061
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "sharpe": -0.10389061681804039,
+   "mean_pnl": -0.689939440687658,
+   "worst": -326.59596804968874,
+   "pct_traded": 87.40237691001698,
+   "vs_always_t": -1.4472777040085638
+  },
+  {
+   "pair": "VXGS",
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "sharpe": -0.1378068654296372,
+   "mean_pnl": -0.8716309467447383,
+   "worst": -326.59596804968874,
+   "pct_traded": 88.42105263157895,
+   "vs_always_t": -2.924422087971174
+  }
+ ],
+ "varswap_summary": [
+  {
+   "rule": "Always short",
+   "median_sharpe": 0.23388485813030843,
+   "mean_pnl": 0.38623515122863683,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 0
+  },
+  {
+   "rule": "Short if IV\u00b2 > Boosting + IV",
+   "median_sharpe": 0.21431845295184324,
+   "mean_pnl": 0.34954430537900577,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 5
+  },
+  {
+   "rule": "Short if IV\u00b2 > Boosting, history",
+   "median_sharpe": 0.21067146752341875,
+   "mean_pnl": 0.43273359419024066,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 4
+  },
+  {
+   "rule": "Short if IV\u00b2 > GARCH(1,1)",
+   "median_sharpe": 0.24034811260314715,
+   "mean_pnl": 0.40827563468483924,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 1
+  },
+  {
+   "rule": "Short if IV\u00b2 > HAR-RV",
+   "median_sharpe": 0.1747901145437311,
+   "mean_pnl": 0.404267143184374,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 2
+  },
+  {
+   "rule": "Short if IV\u00b2 > Heston-style (\u221aR2)",
+   "median_sharpe": 0.12597655880199482,
+   "mean_pnl": 0.1864927097468081,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 5
+  },
+  {
+   "rule": "Short if IV\u00b2 > Hybrid: equation + boosted residual",
+   "median_sharpe": 0.1721496475237388,
+   "mean_pnl": 0.3330716516204133,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 5
+  },
+  {
+   "rule": "Short if IV\u00b2 > Pooled boosting + IV",
+   "median_sharpe": 0.2511481698096586,
+   "mean_pnl": 0.42609895232136247,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 4
+  },
+  {
+   "rule": "Short if IV\u00b2 > Two-scale + downside trend",
+   "median_sharpe": 0.21052545855573573,
+   "mean_pnl": 0.4113899021008706,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 4
+  },
+  {
+   "rule": "Short if IV\u00b2 > Two-scale + trend R1",
+   "median_sharpe": 0.1751622688649923,
+   "mean_pnl": 0.3539497956366769,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 4
+  },
+  {
+   "rule": "Short if IV\u00b2 > Two-scale, no trend",
+   "median_sharpe": 0.14387313475990082,
+   "mean_pnl": 0.3098879266906016,
+   "pairs_sig_better": 0,
+   "pairs_sig_worse": 5
+  }
+ ],
+ "varswap_portfolio": {
+  "Always short": {
+   "sharpe": 0.5937206338811782,
+   "mean_pnl": 1.5600866238189115
+  },
+  "Short if IV\u00b2 > Heston-style (\u221aR2)": {
+   "sharpe": 0.6045397000970473,
+   "mean_pnl": 1.3156148558228025
+  },
+  "Short if IV\u00b2 > GARCH(1,1)": {
+   "sharpe": 0.8215368476667102,
+   "mean_pnl": 1.4721251762806788
+  },
+  "Short if IV\u00b2 > Two-scale, no trend": {
+   "sharpe": 0.6894350490133352,
+   "mean_pnl": 1.4333476487318895
+  },
+  "Short if IV\u00b2 > Two-scale + trend R1": {
+   "sharpe": 0.7051530718269381,
+   "mean_pnl": 1.4864239064883609
+  },
+  "Short if IV\u00b2 > Two-scale + downside trend": {
+   "sharpe": 0.7394665035829184,
+   "mean_pnl": 1.5292250548138677
+  },
+  "Short if IV\u00b2 > HAR-RV": {
+   "sharpe": 0.7559911260086924,
+   "mean_pnl": 1.4997853648808466
+  },
+  "Short if IV\u00b2 > Boosting, history": {
+   "sharpe": 0.6810568872511806,
+   "mean_pnl": 1.5085450263117837
+  },
+  "Short if IV\u00b2 > Boosting + IV": {
+   "sharpe": 0.6661707963842453,
+   "mean_pnl": 1.5105550350852792
+  },
+  "Short if IV\u00b2 > Hybrid: equation + boosted residual": {
+   "sharpe": 0.6405303922409316,
+   "mean_pnl": 1.5012048885429312
+  },
+  "Short if IV\u00b2 > Pooled boosting + IV": {
+   "sharpe": 0.6121190121295106,
+   "mean_pnl": 1.5630721134049128
+  }
+ }
+}

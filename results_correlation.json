@@ -1,0 +1,353 @@
+{
+ "survivorship_note": "current constituents only; delisted/removed firms are missing",
+ "static": {
+  "window": [
+   "2016-10-27",
+   "2026-10-26"
+  ],
+  "n_stocks": 469,
+  "n_days": 2512,
+  "avg_pairwise_corr": 0.32497865471787263,
+  "median_pairwise_corr": 0.3180636284598143,
+  "avg_within_sector": 0.43364447776873305,
+  "avg_cross_sector": 0.31139918622509377,
+  "clusters_vs_sectors_adjusted_rand": 0.35099836737189993,
+  "sector_table": {
+   "Energy": {
+    "n_stocks": 20.0,
+    "within": 0.6347,
+    "to_other_sectors": 0.2894
+   },
+   "Utilities": {
+    "n_stocks": 30.0,
+    "within": 0.6038,
+    "to_other_sectors": 0.2785
+   },
+   "Real Estate": {
+    "n_stocks": 28.0,
+    "within": 0.5361,
+    "to_other_sectors": 0.3369
+   },
+   "Financials": {
+    "n_stocks": 74.0,
+    "within": 0.5065,
+    "to_other_sectors": 0.3576
+   },
+   "Industrials": {
+    "n_stocks": 73.0,
+    "within": 0.4385,
+    "to_other_sectors": 0.3471
+   },
+   "Information Technology": {
+    "n_stocks": 70.0,
+    "within": 0.404,
+    "to_other_sectors": 0.2924
+   },
+   "Materials": {
+    "n_stocks": 23.0,
+    "within": 0.3967,
+    "to_other_sectors": 0.3301
+   },
+   "Consumer Discretionary": {
+    "n_stocks": 44.0,
+    "within": 0.389,
+    "to_other_sectors": 0.3216
+   },
+   "Consumer Staples": {
+    "n_stocks": 32.0,
+    "within": 0.3314,
+    "to_other_sectors": 0.244
+   },
+   "Health Care": {
+    "n_stocks": 57.0,
+    "within": 0.3292,
+    "to_other_sectors": 0.2803
+   },
+   "Communication Services": {
+    "n_stocks": 18.0,
+    "within": 0.3038,
+    "to_other_sectors": 0.2812
+   }
+  }
+ },
+ "rmt": {
+  "q_N_over_T": 0.18670382165605096,
+  "mp_lambda_max": 2.0508885742548246,
+  "mp_lambda_min": 0.3225190690572772,
+  "mp_lambda_max_market_adjusted": 1.3542559034277981,
+  "lambda_1": 159.30691053588174,
+  "market_mode_share_pct": 33.96735832321573,
+  "n_eigs_above_mp": 21,
+  "n_eigs_above_mp_adjusted": 35,
+  "share_of_variance_in_signal_eigs_pct": 64.0825975590982,
+  "top_eigvec_sector_loadings": {
+   "eigvec_2": {
+    "lambda": 26.715080985676085,
+    "positive": {
+     "Utilities": 0.092,
+     "Consumer Staples": 0.056,
+     "Real Estate": 0.042
+    },
+    "negative": {
+     "Information Technology": -0.042,
+     "Energy": -0.027,
+     "Consumer Discretionary": -0.017
+    }
+   },
+   "eigvec_3": {
+    "lambda": 18.81213077690251,
+    "positive": {
+     "Energy": 0.083,
+     "Financials": 0.023,
+     "Utilities": 0.011
+    },
+    "negative": {
+     "Information Technology": -0.049,
+     "Health Care": -0.034,
+     "Communication Services": -0.016
+    }
+   },
+   "eigvec_4": {
+    "lambda": 10.042398568488183,
+    "positive": {
+     "Utilities": 0.082,
+     "Real Estate": 0.038,
+     "Information Technology": 0.02
+    },
+    "negative": {
+     "Financials": -0.039,
+     "Energy": -0.029,
+     "Communication Services": -0.024
+    }
+   },
+   "eigvec_5": {
+    "lambda": 8.289982971499208,
+    "positive": {
+     "Real Estate": 0.075,
+     "Utilities": 0.04,
+     "Energy": 0.03
+    },
+    "negative": {
+     "Consumer Staples": -0.037,
+     "Industrials": -0.034,
+     "Materials": -0.028
+    }
+   }
+  },
+  "min_variance_portfolio": {
+   "sample": {
+    "oos_vol_pct": 13.510121522663438,
+    "predicted_vol_pct": 6.4106627173805695,
+    "gross_leverage": 10.087943255486302
+   },
+   "RMT-cleaned": {
+    "oos_vol_pct": 13.027065938315692,
+    "predicted_vol_pct": 7.748120638797042,
+    "gross_leverage": 5.948128572304806
+   },
+   "Ledoit-Wolf": {
+    "oos_vol_pct": 12.488766319704464,
+    "predicted_vol_pct": 7.137224477864165,
+    "gross_leverage": 7.347198221875437
+   },
+   "equal weight": {
+    "oos_vol_pct": 16.324121358188794,
+    "predicted_vol_pct": NaN,
+    "gross_leverage": 1.0
+   }
+  }
+ },
+ "time_variation": {
+  "mean_avg_corr_63d": 0.2836445529470023,
+  "min": 0.05394976892281379,
+  "max": 0.7178194158519738,
+  "date_of_max": "2020-03-16",
+  "corr(avg_corr_63d, spx_vol)": 0.7064259619177671,
+  "corr(avg_corr_63d, vix)": 0.5808034200913649,
+  "next_month_regression_standardised": {
+   "persistence only": {
+    "rho63": "+0.0765 (t=+12.24)"
+   },
+   "+ SPX vol": {
+    "rho63": "+0.0644 (t=+7.13)",
+    "spx_vol": "+0.0171 (t=+2.34)"
+   },
+   "+ SPX vol + downside trend R1neg": {
+    "rho63": "+0.0713 (t=+8.63)",
+    "spx_vol": "-0.0049 (t=-0.71)",
+    "R1neg": "+0.0377 (t=+7.71)"
+   },
+   "+ VIX + R1neg": {
+    "rho63": "+0.0606 (t=+8.07)",
+    "vix": "+0.0169 (t=+2.37)",
+    "R1neg": "+0.0267 (t=+4.59)"
+   }
+  },
+  "walk_forward": {
+   "random walk": {
+    "oos_r2_vs_random_walk_pct": 0.0
+   },
+   "persistence": {
+    "oos_r2_vs_random_walk_pct": 26.066300755857917
+   },
+   "+ vol": {
+    "oos_r2_vs_random_walk_pct": 26.014003008343433,
+    "dm_t_vs_persistence": 0.10678785888612925
+   },
+   "+ vol + R1neg": {
+    "oos_r2_vs_random_walk_pct": 31.11763620653575,
+    "dm_t_vs_+vol": -4.919229706364852
+   }
+  },
+  "test_start": "2005-01-03"
+ },
+ "asymmetry": {
+  "exceedance_vs_spx": {
+   "0.05": {
+    "data": 0.6519,
+    "gaussian": 0.1414
+   },
+   "0.1": {
+    "data": 0.6237,
+    "gaussian": 0.1752
+   },
+   "0.2": {
+    "data": 0.5839,
+    "gaussian": 0.2499
+   },
+   "0.3": {
+    "data": 0.5602,
+    "gaussian": 0.2982
+   },
+   "0.4": {
+    "data": 0.5586,
+    "gaussian": 0.2752
+   },
+   "0.5": {
+    "data": 0.5488,
+    "gaussian": 0.3114
+   },
+   "0.6": {
+    "data": 0.5069,
+    "gaussian": 0.2578
+   },
+   "0.7": {
+    "data": 0.5199,
+    "gaussian": 0.2654
+   },
+   "0.8": {
+    "data": 0.5473,
+    "gaussian": 0.2251
+   },
+   "0.9": {
+    "data": 0.5639,
+    "gaussian": 0.1738
+   },
+   "0.95": {
+    "data": 0.6082,
+    "gaussian": 0.1836
+   }
+  },
+  "rank_and_abs": {
+   "pearson": 0.31375334205048255,
+   "spearman": 0.28645104266333077,
+   "kendall": 0.19973090058175388,
+   "gaussian_implied_kendall_2/pi*asin(pearson)": 0.20517261568614123,
+   "avg_corr_of_returns_all": 0.32497865471787263,
+   "avg_corr_of_abs_returns_all": 0.2869823634513186
+  },
+  "tail_dependence": {
+   "lower_tail_dep_5pct": 0.37401428232984735,
+   "upper_tail_dep_5pct": 0.3169018851321623,
+   "gaussian_benchmark": 0.2697649999999999,
+   "independence": 0.05
+  }
+ },
+ "implied_correlation": {
+  "available": true,
+  "start": "2006-01-03",
+  "top50_names": [
+   "NVDA",
+   "AAPL",
+   "MSFT",
+   "GOOGL",
+   "GOOG",
+   "AMZN",
+   "META",
+   "AVGO",
+   "TSLA",
+   "BRK-B",
+   "LLY",
+   "MU",
+   "WMT",
+   "JPM",
+   "AMD",
+   "V",
+   "XOM",
+   "JNJ",
+   "MA",
+   "ABBV",
+   "INTC",
+   "CVX",
+   "COST",
+   "CSCO",
+   "KO",
+   "ORCL",
+   "UNH",
+   "PG",
+   "MRK",
+   "BAC",
+   "PANW",
+   "HD",
+   "CAT",
+   "PM",
+   "AMAT",
+   "GE",
+   "LRCX",
+   "DELL",
+   "MS",
+   "NFLX",
+   "RTX",
+   "TXN",
+   "GS",
+   "TMO",
+   "WFC",
+   "AMGN",
+   "IBM",
+   "LIN",
+   "ANET",
+   "AXP"
+  ],
+  "note": "realised = cap-weighted avg correlation of today's 50 largest names with static current weights",
+  "mean_implied_1m": 0.3691153772683859,
+  "mean_realised_next_1m": 0.37129245036413133,
+  "corr_risk_premium_1m_mean": -0.0010974359825397496,
+  "crp_1m_pct_positive": 48.763183125599234,
+  "crp_1m_nw_t": -0.10107817233170074,
+  "corr_risk_premium_3m_mean": 0.04003905375191876,
+  "crp_3m_pct_positive": 59.034509499806134,
+  "forecast": {
+   "random walk": {
+    "oos_r2_vs_random_walk_pct": 0.0,
+    "dm_t_vs_random_walk": NaN
+   },
+   "raw implied (COR1M as forecast)": {
+    "oos_r2_vs_random_walk_pct": -17.699274594188186,
+    "dm_t_vs_random_walk": 1.869016248347584
+   },
+   "historical (past 21d)": {
+    "oos_r2_vs_random_walk_pct": 26.632214057975656,
+    "dm_t_vs_random_walk": -4.993600422011167
+   },
+   "implied COR1M": {
+    "oos_r2_vs_random_walk_pct": 20.940732449522102,
+    "dm_t_vs_random_walk": -2.9635894009892083
+   },
+   "implied + historical": {
+    "oos_r2_vs_random_walk_pct": 25.811274843959442,
+    "dm_t_vs_random_walk": -4.205884549836629
+   }
+  },
+  "test_start": "2010-01-04"
+ }
+}

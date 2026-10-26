@@ -1,0 +1,120 @@
+
+== 2. static correlation ==
+window                               [2016-10-27, 2026-10-26]
+n_stocks                                                  469
+n_days                                                   2512
+avg_pairwise_corr                                    0.324979
+median_pairwise_corr                                 0.318064
+avg_within_sector                                    0.433644
+avg_cross_sector                                     0.311399
+clusters_vs_sectors_adjusted_rand                    0.350998
+
+== 2. within- vs cross-sector average correlation ==
+                        n_stocks  within  to_other_sectors
+Energy                      20.0   0.635             0.289
+Utilities                   30.0   0.604             0.279
+Real Estate                 28.0   0.536             0.337
+Financials                  74.0   0.507             0.358
+Industrials                 73.0   0.439             0.347
+Information Technology      70.0   0.404             0.292
+Materials                   23.0   0.397             0.330
+Consumer Discretionary      44.0   0.389             0.322
+Consumer Staples            32.0   0.331             0.244
+Health Care                 57.0   0.329             0.280
+Communication Services      18.0   0.304             0.281
+
+== 3. random matrix theory ==
+q_N_over_T                                0.186704
+mp_lambda_max                             2.050889
+mp_lambda_min                             0.322519
+mp_lambda_max_market_adjusted             1.354256
+lambda_1                                159.306911
+market_mode_share_pct                    33.967358
+n_eigs_above_mp                          21.000000
+n_eigs_above_mp_adjusted                 35.000000
+share_of_variance_in_signal_eigs_pct     64.082598
+
+== 3. eigenvectors 2-5: sectors with largest +/- average loading ==
+         lambda                                               +                                                            -
+eigvec_2  26.72        Utilities, Consumer Staples, Real Estate       Information Technology, Energy, Consumer Discretionary
+eigvec_3  18.81                   Energy, Financials, Utilities  Information Technology, Health Care, Communication Services
+eigvec_4  10.04  Utilities, Real Estate, Information Technology                   Financials, Energy, Communication Services
+eigvec_5   8.29                  Real Estate, Utilities, Energy                     Consumer Staples, Industrials, Materials
+
+== 3. minimum-variance portfolio: fit on first half, realised vol on second half ==
+              oos_vol_pct  predicted_vol_pct  gross_leverage
+sample              13.51               6.41           10.09
+RMT-cleaned         13.03               7.75            5.95
+Ledoit-Wolf         12.49               7.14            7.35
+equal weight        16.32                NaN            1.00
+
+== 4. time-varying average correlation ==
+mean_avg_corr_63d                0.283645
+min                               0.05395
+max                              0.717819
+date_of_max                    2020-03-16
+corr(avg_corr_63d, spx_vol)      0.706426
+corr(avg_corr_63d, vix)          0.580803
+
+== 4. next-21d avg correlation on today's state (standardised coefs, Newey-West t) ==
+                                               rho63            spx_vol              R1neg                vix
+persistence only                  +0.0765 (t=+12.24)                                                         
++ SPX vol                          +0.0644 (t=+7.13)  +0.0171 (t=+2.34)                                      
++ SPX vol + downside trend R1neg   +0.0713 (t=+8.63)  -0.0049 (t=-0.71)  +0.0377 (t=+7.71)                   
++ VIX + R1neg                      +0.0606 (t=+8.07)                     +0.0267 (t=+4.59)  +0.0169 (t=+2.37)
+
+== 4. walk-forward forecast of next-21d avg correlation ==
+               oos_r2_vs_random_walk_pct  dm_t_vs_persistence  dm_t_vs_+vol
+random walk                        0.000                  NaN           NaN
+persistence                       26.066                  NaN           NaN
++ vol                             26.014                0.107           NaN
++ vol + R1neg                     31.118                  NaN        -4.919
+
+== 5. exceedance correlation with S&P 500 (avg over stocks) vs Gaussian with same ρ ==
+       data  gaussian
+0.05  0.652     0.141
+0.10  0.624     0.175
+0.20  0.584     0.250
+0.30  0.560     0.298
+0.40  0.559     0.275
+0.50  0.549     0.311
+0.60  0.507     0.258
+0.70  0.520     0.265
+0.80  0.547     0.225
+0.90  0.564     0.174
+0.95  0.608     0.184
+
+== 5. linear vs rank vs |return| correlation ==
+pearson                                        0.3138
+spearman                                       0.2865
+kendall                                        0.1997
+gaussian_implied_kendall_2/pi*asin(pearson)    0.2052
+avg_corr_of_returns_all                        0.3250
+avg_corr_of_abs_returns_all                    0.2870
+
+== 5. tail dependence vs S&P 500 (P(stock in its 5% tail | index in its 5% tail)) ==
+lower_tail_dep_5pct    0.3740
+upper_tail_dep_5pct    0.3169
+gaussian_benchmark     0.2698
+independence           0.0500
+
+== 6. implied vs realised correlation (top-50 names) ==
+available                                                                 True
+start                                                               2006-01-03
+note                         realised = cap-weighted avg correlation of tod...
+mean_implied_1m                                                       0.369115
+mean_realised_next_1m                                                 0.371292
+corr_risk_premium_1m_mean                                            -0.001097
+crp_1m_pct_positive                                                  48.763183
+crp_1m_nw_t                                                          -0.101078
+corr_risk_premium_3m_mean                                             0.040039
+crp_3m_pct_positive                                                  59.034509
+test_start                                                          2010-01-04
+
+== 6. forecasting next-month realised correlation (walk-forward) ==
+                                 oos_r2_vs_random_walk_pct  dm_t_vs_random_walk
+random walk                                          0.000                  NaN
+raw implied (COR1M as forecast)                    -17.699                1.869
+historical (past 21d)                               26.632               -4.994
+implied COR1M                                       20.941               -2.964
+implied + historical                                25.811               -4.206
