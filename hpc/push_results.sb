@@ -1,0 +1,12 @@
+#!/bin/bash
+# Commit and push the TimesFM eval outputs once the eval job has finished (submit with --dependency=afterok:<eval>).
+#SBATCH --job-name=push-res
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --time=00:10:00
+#SBATCH --output=hpc/logs/push_%j.out
+cd "$SLURM_SUBMIT_DIR"
+mkdir -p results_extra && cp -f models/timesfm_ft_log.json results_extra/ 2>/dev/null || true
+git add results_timesfm.json logs_timesfm.txt results_extra/ hpc/push_results.sb
+git -c user.name="Pratik Kafle" -c user.email="pratik.kafle@cern.ch" commit -m "TimesFM results: zero-shot fixes, calibration, hybrid and fine-tune vs HAR"
+GIT_SSH_COMMAND="ssh -o BatchMode=yes" git push origin main
