@@ -93,6 +93,23 @@ Simulated Heston world (κ = 5, θ = 0.03, ξ = 0.6, ρ = −0.7) with a known d
 - **Drift momentum is undetectable**: Clark-West rejects 6–7% at every γ up to 0.04 with 30-year paths (≈ size).
   The "no return predictability" result in section 3 is uninformative rather than evidence of absence.
 
+### Delta-hedged option selling (`hedging_backtest.py`, 18 pairs, daily entries, design fixed before the first run)
+Sell a 1-month ATM straddle each day at the vol index minus bid/ask, delta-hedge daily (1–3 bp per hedge trade).
+P&L in vol points per unit vega; portfolio = equal vega across the 18 pairs.
+- **On paper it makes money:** hedged at entry IV, +2.68 vol pts per trade (NW t = 14.3), Sharpe 1.97, profitable
+  in 16/18 pairs (13 significant). SPX alone: +3.33 (Sharpe 2.17). Its only losing year on SPX is 2008 (−1.9).
+- **Hedging is what makes it tradeable:** a naked short straddle earns a little more (+3.23) but with 2.3× the
+  P&L std (Sharpe 1.07, worst trade −112 vs −41 hedged).
+- **Vol forecasts barely matter for the hedge:** hedging at the IV + two-scale forecast is the smoothest (std −3%,
+  Sharpe 2.02), but no hedge vol beats entry IV on mean P&L. Hedging at the ex-post realised vol (infeasible) is
+  worse in real data (std +18%), unlike a constant-vol world, because realised vol is not constant within the month.
+- **Forecast filters hurt:** skipping trades when IV² < forecast, or going long then, lowers P&L (t = −5 to −10).
+  The skipped days come after vol spikes, when selling pays most. Same as the variance-swap result in section 3.
+- **Caveat that may erase the profit:** a Cboe index prices OTM options (variance-swap style) and sits above ATM IV
+  (snapshot 2026-10-23: VIX 19.45 vs ATM 15.4). The break-even gap equals the mean P&L (3.3 pts on SPX), so the
+  profit is the variance risk premium at best and a pricing artefact at worst. Settling it needs ATM IV history
+  (OptionMetrics via WRDS).
+
 ### One-paragraph conclusion
 Momentum is real in volatility but not in returns, and the option market already prices it. The parts of the
 "known equation" that add predictive value are its structure: Heston's mean reversion forecasts implied vol (+10.6%
