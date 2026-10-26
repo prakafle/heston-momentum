@@ -1,0 +1,102 @@
+Lessons from the heston-momentum project
+=======================================
+
+I started this project hoping to beat the option market with a better equation plus some machine learning.
+That mostly did not happen. But I learned a lot along the way, and these are the things I want to remember.
+
+
+About markets
+-------------
+
+1. The market is hard to beat because everyone is looking at the same things.
+   Momentum really does help predict how volatile a market will be next month. But option prices already
+   include that. Once I added implied volatility to the model, momentum added nothing.
+
+2. Returns are close to random. Volatility is not.
+   I could not predict which way prices would go. But volatility clusters and calms down over time, and simple
+   models catch that well. That is why option traders care so much about volatility.
+
+3. "Making money" is not the same as "having an edge."
+   Selling options and hedging them looked very profitable in my backtest. But most of that is a payment for
+   taking crash risk. In 2008 it lost money. The profit is the reward for being willing to lose badly sometimes.
+
+4. Check what price you are actually trading at.
+   My hedging backtest priced options at the VIX. But VIX is above the price of at-the-money options, often by
+   several points. On one day I checked, the gap was 4 points, more than my whole profit per trade. One wrong
+   input can create a fake result.
+
+5. Hedging is about smoothing, not about getting rich.
+   Delta hedging cut the swings in my P&L by more than half. It did not add profit. It made the strategy
+   survivable.
+
+
+About models
+------------
+
+6. Simple structure beats extra features.
+   Plain Heston mean reversion was the best way to forecast implied vol. Adding jumps (Bates) helped price the
+   smile. Adding more and more variables mostly made things worse out of sample.
+
+7. Machine learning needs the right setup, not just more power.
+   Tree models trained on one market at a time lost to linear regression, because trees cannot predict past
+   the highest value they have seen. When I trained one model on all markets, with everything scaled relative
+   to implied vol, it caught up. The fix was the setup, not tuning.
+
+8. Big AI models are not magic.
+   Google's TimesFM, used straight out of the box, was worse than HAR, a simple regression from 2009. It only
+   helped when I averaged it with HAR or corrected its bias. Fine-tuning did not help at all.
+
+9. Small details can flip a result.
+   TimesFM's default output is the median, not the mean. For volatility, which has big upward spikes, the
+   median is too low, and my loss function punished that hard. Switching outputs changed the conclusion.
+
+
+About doing research honestly
+-----------------------------
+
+10. Never let the test data leak into the model.
+    Every model was refit once a year using only past data, with a gap of 21 days so no future returns slipped
+    in. Without this, almost anything looks like it works.
+
+11. Decide the rules before you look at the results.
+    If you try ten ideas and report the best one, you will fool yourself. I wrote down every choice for the
+    hedging test before running it. Ideas that came from looking at results get labeled "post-hoc."
+
+12. A "no" result is only useful if the test could have said "yes."
+    The Monte Carlo study showed some of my tests had only about 10% power. So "we found nothing" sometimes
+    really meant "we could not have found it." That is worth knowing before claiming anything.
+
+13. Use the right statistics.
+    My targets overlapped day to day, so normal t-stats would have been far too confident. Newey-West
+    corrections were needed everywhere.
+
+14. One day of data is an anecdote.
+    The smile result (32% better with jumps) came from a single day of option prices. It might hold, but I
+    cannot say so until I have many days.
+
+15. Sanity-check the machinery with fake data first.
+    Before trusting the hedging backtest, I simulated a market where I knew the right answer. It came out
+    right, so I could trust the code and focus on the data problem.
+
+
+About the practical side
+------------------------
+
+16. Free data has limits.
+    Yahoo has no history of option prices. Cboe vol indices had gaps, bad prints and stale stretches. Good data
+    (OptionMetrics, tick data) costs money or needs a university license, and those licenses have rules: no
+    sharing, no bulk downloading.
+
+17. The cluster has its own rules.
+    You cannot submit jobs from the gateway node. The venv needs its Python module loaded. A leftover
+    PYTHONPATH killed my first 200-task job array. TimesFM needs an A100, not any GPU. Each of these cost me time.
+
+18. Save everything you cannot get back.
+    Option chain snapshots cannot be downloaded again later, so each one gets committed the day it is taken.
+
+19. Write things down as you go.
+    The README, the logs and the notes file meant I could stop and pick up again without redoing work.
+
+
+If I had to sum it up in one line: the option market is smart, simple models do most of the work, and the
+hardest part of research is not fooling yourself.
