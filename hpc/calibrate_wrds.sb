@@ -1,0 +1,12 @@
+#!/bin/bash
+# Daily SPX Heston/Bates/double-Heston calibration from OptionMetrics. Usage: sbatch hpc/calibrate_wrds.sb 2024
+#SBATCH --job-name=calib-wrds
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=04:00:00
+#SBATCH --output=hpc/logs/calibrate_wrds_%j.out
+module purge; module load Python/3.14.2-GCCcore-15.2.0
+unset PYTHONPATH   # login profile can leak a system Python-bundle path into the venv
+cd "$SLURM_SUBMIT_DIR"
+YEAR=${1:-2024}
+.venv/bin/python calibrate_wrds.py "$YEAR" > logs_calibration_wrds_"$YEAR".txt 2>&1

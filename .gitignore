@@ -10,3 +10,5 @@ hpc/logs/
 models/
 data/timesfm_forecasts.csv
 data/timesfm_ft_forecasts.csv
+# WRDS license: never commit
+data/wrds/

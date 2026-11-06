@@ -31,6 +31,7 @@ the index therefore overstates the premium. Because P&L is in vol points per veg
 gap lowers mean P&L by about one point, so the break-even gap equals the mean P&L. A real test needs ATM IV history.
 """
 import json
+import sys
 import numpy as np
 import pandas as pd
 from scipy.stats import norm
@@ -47,6 +48,13 @@ FORECASTS = {"HAR-RV": ["rv_d", "rv_w", "rv_m"], "IV + two-scale": ["iv", "sq", 
 HEDGES = ["No hedge", "Entry IV", "Current IV", "EWMA", "HAR-RV", "IV + two-scale", "ORACLE realised vol"]
 T = H / 252
 px, ivx = load()
+# --iv index (default, as first run) | atm: price and hedge at OptionMetrics 30-day ATM IV (wrds_iv.py) |
+# index-common: the Cboe index restricted to the days with ATM IV, for a like-for-like comparison
+IV_SOURCE = sys.argv[sys.argv.index("--iv") + 1] if "--iv" in sys.argv else "index"
+SUFFIX = {"index": "", "atm": "_atm", "index-common": "_index_common"}[IV_SOURCE]
+if IV_SOURCE != "index":
+    atm = pd.read_csv("data/wrds/atm_iv.csv", index_col=0, parse_dates=True)
+    ivx = atm if IV_SOURCE == "atm" else ivx[atm.columns].where(atm.reindex(ivx.index).notna())
 
 
 def features(p, iv):
@@ -176,9 +184,10 @@ out = {"portfolio_hedges": port_hedges.reset_index().to_dict("records"),
        "std_ratio_vs_entry_iv": std_vs_iv.reset_index().to_dict("records"),
        "spx_by_year_vol_pts": spx_years.reset_index().to_dict("records"),
        "per_pair": per_pair.to_dict("records")}
-json.dump(out, open("results_hedging.json", "w"), indent=1, default=float)
+json.dump(out, open(f"results_hedging{SUFFIX}.json", "w"), indent=1, default=float)
 
 pd.set_option("display.width", 200, "display.max_columns", 30)
+print(f"IV source: {IV_SOURCE}\n")
 print("P&L in vol points per unit vega, per 1-month straddle; portfolio = equal vega across live pairs\n")
 print("== 1. Hedge vol choice: short ATM straddle sold at IV - cost, portfolio of 18 pairs ==")
 print(port_hedges.round(3).to_string())
